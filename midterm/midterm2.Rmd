@@ -1,0 +1,249 @@
+---
+title: "Quantitative Psychology Midterm 2020(2)"
+author: "2014-17831 JaeWon Kim 김재원"
+output:
+  html_document:
+    df_print: paged
+---
+
+
+## 2. Wikipedia for Higher Education
+
+```{r include = FALSE}
+library(graphics)
+library(MASS)
+library(psych)
+library(cluster)
+library(factoextra)
+library(ggplot2)
+library(caret)
+library(dplyr)
+library(tidyr)
+library(magrittr)
+library(neuralnet)
+library(ade4)
+library(mlbench)
+library(kohonen)
+library(cluster)
+library(factoextra)
+library(ggpubr)
+```
+
+### (1) Data Reading
+```{r echo = T, results = 'hide', warning = FALSE}
+mydata <- read.csv("wiki4HE.csv", header = T, na.strings = "?")
+cc <- complete.cases(mydata[11:53]) & complete.cases(mydata$DOMAIN) & complete.cases(mydata$UOC_POSITION)
+mydata <- mydata[cc, ]
+```
+
+### (2) Data Labeling
+```{r echo = T, results = 'hide', warning = FALSE}
+mydata$GENDER = factor(mydata$GENDER, levels = c(0, 1), labels = c("M", "F"))
+mydata$DOMAIN = factor(mydata$DOMAIN, levels = c(1, 2, 3, 4, 5, 6), 
+                       labels = c("Arts & Humanities","Sciences", "Health Sciences", "Engineering & Architecture", 
+                                  "Law & Politics", "Social Sciences "))
+mydata$PhD = factor(mydata$PhD, levels = c(0, 1), labels = c("No PhD", "Has PhD"))
+mydata$UNIVERSITY = factor(mydata$UNIVERSITY, levels = c(1, 2), labels = c("UOC","UPF"))
+mydata$UOC_POSITION = factor(mydata$UOC_POSITION, levels = c(1, 2, 3, 4, 5, 6), 
+                             labels = c("Professor", "Associate", "Assistant", "Lecturer", "Instructor", "Adjunct"))
+mydata$OTHERSTATUS = factor(mydata$OTHERSTATUS, levels = c(1, 2), labels = c("Yes","No"))
+mydata$OTHER_POSITION = factor(mydata$OTHER_POSITION, levels = c(1, 2, 3, 4, 5, 6), 
+                               labels = c("Professor", "Associate", "Assistant", "Lecturer", "Instructor", "Adjunct"))
+mydata$USERWIKI = factor(mydata$USERWIKI, levels = c(0, 1), labels = c("No", "Yes"))
+```
+
+### (3) Cluster Analysis
+
+#### (3-1) Hierarchical Cluster Analysis
+```{r}
+mydata[, c(11:53)] = apply(mydata[, c(11:53)], 2, as.numeric)
+ca_data <- na.omit(as.data.frame(scale(mydata[, 11:53])))
+
+# Correlation distance
+cor.dist <- as.dist(1 - cor(t(ca_data)))
+
+# Euclidean distance
+euc.dist <- dist(ca_data, method = "euclidean")
+
+labels <- rownames(ca_data)
+cor.hc <- hclust(cor.dist, method = "ward.D")
+euc.hc <- hclust(euc.dist, method = "ward.D")
+
+par(mfrow=c(1, 2))
+plot(cor.hc)
+plot(euc.hc)
+```
+
+#### (3-2) K-means Cluster Analysis
+```{r echo = T, results = 'hide', warning = FALSE}
+gr <- fviz_nbclust(ca_data, kmeans, method = 'wss')
+
+km.res3 <- kmeans(ca_data, 3, nstart = 20)
+km.res10 <- kmeans(ca_data, 10, nstart = 20)
+km.res3
+km.res10
+```
+
+```{r}
+fviz_cluster(km.res3, data = ca_data,
+             ellipse.type = "euclid",
+             star.plot = T,
+             # repel = T,
+             ggtheme = theme())
+
+fviz_cluster(km.res3, data = ca_data)
+```
+
+```{r}
+fviz_cluster(km.res10, data = ca_data,
+             ellipse.type = "euclid",
+             star.plot = T,
+             # repel = T,
+             ggtheme = theme())
+
+fviz_cluster(km.res10, data = ca_data)
+```
+
+#### CA Result Analysis
+```{r}
+mydata <- as.data.frame(cbind(mydata, km.res3$cluster))
+ca_data <- as.data.frame(cbind(ca_data, km.res3$cluster))
+
+mydata <- as.data.frame(cbind(mydata, km.res10$cluster))
+ca_data <- as.data.frame(cbind(ca_data, km.res10$cluster))
+
+names(mydata)[54] <- "CLUSTER3"
+names(ca_data)[44] <- "CLUSTER3"
+names(mydata)[55] <- "CLUSTER10"
+names(ca_data)[45] <- "CLUSTER10"
+```
+
+```{r}
+ggplot(ca_data, aes(x=CLUSTER3)) +
+  geom_bar(stat="count") +
+  geom_text(position = "stack", stat='count',aes(label=..count..), vjust = -0.5)+
+  labs(y="Num of Observations")
+```
+
+```{r}
+ggplot(ca_data, aes(x=CLUSTER10)) +
+  geom_bar(stat="count") +
+  geom_text(position = "stack", stat='count',aes(label=..count..), vjust = -0.5)+
+  labs(y="Num of Observations")
+```
+
+```{r}
+# for numeric data
+ca_data[, 1:10] %>%
+  mutate(Cluster = ca_data$CLUSTER3) %>%
+  group_by(Cluster) %>%
+  summarise_if(is.numeric, "mean")
+
+ca_data[, 1:10] %>%
+  mutate(Cluster = ca_data$CLUSTER10) %>%
+  group_by(Cluster) %>%
+  summarise_if(is.numeric, "mean")
+```
+
+```{r}
+# Gender
+table (mydata[2] %>% mutate(Cluster = ca_data$CLUSTER3) %>% group_by(Cluster))
+```
+
+```{r}
+# Domain
+table (mydata[3] %>% mutate(Cluster = ca_data$CLUSTER3) %>% group_by(Cluster))
+```
+
+```{r}
+# PhD
+table (mydata[4] %>% mutate(Cluster = ca_data$CLUSTER3) %>% group_by(Cluster))
+```
+
+```{r}
+# University
+table (mydata[6] %>% mutate(Cluster = ca_data$CLUSTER3) %>% group_by(Cluster))
+```
+
+```{r}
+# UOC Position
+table (mydata[7] %>% mutate(Cluster = ca_data$CLUSTER3) %>% group_by(Cluster))
+```
+
+```{r}
+# Other Position
+table (mydata[8] %>% mutate(Cluster = ca_data$CLUSTER3) %>% group_by(Cluster))
+```
+
+```{r}
+# Other Status
+table (mydata[9] %>% mutate(Cluster = ca_data$CLUSTER3) %>% group_by(Cluster))
+```
+
+```{r}
+# Wiki User
+table (mydata[10] %>% mutate(Cluster = ca_data$CLUSTER3) %>% group_by(Cluster))
+```
+
+```{r echo = T, results = 'hide', warning = FALSE}
+table (mydata[2] %>% mutate(Cluster = ca_data$CLUSTER10) %>% group_by(Cluster))
+table (mydata[3] %>% mutate(Cluster = ca_data$CLUSTER10) %>% group_by(Cluster))
+table (mydata[4] %>% mutate(Cluster = ca_data$CLUSTER10) %>% group_by(Cluster))
+table (mydata[6] %>% mutate(Cluster = ca_data$CLUSTER10) %>% group_by(Cluster))
+table (mydata[7] %>% mutate(Cluster = ca_data$CLUSTER10) %>% group_by(Cluster))
+table (mydata[8] %>% mutate(Cluster = ca_data$CLUSTER10) %>% group_by(Cluster))
+table (mydata[9] %>% mutate(Cluster = ca_data$CLUSTER10) %>% group_by(Cluster))
+table (mydata[10] %>% mutate(Cluster = ca_data$CLUSTER10) %>% group_by(Cluster))
+```
+
+### (4) Self-Organizing Map (SOM)
+```{r echo = T, results = 'hide', warning = FALSE}
+s1 <- som(as.matrix(mydata[, 11:53]), grid = somgrid(15, 15, "hexagonal"), rlen = 225)
+plot(s1)
+```
+
+### (5) CA vs. SOM
+```{r}
+```
+
+### (6) Principal Component Analysis (PCA)
+```{r}
+x <- as.matrix(mydata[, c(11:53)])
+x_scaled <- apply(x, 2, scale, scale = TRUE)
+d <- dist(t(x_scaled))
+
+pca <- prcomp(x_scaled, retx = TRUE, scale = TRUE)
+summary(pca)
+```
+
+```{r}
+fviz_eig(pca)
+```
+
+```{r}
+fviz_pca_var(pca, axes = c(1, 2),
+             col.var = "contrib",
+             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
+             repel = TRUE)
+```
+
+```{r}
+fviz_pca_var(pca, axes = c(2, 3),
+             col.var = "contrib",
+             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
+             repel = TRUE)
+```
+
+
+### (7) Multidimensional Scaling (MDS)
+```{r}
+grouped <- aggregate(ca_data, list(mydata$DOMAIN, mydata$UOC_POSITION), mean)
+grouped$group <- paste0(as.character(grouped$Group.1), as.character(grouped$Group2))
+grouped <- na.omit(grouped)
+table(grouped$group)
+```
+
+```{r echo = T, results = 'hide', warning = FALSE}
+dist <- dist(t(grouped[3:45]))
+loc <- isoMDS(dist, k = 6, p = 1)
+```

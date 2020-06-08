@@ -1,0 +1,173 @@
+---
+title: "Quantitative Psychology Midterm 2020(1)"
+author: "2014-17831 JaeWon Kim 김재원"
+output:
+  html_document:
+    df_print: paged
+---
+
+
+## 1. Polish Companies Bankruptcy Prediction
+
+```{r include = FALSE}
+library(Hmisc)
+library(foreign)
+library(graphics)
+library(ggplot2)
+library(glmnet)
+library(car)
+library(neuralnet)
+library(ade4)
+library(mlbench)
+library(kohonen)
+library(caret)
+```
+
+
+### (1) Data Reading
+```{r echo = T, results = 'hide'}
+year2 <- read.arff("2year.arff") # 10173 obs
+labels <- c(unlist(lapply(read.table("labels.txt", sep = "\n"), as.character)))
+
+# label columns
+for (i in seq_along(year2)) {
+  label(year2[, i]) <- labels[i]
+}
+```
+
+
+### (2) Data Preprocessing
+```{r echo = T, results = 'hide'}
+str(year2)
+mydata <- year2[complete.cases(year2), ] # 4088 obs
+
+describe(year2)
+mydata[, 1:64] <- scale(mydata[, 1:64])
+
+x <- as.matrix(mydata[, c(1:64)])
+y <- as.factor(mydata$class)
+
+# Data splitting is not necessary for regression analysis itself, but was included for accuracy measurement.
+set.seed(19874)
+train_rows <- sample(1:nrow(mydata), .66 * nrow(mydata))
+train <- mydata[train_rows, ]
+test <- mydata[-train_rows, ]
+
+x.train <- x[train_rows, ]
+x.test <- x[-train_rows, ]
+
+y.train <- y[train_rows]
+y.test <- y[-train_rows]
+```
+
+
+### (3) Ridge, LASSO, Elastic Net
+
+#### (3-1) Ridge
+```{r echo = T, results = 'hide', warning = FALSE}
+
+# fit
+fit_ridge <- glmnet(x.train, y.train, family = "binomial", alpha = 0) 
+fit_lasso <- glmnet(x.train, y.train, family = "binomial", alpha = 1)
+fit_elastic5 <- glmnet(x.train, y.train, family = "binomial", alpha = 0.5)
+fit_elastic2 <- glmnet(x.train, y.train, family = "binomial", alpha = 0.2)
+
+ridge_cv <- cv.glmnet(x.train, y.train, type.measure = "class", alpha = 0, family = "binomial")
+
+# cross validation
+fit <- rep(list(ridge_cv), 11)
+for (i in 1:10) {
+  fit[[i]] <- cv.glmnet(x.train, y.train, type.measure = "class", alpha = i/10, family = "binomial")
+}
+```
+
+```{r}
+par(mfrow=c(2, 2))
+
+plot(fit_lasso, xvar="lambda")
+plot(fit[[10]], main="LASSO")
+
+plot(fit_ridge, xvar="lambda")
+plot(ridge_cv, main="Ridge")
+```
+
+```{r}
+par(mfrow=c(2, 2))
+
+plot(fit_elastic5, xvar="lambda")
+plot(fit[[5]], main="Elastic Net5")
+
+plot(fit_elastic2, xvar="lambda")
+plot(fit[[2]], main="Elastic Net2")
+```
+
+
+### (5) Regularized Regression vs Neural Net
+
+The predicted variable is very skewed, making it difficult to make precise estimation of accuracy level. However, regularized regression methods performed better in general by a marginal difference.
+
+#### Regression Accuracy
+```{r}
+cv_5 <- trainControl(method = "cv", number = 5)
+sim_data = data.frame(y.test, x.test)
+
+ridge_grid <- expand.grid(alpha = 0, lambda = c(ridge_cv$lambda.min, ridge_cv$lambda.1se))
+ridge = train(
+  y.test ~ ., data = sim_data,
+  method = "glmnet",
+  trControl = cv_5,
+  tuneGrid = ridge_grid
+)
+
+res <- rep(list(test$results), 11)
+for (i in 1:10) {
+  grid <- paste("grid", i, sep = "")
+  grid = expand.grid(alpha = 0, lambda = c(fit[[i]]$lambda.min, fit[[i]]$lambda.1se))
+  
+  temp = train(
+    y.test ~ ., data = sim_data,
+    method = "glmnet",
+    trControl = cv_5,
+    tuneGrid = grid
+  )
+  res[[i]] <- temp$results
+}
+```
+
+```{r}
+res
+```
+
+#### Neural Net Accuracy
+```{r echo = T, results = 'hide'}
+n <- names(year2)
+n <- n[1:64]
+
+attach(train)
+f <- as.formula(paste("class ~", paste(n, collapse = " + ")))
+```
+
+```{r}
+nn1 <- neuralnet(f, data = train, hidden = c(3), act.fct = "logistic", linear.output=FALSE)
+nn2 <- neuralnet(f, data = train, hidden = c(9), act.fct = "logistic", linear.output=FALSE)
+nn3 <- neuralnet(f, data = train, hidden = c(30), act.fct = "logistic", linear.output=FALSE)
+
+pred1 <- as.factor(max.col(compute(nn1, test[, 1:64])$net.result))
+pred2 <- as.factor(max.col(compute(nn2, test[, 1:64])$net.result))
+pred3 <- as.factor(max.col(compute(nn3, test[, 1:64])$net.result))
+
+levels(pred1) <- factor(c(0, 1))
+levels(pred2) <- factor(c(0, 1))
+levels(pred3) <- factor(c(0, 1))
+confusionMatrix(pred1, y.test)
+confusionMatrix(pred2, y.test)
+confusionMatrix(pred3, y.test)
+```
+
+
+
+
+
+
+
+
