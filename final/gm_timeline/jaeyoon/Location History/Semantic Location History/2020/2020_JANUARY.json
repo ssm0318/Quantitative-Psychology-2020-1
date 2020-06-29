@@ -1,0 +1,52 @@
+{
+  "timelineObjects" : [ {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374797626,
+        "longitudeE7" : 1269500924,
+        "placeId" : "ChIJjarRM9-ffDUR6O7t5rzAzrs",
+        "address" : "대한민국 서울특별시 관악구 청룡동 남부순환로218길 36",
+        "name" : "Ziptoss Real Estate Gwanak",
+        "sourceInfo" : {
+          "deviceTag" : 455731337
+        },
+        "locationConfidence" : 91.54126
+      },
+      "duration" : {
+        "startTimestampMs" : "1580041970364",
+        "endTimestampMs" : "1580654649066"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374796520,
+      "centerLngE7" : 1269501560,
+      "visitConfidence" : 83,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374799060,
+        "longitudeE7" : 1269499469,
+        "placeId" : "ChIJK0RlXomffDURtyYoUtd7Q68",
+        "locationConfidence" : 1.9247268
+      }, {
+        "latitudeE7" : 374808504,
+        "longitudeE7" : 1269512801,
+        "placeId" : "ChIJwZ1mCImffDURtoMVCNYjAWw",
+        "locationConfidence" : 1.5082335
+      }, {
+        "latitudeE7" : 374797626,
+        "longitudeE7" : 1269500924,
+        "placeId" : "ChIJ_YQZKamffDUROBusvYt1A8g",
+        "locationConfidence" : 0.804168
+      }, {
+        "latitudeE7" : 374796553,
+        "longitudeE7" : 1269500837,
+        "placeId" : "ChIJR7wJYImffDURD-VeqtQKWwA",
+        "locationConfidence" : 0.62625647
+      }, {
+        "latitudeE7" : 374797394,
+        "longitudeE7" : 1269500858,
+        "placeId" : "ChIJfcyHYImffDUROdaSNO2d_Bc",
+        "locationConfidence" : 0.5126815
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  } ]
+}
