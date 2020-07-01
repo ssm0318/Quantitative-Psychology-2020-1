@@ -1,6 +1,4 @@
-midterm/*.arff
-data_edueval/*.pdf
+*.arff
 *.RData
-midterm/*.RData
+*.pdf
 *.csv
-kosinski.RData
