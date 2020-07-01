@@ -1,0 +1,158 @@
+{
+  "timelineObjects" : [ {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 375047103,
+        "longitudeE7" : 1270469368,
+        "placeId" : "ChIJscLTZg-kfDURQEkICl1crNg",
+        "address" : "대한민국 서울특별시 강남구 역삼1동 705",
+        "name" : "Ottimo",
+        "sourceInfo" : {
+          "deviceTag" : 1874529256
+        },
+        "locationConfidence" : 23.124048
+      },
+      "duration" : {
+        "startTimestampMs" : "1488688257299",
+        "endTimestampMs" : "1488689084522"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 375049563,
+          "longitudeE7" : 1270468218,
+          "placeId" : "ChIJUTd_XQ-kfDURlewDLwoQzyA",
+          "address" : "대한민국 강남구 역삼동 697-45",
+          "name" : "스타벅스 선릉로점",
+          "sourceInfo" : {
+            "deviceTag" : 1874529256
+          },
+          "locationConfidence" : 4.383523
+        },
+        "duration" : {
+          "startTimestampMs" : "1488688257299",
+          "endTimestampMs" : "1488689084522"
+        },
+        "placeConfidence" : "LOW_CONFIDENCE",
+        "centerLatE7" : 375050975,
+        "centerLngE7" : 1270471929,
+        "visitConfidence" : 68,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 375049219,
+          "longitudeE7" : 1270467242,
+          "placeId" : "ChIJUTd_XQ-kfDURg1djSdvM2jc",
+          "name" : "(주)일미리금계찜닭",
+          "locationConfidence" : 2.0079765
+        }, {
+          "latitudeE7" : 375044790,
+          "longitudeE7" : 1270489410,
+          "placeId" : "ChIJvZchkQ-kfDUR0-rnxf1OUls",
+          "name" : "Seolleung",
+          "locationConfidence" : 1.9522192
+        }, {
+          "latitudeE7" : 375050504,
+          "longitudeE7" : 1270472394,
+          "placeId" : "ChIJb5wHbw-kfDURJR6ETxHkPOw",
+          "name" : "알차네",
+          "locationConfidence" : 1.9183683
+        }, {
+          "latitudeE7" : 375055435,
+          "longitudeE7" : 1270476589,
+          "placeId" : "ChIJUWAZDA-kfDURDLlLDAZ23VI",
+          "name" : "포메인선릉역점",
+          "locationConfidence" : 0.70676196
+        }, {
+          "latitudeE7" : 375047658,
+          "longitudeE7" : 1270469923,
+          "placeId" : "ChIJ167sZg-kfDURRs_CUr8tMO4",
+          "name" : "놀부부대찌개",
+          "locationConfidence" : 0.6805812
+        }, {
+          "latitudeE7" : 375053571,
+          "longitudeE7" : 1270472785,
+          "placeId" : "ChIJiVkYbQ-kfDURuxOb_1Tr-as",
+          "name" : "배스킨라빈스 선릉역",
+          "locationConfidence" : 0.56798947
+        }, {
+          "latitudeE7" : 375047380,
+          "longitudeE7" : 1270469645,
+          "placeId" : "ChIJJXfGZg-kfDURfggEfscC0fA",
+          "name" : "핫썬치킨",
+          "locationConfidence" : 0.4226961
+        }, {
+          "latitudeE7" : 375051059,
+          "longitudeE7" : 1270474129,
+          "placeId" : "ChIJK4f_bQ-kfDURUGDQ7r_-eUs",
+          "name" : "꼬꼬시티(선릉점)",
+          "locationConfidence" : 0.42205423
+        }, {
+          "latitudeE7" : 375049945,
+          "longitudeE7" : 1270467617,
+          "placeId" : "ChIJ_a72Zw-kfDUR6xOeNjLLmq8",
+          "name" : "스타벅스 선릉로점",
+          "locationConfidence" : 0.29503062
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 375050975,
+      "centerLngE7" : 1270471929,
+      "visitConfidence" : 68,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 375049563,
+        "longitudeE7" : 1270468218,
+        "placeId" : "ChIJUTd_XQ-kfDURlewDLwoQzyA",
+        "name" : "스시마우이",
+        "locationConfidence" : 14.573032
+      }, {
+        "latitudeE7" : 375049219,
+        "longitudeE7" : 1270467242,
+        "placeId" : "ChIJUTd_XQ-kfDURg1djSdvM2jc",
+        "name" : "(주)일미리금계찜닭",
+        "locationConfidence" : 6.6755223
+      }, {
+        "latitudeE7" : 375044790,
+        "longitudeE7" : 1270489410,
+        "placeId" : "ChIJvZchkQ-kfDUR0-rnxf1OUls",
+        "name" : "Seolleung",
+        "locationConfidence" : 6.490157
+      }, {
+        "latitudeE7" : 375050504,
+        "longitudeE7" : 1270472394,
+        "placeId" : "ChIJb5wHbw-kfDURJR6ETxHkPOw",
+        "name" : "알차네",
+        "locationConfidence" : 6.3776197
+      }, {
+        "latitudeE7" : 375055435,
+        "longitudeE7" : 1270476589,
+        "placeId" : "ChIJUWAZDA-kfDURDLlLDAZ23VI",
+        "name" : "포메인선릉역점",
+        "locationConfidence" : 2.3496318
+      }, {
+        "latitudeE7" : 375047658,
+        "longitudeE7" : 1270469923,
+        "placeId" : "ChIJ167sZg-kfDURRs_CUr8tMO4",
+        "name" : "놀부부대찌개",
+        "locationConfidence" : 2.2625937
+      }, {
+        "latitudeE7" : 375053571,
+        "longitudeE7" : 1270472785,
+        "placeId" : "ChIJiVkYbQ-kfDURuxOb_1Tr-as",
+        "name" : "배스킨라빈스 선릉역",
+        "locationConfidence" : 1.8882824
+      }, {
+        "latitudeE7" : 375047380,
+        "longitudeE7" : 1270469645,
+        "placeId" : "ChIJJXfGZg-kfDURfggEfscC0fA",
+        "name" : "핫썬치킨",
+        "locationConfidence" : 1.4052541
+      }, {
+        "latitudeE7" : 375051059,
+        "longitudeE7" : 1270474129,
+        "placeId" : "ChIJK4f_bQ-kfDURUGDQ7r_-eUs",
+        "name" : "꼬꼬시티(선릉점)",
+        "locationConfidence" : 1.4031203
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  } ]
+}

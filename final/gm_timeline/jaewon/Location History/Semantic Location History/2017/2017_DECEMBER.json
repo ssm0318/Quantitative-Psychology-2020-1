@@ -1,0 +1,138 @@
+{
+  "timelineObjects" : [ {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 358764944,
+        "longitudeE7" : 1286275906,
+        "placeId" : "ChIJQVcriY3hZTURBlBMH-NlULY",
+        "address" : "대한민국 대구광역시 동구 신천4동",
+        "name" : "동대구 고속버스터미널(한진터미널)",
+        "sourceInfo" : {
+          "deviceTag" : 1874529256
+        },
+        "locationConfidence" : 39.707645
+      },
+      "duration" : {
+        "startTimestampMs" : "1513351839299",
+        "endTimestampMs" : "1513352281086"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 358769607,
+      "centerLngE7" : 1286282960,
+      "visitConfidence" : 87,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 358774270,
+        "longitudeE7" : 1286274990,
+        "placeId" : "ChIJe5mS6I3hZTURPRxGj7FcQFE",
+        "name" : "Dongdaegu Station",
+        "locationConfidence" : 21.535295
+      }, {
+        "latitudeE7" : 358796670,
+        "longitudeE7" : 1286284760,
+        "placeId" : "ChIJn3vIRZLhZTURjCyBkWOrHDk",
+        "name" : "Dongdaegu Station",
+        "locationConfidence" : 18.181267
+      }, {
+        "latitudeE7" : 358767285,
+        "longitudeE7" : 1286283865,
+        "placeId" : "ChIJbxydvo3hZTURDGzI6ml4I70",
+        "name" : "대구시니어체험관",
+        "locationConfidence" : 1.0638815
+      }, {
+        "latitudeE7" : 358779244,
+        "longitudeE7" : 1286286271,
+        "placeId" : "ChIJLxmBho3hZTURr91YguNgSVs",
+        "name" : "메가박스 동대구점",
+        "locationConfidence" : 0.73947644
+      }, {
+        "latitudeE7" : 358778124,
+        "longitudeE7" : 1286284527,
+        "placeId" : "ChIJfQtDiY3hZTURP01vaQwXAJc",
+        "name" : "Montblanc Boutique Shinsegae Daegu",
+        "locationConfidence" : 0.6842209
+      }, {
+        "latitudeE7" : 358781694,
+        "longitudeE7" : 1286286364,
+        "placeId" : "ChIJVZgTd5LhZTURm6XtdhDARis",
+        "name" : "Johnny Rockets",
+        "locationConfidence" : 0.6723336
+      }, {
+        "latitudeE7" : 358755154,
+        "longitudeE7" : 1286281931,
+        "placeId" : "ChIJM_PjSozhZTURef3dxuNnSrA",
+        "name" : "Gabae",
+        "locationConfidence" : 0.61028546
+      }, {
+        "latitudeE7" : 358779633,
+        "longitudeE7" : 1286292812,
+        "placeId" : "ChIJK1BpfpLhZTURKBHqZRpDXIc",
+        "name" : "Toy Kingdom",
+        "locationConfidence" : 0.5460786
+      }, {
+        "latitudeE7" : 358754838,
+        "longitudeE7" : 1286290644,
+        "placeId" : "ChIJ7Y6iVIzhZTURG6YgDUV2JFY",
+        "name" : "동대구돼지석쇠우동",
+        "locationConfidence" : 0.46471786
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 358769607,
+        "longitudeE7" : 1286282960
+      },
+      "endLocation" : {
+        "latitudeE7" : 374824356,
+        "longitudeE7" : 1270524748
+      },
+      "duration" : {
+        "startTimestampMs" : "1513352281086",
+        "endTimestampMs" : "1514426379483"
+      },
+      "activityType" : "UNKNOWN_ACTIVITY_TYPE",
+      "activities" : [ {
+        "activityType" : "UNKNOWN_ACTIVITY_TYPE",
+        "probability" : 0.0
+      } ],
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 358753758,
+          "lngE7" : 1286281788,
+          "timestampMs" : "1513352407701",
+          "accuracyMeters" : 19
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374824356,
+        "longitudeE7" : 1270524748
+      },
+      "endLocation" : {
+        "latitudeE7" : 374865416,
+        "longitudeE7" : 1270512533
+      },
+      "duration" : {
+        "startTimestampMs" : "1514426379483",
+        "endTimestampMs" : "1514426729412"
+      },
+      "distance" : 595,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 91.58889590915302
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 3.355975521584751
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 1.7443079410718902
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  } ]
+}

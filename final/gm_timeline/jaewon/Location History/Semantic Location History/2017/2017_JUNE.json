@@ -1,0 +1,4692 @@
+{
+  "timelineObjects" : [ {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374704731,
+        "longitudeE7" : 1269388631
+      },
+      "endLocation" : {
+        "latitudeE7" : 374705976,
+        "longitudeE7" : 1269345937
+      },
+      "duration" : {
+        "startTimestampMs" : "1496473453476",
+        "endTimestampMs" : "1496473836224"
+      },
+      "distance" : 442,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 83.20047069750204
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 10.608484888596912
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 2.6030025738419718
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.3039416129039918
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 1.0130581687640088
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.44221129820173666
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.20494174660251901
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.18343715033029084
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.14431738071566358
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.07098660726518138
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.04754974161027325
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.036976988086048844
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.030327590615922717
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.01609607451574463
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.012258392530812496
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.01174788374735431
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.010414720487944729
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0073429842236596215
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.007024032514900678
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.006686940872923053
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.006314377842933819
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.005368846300980229
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.0048203930749116455
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.004726382891463172
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.003110695123091294
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.00278242161080928
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.002744720698100006
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 0.0025206460817985
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.0022793910683134686
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.001318944910448902
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.0011514469251745767
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 8.897895859377459E-4
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 6.944699561002164E-4
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 1.9344958313461398E-42
+      } ],
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374711723,
+          "lngE7" : 1269358954,
+          "timestampMs" : "1496473727362",
+          "accuracyMeters" : 20
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374702719,
+        "longitudeE7" : 1269354341
+      },
+      "endLocation" : {
+        "latitudeE7" : 374692944,
+        "longitudeE7" : 1269375616
+      },
+      "duration" : {
+        "startTimestampMs" : "1496476965308",
+        "endTimestampMs" : "1496478973560"
+      },
+      "distance" : 216,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 61.10520305599961
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 22.09120286488779
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 12.077785391700838
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 2.5942354882491485
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.5741746277584111
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.38971553713629437
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.33128851944115517
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.19222947001364815
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.16426843294966975
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.10031217067923993
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.09765174053119953
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.06378311023249165
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.028940995080687378
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.028170312951428474
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.0242466188528724
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.02251343656225613
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.018034003430255522
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.015792599526100348
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.00931870481152445
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.00882062285963965
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.00859191069121528
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.00823924003387294
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.00799361626562484
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.007572376691728508
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.007523852155508442
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.004703634400353364
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.0041807171496676485
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 0.0034921972790022612
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.003048162898452072
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.002799299727541618
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.0016979372148918951
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.001317791881362989
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 0.0011515599565418836
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 1.8591917308841946E-43
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374691041,
+        "longitudeE7" : 1269379757
+      },
+      "endLocation" : {
+        "latitudeE7" : 374676869,
+        "longitudeE7" : 1269410596
+      },
+      "duration" : {
+        "startTimestampMs" : "1496479477559",
+        "endTimestampMs" : "1496480552108"
+      },
+      "distance" : 314,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 66.7870989520374
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 23.30152989251549
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 4.471409590270999
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 2.5126175727942415
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.5699527829739436
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.32597386068343526
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.32192944521770783
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.2902908353903974
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.2568188469166007
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.24150742393421318
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.10086158684093711
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.09999982789810107
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.07014103171359329
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.06744371127161133
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0575284492337738
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.057178501878342544
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.05336656456016234
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.05166154606429574
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.049162621920701484
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.04138757113571669
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.038770611111399046
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.03127206803125379
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.029976339595853645
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.029238448977514646
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.026681768166139957
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.022335843304652957
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.018682961340240948
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.01641272915396791
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.014953183629552207
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 0.013674268174506315
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.011866238984325246
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.010453808784693444
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 0.007821115494237616
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 1.6219556451364422E-43
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374674361,
+        "longitudeE7" : 1269416052
+      },
+      "endLocation" : {
+        "latitudeE7" : 374666210,
+        "longitudeE7" : 1269433789
+      },
+      "duration" : {
+        "startTimestampMs" : "1496491091272",
+        "endTimestampMs" : "1496493946367"
+      },
+      "distance" : 180,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 56.51002215048895
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 31.99905868825441
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 4.604598902078184
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 3.256224105462241
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.5297437440676461
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.5110050875564568
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.4549490420766874
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.4004386883827638
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.36210326373215485
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.3028176334583645
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.2527721844991604
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.14001741124624836
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.07142188397215213
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.06261123988344658
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.061571303372963404
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.05775903002807155
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.054235142838586305
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.040750109961431524
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.03825461716642273
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.034719991312069265
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.031605631831099955
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.031240707070942925
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.0267872045605021
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.026702843395013824
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.026681664239653707
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.022513557074556458
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.020914645628205705
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.016549825294926455
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.01643074580085778
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.00999259819966755
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 0.009913899130883048
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.008454049049582876
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 0.0071384088857079555
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 1.3663967231491156E-43
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374666210,
+        "longitudeE7" : 1269433789
+      },
+      "endLocation" : {
+        "latitudeE7" : 374682229,
+        "longitudeE7" : 1269445414
+      },
+      "duration" : {
+        "startTimestampMs" : "1496493946367",
+        "endTimestampMs" : "1496494841447"
+      },
+      "activityType" : "UNKNOWN_ACTIVITY_TYPE",
+      "activities" : [ {
+        "activityType" : "UNKNOWN_ACTIVITY_TYPE",
+        "probability" : 0.0
+      } ],
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374666195,
+          "lngE7" : 1269421229,
+          "timestampMs" : "1496494423451",
+          "accuracyMeters" : 128
+        }, {
+          "latE7" : 374673694,
+          "lngE7" : 1269432219,
+          "timestampMs" : "1496494493355",
+          "accuracyMeters" : 192
+        }, {
+          "latE7" : 374667564,
+          "lngE7" : 1269437191,
+          "timestampMs" : "1496494773481",
+          "accuracyMeters" : 64
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374682064,
+        "longitudeE7" : 1269458257,
+        "placeId" : "ChIJO6p_b_CffDURKNvj14QkBzE",
+        "address" : "대한민국 서울특별시 관악구 신림동 210",
+        "name" : "관악산관리사무소",
+        "sourceInfo" : {
+          "deviceTag" : 1874529256
+        },
+        "locationConfidence" : 38.019936
+      },
+      "duration" : {
+        "startTimestampMs" : "1496494841447",
+        "endTimestampMs" : "1496495281503"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 374682229,
+      "centerLngE7" : 1269445414,
+      "visitConfidence" : 87,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374681573,
+        "longitudeE7" : 1269443367,
+        "placeId" : "ChIJr5ilDvCffDURLvtwYQEnmzE",
+        "name" : "신림금호타운2차아파트",
+        "locationConfidence" : 20.751308
+      }, {
+        "latitudeE7" : 374678796,
+        "longitudeE7" : 1269430035,
+        "placeId" : "ChIJp1Z_UeWffDUR4UUTVPXV38w",
+        "name" : "삼성중학교",
+        "locationConfidence" : 16.375237
+      }, {
+        "latitudeE7" : 374677100,
+        "longitudeE7" : 1269448220,
+        "placeId" : "ChIJT2TYdPCffDURu-8SUryRPbM",
+        "name" : "관악문화관도서관",
+        "locationConfidence" : 5.766445
+      }, {
+        "latitudeE7" : 374662965,
+        "longitudeE7" : 1269455311,
+        "placeId" : "ChIJGSEhjfqffDUR5O4ayyxDdds",
+        "name" : "관악산자연공원",
+        "locationConfidence" : 2.681525
+      }, {
+        "latitudeE7" : 374686851,
+        "longitudeE7" : 1269445033,
+        "placeId" : "ChIJ1bR7FPCffDURXhFRyM6Ke2k",
+        "name" : "CU 관악산점",
+        "locationConfidence" : 2.1930487
+      }, {
+        "latitudeE7" : 374683370,
+        "longitudeE7" : 1269461500,
+        "placeId" : "ChIJ36If9fCffDURB8y0SCiu3UE",
+        "name" : "Gwanaksan Mountain Entrance, Gwanak Cultural Center & Library",
+        "locationConfidence" : 2.1264048
+      }, {
+        "latitudeE7" : 374686017,
+        "longitudeE7" : 1269452533,
+        "placeId" : "ChIJW2o6aPCffDURAiZQu6gQ83o",
+        "name" : "관악산공원주차장",
+        "locationConfidence" : 1.6177943
+      }, {
+        "latitudeE7" : 374675481,
+        "longitudeE7" : 1269449804,
+        "placeId" : "ChIJ6fy7xYuffDUR-PN4SMi6ymI",
+        "name" : "관악구 건강가정다문화가족지원센터",
+        "locationConfidence" : 1.4108961
+      }, {
+        "latitudeE7" : 374682960,
+        "longitudeE7" : 1269453920,
+        "placeId" : "ChIJq7v-ZfCffDURP3jOsGqKwEY",
+        "name" : "관악산회관",
+        "locationConfidence" : 1.2370056
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374682229,
+        "longitudeE7" : 1269445414
+      },
+      "endLocation" : {
+        "latitudeE7" : 374953386,
+        "longitudeE7" : 1270631690
+      },
+      "duration" : {
+        "startTimestampMs" : "1496495281503",
+        "endTimestampMs" : "1497767669184"
+      },
+      "activityType" : "UNKNOWN_ACTIVITY_TYPE",
+      "activities" : [ {
+        "activityType" : "UNKNOWN_ACTIVITY_TYPE",
+        "probability" : 0.0
+      } ],
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374679980,
+          "lngE7" : 1269466129,
+          "timestampMs" : "1496495446523",
+          "accuracyMeters" : 32
+        }, {
+          "latE7" : 374937773,
+          "lngE7" : 1270633451,
+          "timestampMs" : "1497767605075",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 374942100,
+          "lngE7" : 1270624115,
+          "timestampMs" : "1497767638061",
+          "accuracyMeters" : 20
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374945690,
+        "longitudeE7" : 1270634460,
+        "placeId" : "ChIJqYATOiKkfDUR7s8MWfYvghE",
+        "address" : "대한민국 서울특별시 대치동",
+        "name" : "Daechi",
+        "sourceInfo" : {
+          "deviceTag" : 1874529256
+        },
+        "locationConfidence" : 89.83446
+      },
+      "duration" : {
+        "startTimestampMs" : "1497767669184",
+        "endTimestampMs" : "1497768363676"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374953386,
+      "centerLngE7" : 1270631690,
+      "visitConfidence" : 90,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374955860,
+        "longitudeE7" : 1270628370,
+        "placeId" : "ChIJMYwqaCKkfDURXrNeYcxRkAg",
+        "name" : "Eunma Apt.",
+        "locationConfidence" : 2.497365
+      }, {
+        "latitudeE7" : 374953228,
+        "longitudeE7" : 1270641298,
+        "placeId" : "ChIJa02TNiOkfDURzi63Y-xKBeU",
+        "name" : "산월수제비",
+        "locationConfidence" : 0.29903767
+      }, {
+        "latitudeE7" : 374955172,
+        "longitudeE7" : 1270632688,
+        "placeId" : "ChIJSxrHRCKkfDURbqhxnB8uXfY",
+        "name" : "국민은행ATM 대치동(점외)",
+        "locationConfidence" : 0.2699347
+      }, {
+        "latitudeE7" : 374946170,
+        "longitudeE7" : 1270632250,
+        "placeId" : "ChIJL09qQyKkfDURIns3nNpMGas",
+        "name" : "세이노블",
+        "locationConfidence" : 0.18519029
+      }, {
+        "latitudeE7" : 374945690,
+        "longitudeE7" : 1270634460,
+        "placeId" : "ChIJ65AUOiKkfDUR5Zbc5X6jSPo",
+        "name" : "大峙精肉食堂",
+        "locationConfidence" : 0.17643893
+      }, {
+        "latitudeE7" : 374953141,
+        "longitudeE7" : 1270644422,
+        "placeId" : "ChIJ7Zk3rCOkfDUR1YQ_gO1J38M",
+        "name" : "퀸즈파이",
+        "locationConfidence" : 0.16955106
+      }, {
+        "latitudeE7" : 374951836,
+        "longitudeE7" : 1270634808,
+        "placeId" : "ChIJNQkQ5_NdezUR8fUkMo2IiLk",
+        "name" : "신한은행 ATM 은마아파트상가",
+        "locationConfidence" : 0.161209
+      }, {
+        "latitudeE7" : 374940640,
+        "longitudeE7" : 1270618160,
+        "placeId" : "ChIJ5WQB_CGkfDURp2zLZiBtgzo",
+        "name" : "Daechi-dong",
+        "locationConfidence" : 0.12950383
+      }, {
+        "latitudeE7" : 374936285,
+        "longitudeE7" : 1270603802,
+        "placeId" : "ChIJpZtFah-kfDURoZKpDJl6TNA",
+        "name" : "닭돼갈이",
+        "locationConfidence" : 0.09437263
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374945690,
+        "longitudeE7" : 1270634460,
+        "placeId" : "ChIJqYATOiKkfDUR7s8MWfYvghE",
+        "address" : "대한민국 서울특별시 대치동",
+        "name" : "Daechi",
+        "sourceInfo" : {
+          "deviceTag" : 1874529256
+        },
+        "locationConfidence" : 89.83446
+      },
+      "endLocation" : {
+        "latitudeE7" : 374937100,
+        "longitudeE7" : 1270609260
+      },
+      "duration" : {
+        "startTimestampMs" : "1497768363676",
+        "endTimestampMs" : "1497768825485"
+      },
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 87.3412531778901
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 4.611578415053779
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 3.056246449792817
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 2.6626350352307395
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.9813501069921016
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.2649473453554772
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.17825567082720736
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.15338378287356216
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.11785964298151905
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.09091979408853912
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.07457569886759391
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.05982436011434196
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.054955748805674345
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.045546405235948904
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.044749579630231726
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.032449691795807666
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.030635416065183694
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.02691847196092601
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.025600436895672266
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.023927586867238407
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.017572870949855546
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.015353561667504869
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.012042555030301274
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.01184748857110408
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.01157303075704257
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.01020660112442857
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.00983761510855552
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.008494436044170162
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.006737105355960301
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.00651696720720859
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.005348644065281804
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 0.003682413132790726
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 0.0031738936613568943
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 1.3366363447883132E-41
+      } ],
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374940292,
+          "lngE7" : 1270622648,
+          "timestampMs" : "1497768396163",
+          "accuracyMeters" : 20
+        }, {
+          "latE7" : 374931466,
+          "lngE7" : 1270599382,
+          "timestampMs" : "1497768646488",
+          "accuracyMeters" : 19
+        }, {
+          "latE7" : 374931466,
+          "lngE7" : 1270599382,
+          "timestampMs" : "1497768721001",
+          "accuracyMeters" : 19
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374937100,
+        "longitudeE7" : 1270609260
+      },
+      "endLocation" : {
+        "latitudeE7" : 374861421,
+        "longitudeE7" : 1270191565
+      },
+      "duration" : {
+        "startTimestampMs" : "1497768825485",
+        "endTimestampMs" : "1498127915546"
+      },
+      "activityType" : "UNKNOWN_ACTIVITY_TYPE",
+      "activities" : [ {
+        "activityType" : "UNKNOWN_ACTIVITY_TYPE",
+        "probability" : 0.0
+      } ],
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374941152,
+          "lngE7" : 1270631660,
+          "timestampMs" : "1497769044168",
+          "accuracyMeters" : 20
+        }, {
+          "latE7" : 374937993,
+          "lngE7" : 1270640568,
+          "timestampMs" : "1497769109465",
+          "accuracyMeters" : 19
+        }, {
+          "latE7" : 374836292,
+          "lngE7" : 1270272599,
+          "timestampMs" : "1498124295283",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 374833546,
+          "lngE7" : 1270249979,
+          "timestampMs" : "1498124335892",
+          "accuracyMeters" : 32
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374861421,
+        "longitudeE7" : 1270191565
+      },
+      "endLocation" : {
+        "latitudeE7" : 374901708,
+        "longitudeE7" : 1270107123
+      },
+      "duration" : {
+        "startTimestampMs" : "1498127915546",
+        "endTimestampMs" : "1498140501573"
+      },
+      "distance" : 869,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 61.01108592792489
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 20.507458335198933
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 8.10882083776785
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 3.5704114821635087
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 2.4085893065543105
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.5991461404669498
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.5392807080876241
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.4726535847191856
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.37814219583961955
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.310279530343204
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.2675723280810263
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.1984054220808157
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.15932159249120534
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.12083694230266975
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.11978389324874379
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.11820608454750166
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.09911345377460286
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.09355596274982511
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.08564041243626482
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.08547029329187496
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.08080886056742113
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.08065447297371768
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.07782874984937124
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.074139334824039
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.0734659611386192
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.06299254918301388
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.062185157035730465
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.061024973254109015
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.049371162214394027
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.04087262561236216
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 0.03668970732141759
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.035048565171828736
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 0.011143446783357705
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 4.33618429706686E-44
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374902020,
+        "longitudeE7" : 1270106468
+      },
+      "endLocation" : {
+        "latitudeE7" : 374914216,
+        "longitudeE7" : 1270080901
+      },
+      "duration" : {
+        "startTimestampMs" : "1498140614137",
+        "endTimestampMs" : "1498141281168"
+      },
+      "distance" : 263,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 74.42611594379338
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 13.276917275499658
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 5.6522777321333555
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 4.081526625256892
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.8419654448501732
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.42940009930084205
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.37758192523878037
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.20824004032769994
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.14498529710195918
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.10183158512514934
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.08837781780357291
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.06840539454795491
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.05126919783614878
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.04852584343446081
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.043045627456867845
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.025924987748090926
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.02405717991286737
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.012959385179815708
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.011289274777719224
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.010753732928411919
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.010471625562257732
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.008666897054791178
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.008074369553623454
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.007401336312980805
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.007381437066743634
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.0073569592096155104
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.006010837335366997
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.005231887044495234
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.005093592172662884
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.0034475192200253105
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.002350100457188031
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 0.0017184653372621398
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 0.0013445634191852672
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 8.919605058923967E-42
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374938137,
+        "longitudeE7" : 1270030749
+      },
+      "endLocation" : {
+        "latitudeE7" : 375003824,
+        "longitudeE7" : 1269892988
+      },
+      "duration" : {
+        "startTimestampMs" : "1498145903195",
+        "endTimestampMs" : "1498159559639"
+      },
+      "distance" : 1417,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 70.77800303518987
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 11.309329679574189
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 5.54309813562236
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 5.124924378644588
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 4.10898832492252
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.793694906908699
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.48446687541909883
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.3960410111481402
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.33618684923294717
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.1637158185642433
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.14534721662792485
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.09108108911441158
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.08738911627403613
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.08580292078672834
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.06190197930817135
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.050577687932820484
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.04109034106384593
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.040585847601476405
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.03985437317526207
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.03646770015159994
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.034056026550432966
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.03259970416561823
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.03237862584597136
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.026811540318232328
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.025933772339636403
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.023122307197839604
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.022604953121643668
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.022450161849406566
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.022010855958405635
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.01256075062009446
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 0.011439797014926138
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.00942253534317595
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 0.006061682411686499
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 5.110899517316403E-44
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 375016363,
+        "longitudeE7" : 1269866685
+      },
+      "endLocation" : {
+        "latitudeE7" : 375026660,
+        "longitudeE7" : 1269845083
+      },
+      "duration" : {
+        "startTimestampMs" : "1498160334918",
+        "endTimestampMs" : "1498160679764"
+      },
+      "distance" : 222,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 70.92625983572475
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 18.547033508369452
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 2.465614142557535
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 2.1760592910214047
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 2.0349511727179923
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 1.324449622936861
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.4599579561863386
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.35264602302150455
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.13309073659866916
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.1319429480104284
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.12588157101607333
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.11586257478005137
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.1089008302793925
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.08497636306003871
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.08489989593812132
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.07434921685318822
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.07182492299190799
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.06911402577962159
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.06452456025776496
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.06154431673953977
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.06101054093706358
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.06042806452876662
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.060356618404830926
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.05765731525948723
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.0497049686985249
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.04940006772920422
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.049323006248072954
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 0.046398174078055444
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.04594129129446362
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.039393413281888695
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.03627548025612192
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 0.021046749168089664
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.009180795274829855
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 1.3065723747176237E-43
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 375028532,
+        "longitudeE7" : 1269841157
+      },
+      "endLocation" : {
+        "latitudeE7" : 375065542,
+        "longitudeE7" : 1269763499
+      },
+      "duration" : {
+        "startTimestampMs" : "1498168364546",
+        "endTimestampMs" : "1498173067177"
+      },
+      "distance" : 799,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 73.5610870720374
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 10.368877230814407
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 6.777416652142332
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 4.070882572720909
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 1.8466116482565174
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.3901195509140647
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.6097270667686382
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.28564570475173856
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.2183450138677485
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.18911180722710583
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.12199144259619618
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.062441880391244556
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.05862658862436444
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.0567504180860741
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.04536645509307307
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.04243890807239395
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.033625450001813315
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.03138932136151033
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.02791952502720717
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.024228714961892966
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.023022052236579278
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.018919687838391985
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.018912399781441734
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.018856605878843313
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.01411119197087492
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.013698829600944379
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.013555958332369498
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.013418895511549317
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.01120810632216399
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.010879198983215911
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 0.008992243478609255
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.0080340526346972
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 0.003787753713699281
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 5.075936333691123E-44
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 375068814,
+        "longitudeE7" : 1269756633
+      },
+      "endLocation" : {
+        "latitudeE7" : 375120386,
+        "longitudeE7" : 1269648390
+      },
+      "duration" : {
+        "startTimestampMs" : "1498176536061",
+        "endTimestampMs" : "1498181381070"
+      },
+      "distance" : 1113,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 55.880746009437864
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 26.46462962394879
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 5.869133600993079
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 4.7764820985816785
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 2.287645887690281
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 1.58158138786523
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.3403840461197853
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.34907043389048154
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.30320917259984603
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.1744228835895871
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.13302241879433657
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.092411122696353
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.08830438312189541
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.07539473312411428
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.05954647074312908
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.053089876403326346
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.05191763897212912
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.04051140699394366
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.038500600208859176
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.035922878317433356
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.03220133639450786
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.0298465712800229
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.029071666914447555
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.028714878481904703
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.028513611721423162
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.026219609639153176
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.02599440617373842
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.025359273621005898
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.02217878757137003
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.0188209315039618
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.016860209558470382
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 0.012056278996703867
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 0.008235764051140838
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 1.5379861998747268E-44
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 375120960,
+        "longitudeE7" : 1269647186
+      },
+      "endLocation" : {
+        "latitudeE7" : 375161261,
+        "longitudeE7" : 1269562575
+      },
+      "duration" : {
+        "startTimestampMs" : "1498181939107",
+        "endTimestampMs" : "1498200682356"
+      },
+      "distance" : 870,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 46.99766248934437
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 39.971190634693166
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 2.8201524351956806
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 2.18381464365362
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.7255462071512957
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.9774535016100755
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.8523028495946919
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.5863828928588007
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.5705101036562134
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.4057648873879347
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.33160510591111136
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.2838549316563895
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.2310499088638772
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.22379060295962525
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.2235973515700725
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.18487998554598956
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.1528731303019759
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.13325593904341043
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.12891266321436798
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.10177633139305323
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.09922408251840584
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.09854115150920266
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.09703976097880317
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.08517323506858436
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.08319942558443706
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.08292461226971233
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.07735147908668355
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.07210523089563858
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.05739975991580331
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 0.05555016101753172
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.050013624360457
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.029683349087224524
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 0.02541753210179005
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 2.836071769930706E-44
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 375229873,
+        "longitudeE7" : 1269418473
+      },
+      "endLocation" : {
+        "latitudeE7" : 375255737,
+        "longitudeE7" : 1269364136
+      },
+      "duration" : {
+        "startTimestampMs" : "1498206539209",
+        "endTimestampMs" : "1498207415861"
+      },
+      "distance" : 558,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 43.64943663101627
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 30.97466119725345
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 18.624381905193903
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 3.8925795636767533
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.714937958222328
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.43055965546004843
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.4030377024656194
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.2946908713159195
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.2400494571027298
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.22550828397579625
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.12784738265614354
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.06404182339983741
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.060050235124956886
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.048775493821649335
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.039275723761391435
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.032509832633106715
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.029738392488596364
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.024502328105276305
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.0185339874801491
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.013526316318664987
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.013259893796989006
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.013176537738767143
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.011079880123096306
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.007669536932523818
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.007435044788918387
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.007328481697156387
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.006673387183907035
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.006203888282818065
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.0056489739199950765
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.0044377504360098834
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 0.0035017021093956247
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.003291600181629172
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 0.0016485813362137592
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 7.811125520534342E-43
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 375255737,
+        "longitudeE7" : 1269364136
+      },
+      "endLocation" : {
+        "latitudeE7" : 375265890,
+        "longitudeE7" : 1269352984
+      },
+      "duration" : {
+        "startTimestampMs" : "1498207415861",
+        "endTimestampMs" : "1498209587276"
+      },
+      "activityType" : "UNKNOWN_ACTIVITY_TYPE",
+      "activities" : [ {
+        "activityType" : "UNKNOWN_ACTIVITY_TYPE",
+        "probability" : 0.0
+      } ],
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 375272193,
+          "lngE7" : 1269329560,
+          "timestampMs" : "1498209381395",
+          "accuracyMeters" : 50
+        }, {
+          "latE7" : 375274564,
+          "lngE7" : 1269339428,
+          "timestampMs" : "1498209411832",
+          "accuracyMeters" : 50
+        }, {
+          "latE7" : 375264229,
+          "lngE7" : 1269355437,
+          "timestampMs" : "1498209487459",
+          "accuracyMeters" : 12
+        }, {
+          "latE7" : 375278784,
+          "lngE7" : 1269333024,
+          "timestampMs" : "1498209531693",
+          "accuracyMeters" : 50
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 375265890,
+        "longitudeE7" : 1269352984
+      },
+      "endLocation" : {
+        "latitudeE7" : 375265098,
+        "longitudeE7" : 1269338168
+      },
+      "duration" : {
+        "startTimestampMs" : "1498209587276",
+        "endTimestampMs" : "1498210092861"
+      },
+      "distance" : 2954,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 34.414079120725155
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 33.099941883940495
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 10.555562732652787
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 10.368341295540393
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 1.727843853708086
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 1.3804483499021298
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 1.3490138238330163
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.1233796982016198
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.853529338236512
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.736195249331906
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.5911026334721322
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.32060234245810937
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.3191843414623777
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.27504889597380894
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.27398316313136495
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.2590980789202566
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.22595023402933065
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.22528582842143716
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.20037129750513336
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.1823623210086095
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.14866855989392821
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.1440690373323177
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.1437509247572738
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 0.1287258581313428
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 0.1285752859300893
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.12615924528862696
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.12336357369060211
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.1206802525354901
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.1206764977938315
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.11628913081144124
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.08171954279690015
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.07588159791992467
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.060116010663570724
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 2.1501278395523658E-44
+      } ],
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 375272385,
+          "lngE7" : 1269341948,
+          "timestampMs" : "1498209674350",
+          "accuracyMeters" : 50
+        }, {
+          "latE7" : 375264142,
+          "lngE7" : 1269355008,
+          "timestampMs" : "1498209754507",
+          "accuracyMeters" : 8
+        }, {
+          "latE7" : 375272883,
+          "lngE7" : 1269328405,
+          "timestampMs" : "1498209862593",
+          "accuracyMeters" : 50
+        }, {
+          "latE7" : 375277886,
+          "lngE7" : 1269333759,
+          "timestampMs" : "1498209931079",
+          "accuracyMeters" : 50
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 375273289,
+        "longitudeE7" : 1269349602,
+        "placeId" : "ChIJ77fEAzuffDURLEWNv56G2KQ",
+        "address" : "대한민국 서울특별시 영등포구 여의도동 여의동로 330",
+        "name" : "Yeouido Hangang Park",
+        "sourceInfo" : {
+          "deviceTag" : 1874529256
+        },
+        "locationConfidence" : 68.69349
+      },
+      "duration" : {
+        "startTimestampMs" : "1498210257057",
+        "endTimestampMs" : "1498225618125"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 375266233,
+      "centerLngE7" : 1269342108,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 375271410,
+        "longitudeE7" : 1269328100,
+        "placeId" : "ChIJoYcv-UeffDUROP7tCBRlilc",
+        "name" : "Yeouinaru",
+        "locationConfidence" : 30.201204
+      }, {
+        "latitudeE7" : 375264700,
+        "longitudeE7" : 1269328430,
+        "placeId" : "ChIJ5Zlc9EeffDURu7T-6RgSmec",
+        "name" : "Yeouinaru Station",
+        "locationConfidence" : 0.27105343
+      }, {
+        "latitudeE7" : 375257566,
+        "longitudeE7" : 1269383362,
+        "placeId" : "ChIJ2U4VUU-ffDURJ5CqVAYMVNo",
+        "name" : "애슐리노들나루점",
+        "locationConfidence" : 0.26204655
+      }, {
+        "latitudeE7" : 375263086,
+        "longitudeE7" : 1269335824,
+        "placeId" : "ChIJpZfh4ySffDURM6OkihBWyP8",
+        "name" : "한강사업본부 여의도안내센터",
+        "locationConfidence" : 0.19654708
+      }, {
+        "latitudeE7" : 375257058,
+        "longitudeE7" : 1269383912,
+        "placeId" : "ChIJhY44GkmffDURohtqkU7Wbbc",
+        "name" : "노들레스토랑",
+        "locationConfidence" : 0.0983445
+      }, {
+        "latitudeE7" : 375244790,
+        "longitudeE7" : 1269359030,
+        "placeId" : "ChIJ4U1hUEaffDURwRstMSPLVp4",
+        "name" : "Yeouido Middle School",
+        "locationConfidence" : 0.080403104
+      }, {
+        "latitudeE7" : 375272930,
+        "longitudeE7" : 1269321640,
+        "placeId" : "ChIJHz1PBDiffDURAbRv9CurGGg",
+        "name" : "Yeouinaru Station",
+        "locationConfidence" : 0.0310107
+      }, {
+        "latitudeE7" : 375278761,
+        "longitudeE7" : 1269355148,
+        "placeId" : "ChIJhVo69EiffDURQ-HdfPzZbYY",
+        "name" : "루고",
+        "locationConfidence" : 0.027649159
+      }, {
+        "latitudeE7" : 375272610,
+        "longitudeE7" : 1269331695,
+        "placeId" : "ChIJ-d4UGkmffDURKDGTHE6tGR0",
+        "name" : "세븐일레븐 여의나루역",
+        "locationConfidence" : 0.024335414
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 375273289,
+        "longitudeE7" : 1269349602
+      },
+      "endLocation" : {
+        "latitudeE7" : 376158009,
+        "longitudeE7" : -1223895037
+      },
+      "duration" : {
+        "startTimestampMs" : "1498225618125",
+        "endTimestampMs" : "1498331297767"
+      },
+      "distance" : 9048436,
+      "activityType" : "FLYING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "FLYING",
+        "probability" : 89.29578991275129
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 3.9467873987187123
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 3.305397225474613
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 1.730739394960195
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.9380353069005011
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.5862690059811572
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.08366423730777664
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.03744644762038165
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.02372295789246885
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.013787094348381115
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.00886751344014906
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.004888800041293518
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.004107950360946141
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.003751963759287421
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.0032861627589925255
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.003057361225144715
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.0018875596786074665
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.0017158323777308343
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.0011936247899943578
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.0010172797988817158
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 9.536666549123025E-4
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 9.330562733717633E-4
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 6.851913859199209E-4
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 5.52820709967566E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 5.116931253144076E-4
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 3.952504706720796E-4
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 2.3063464197426868E-4
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 1.3077305987238834E-4
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 4.7491135562707594E-5
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 4.331661980340812E-5
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 4.093039239185524E-5
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 3.107530921058307E-5
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 3.1070034499377685E-5
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 2.1268326894873047E-39
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 376158009,
+        "longitudeE7" : -1223895037
+      },
+      "endLocation" : {
+        "latitudeE7" : 374274745,
+        "longitudeE7" : -1221697190
+      },
+      "duration" : {
+        "startTimestampMs" : "1498331297767",
+        "endTimestampMs" : "1498337816209"
+      },
+      "distance" : 29621,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 71.73883117970608
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 16.877092511979082
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 3.8120755240243644
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 3.399266687838584
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.9967646508379191
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.9106269340935114
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.34556009982776353
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.3359860576745958
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.2651285052783166
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.2372968402124902
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.16317511852352765
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.12211439125730779
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.07609604832095047
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.057823339536263355
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.05670985622421988
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.055262991485576014
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.05404358289140639
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.04861086821912577
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 0.04586356867671605
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.045368554418781154
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.04467427535678632
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.042360555008950494
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.039938303992315835
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.03204059579917709
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.027397659817660253
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.026585699767016937
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.025917192447231927
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.024762654538683013
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.021260842867640534
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.02061802838534763
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.01911025779887465
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 0.01619002950182795
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.01544659369190861
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 3.324602206772665E-43
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 376158103,
+          "lngE7" : -1223895034
+        }, {
+          "latE7" : 374265937,
+          "lngE7" : -1221698837
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "parkingEvent" : {
+        "timestampMs" : "1498337800260",
+        "location" : {
+          "latitudeE7" : 374301058,
+          "longitudeE7" : -1221850703,
+          "accuracyMetres" : 899
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374274745,
+        "longitudeE7" : -1221697190,
+        "placeId" : "ChIJneqLZyq7j4ARf2j8RBrwzSk",
+        "address" : "450 Serra Mall\nStanford, CA 94305\nUSA",
+        "name" : "Stanford University",
+        "sourceInfo" : {
+          "deviceTag" : 1874529256
+        },
+        "locationConfidence" : 99.86384
+      },
+      "duration" : {
+        "startTimestampMs" : "1498337816209",
+        "endTimestampMs" : "1498409186400"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 374242390,
+          "longitudeE7" : -1221780860,
+          "placeId" : "ChIJOVPF-tWkj4ARUMduWCkPTmM",
+          "address" : "589 Governor's Ave\nStanford, CA 94305\nUSA",
+          "name" : "Housing Front Desks at Governor’s Corner",
+          "sourceInfo" : {
+            "deviceTag" : 1874529256
+          },
+          "locationConfidence" : 94.91344
+        },
+        "duration" : {
+          "startTimestampMs" : "1498337816209",
+          "endTimestampMs" : "1498339617755"
+        },
+        "placeConfidence" : "HIGH_CONFIDENCE",
+        "centerLatE7" : 374243647,
+        "centerLngE7" : -1221798791,
+        "visitConfidence" : 91,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 374241776,
+          "longitudeE7" : -1221779392,
+          "placeId" : "ChIJHUb-Ziqlj4ARGOoi0i060aM",
+          "name" : "Elliott Program Center",
+          "locationConfidence" : 1.6426628
+        }, {
+          "latitudeE7" : 374261900,
+          "longitudeE7" : -1221801510,
+          "placeId" : "ChIJq0T32NWkj4AR9adzGMcngkg",
+          "name" : "Freshman Sophomore College FroSoCo",
+          "locationConfidence" : 0.56108576
+        }, {
+          "latitudeE7" : 374231264,
+          "longitudeE7" : -1221799265,
+          "placeId" : "ChIJV7NxHyqlj4ARzU_su54XCQc",
+          "name" : "Stanford Golf Driving Range",
+          "locationConfidence" : 0.4495428
+        }, {
+          "latitudeE7" : 374258843,
+          "longitudeE7" : -1221802125,
+          "placeId" : "ChIJB6Fm59Wkj4ARZ1z-5KsPQqQ",
+          "name" : "Sterling Quad",
+          "locationConfidence" : 0.261929
+        }, {
+          "latitudeE7" : 374267596,
+          "longitudeE7" : -1221775200,
+          "placeId" : "ChIJPySVoNWkj4AReewe___SEP8",
+          "name" : "Arrillaga Outdoor Education and Recreation Center",
+          "locationConfidence" : 0.25879332
+        }, {
+          "latitudeE7" : 374245942,
+          "longitudeE7" : -1221777501,
+          "placeId" : "ChIJ3RZvYyqlj4ARg3zlquKofis",
+          "name" : "Governor's Corner Guest Cottages, A-D",
+          "locationConfidence" : 0.18583399
+        }, {
+          "latitudeE7" : 374256082,
+          "longitudeE7" : -1221816319,
+          "placeId" : "ChIJlbgaFdakj4ARWkzVeouTaJo",
+          "name" : "Lyman Graduate Residence",
+          "locationConfidence" : 0.10427049
+        }, {
+          "latitudeE7" : 374229504,
+          "longitudeE7" : -1221816781,
+          "placeId" : "ChIJIzSh6imlj4ARoZGVkKR0gI0",
+          "name" : "Driving Range Facility",
+          "locationConfidence" : 0.060240522
+        }, {
+          "latitudeE7" : 374248206,
+          "longitudeE7" : -1221757597,
+          "placeId" : "ChIJPa8Yvyqlj4ARcTbp9z11mQ4",
+          "name" : "Ujamaa A",
+          "locationConfidence" : 0.05989215
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      }, {
+        "location" : {
+          "latitudeE7" : 374242390,
+          "longitudeE7" : -1221780860,
+          "placeId" : "ChIJOVPF-tWkj4ARUMduWCkPTmM",
+          "address" : "589 Governor's Ave\nStanford, CA 94305\nUSA",
+          "name" : "Housing Front Desks at Governor’s Corner",
+          "sourceInfo" : {
+            "deviceTag" : 1874529256
+          },
+          "locationConfidence" : 96.17497
+        },
+        "duration" : {
+          "startTimestampMs" : "1498342292385",
+          "endTimestampMs" : "1498342955113"
+        },
+        "placeConfidence" : "HIGH_CONFIDENCE",
+        "centerLatE7" : 374244977,
+        "centerLngE7" : -1221797092,
+        "visitConfidence" : 91,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 374241776,
+          "longitudeE7" : -1221779392,
+          "placeId" : "ChIJHUb-Ziqlj4ARGOoi0i060aM",
+          "name" : "Elliott Program Center",
+          "locationConfidence" : 1.3614872
+        }, {
+          "latitudeE7" : 374258843,
+          "longitudeE7" : -1221802125,
+          "placeId" : "ChIJB6Fm59Wkj4ARZ1z-5KsPQqQ",
+          "name" : "Sterling Quad",
+          "locationConfidence" : 0.47797164
+        }, {
+          "latitudeE7" : 374261900,
+          "longitudeE7" : -1221801510,
+          "placeId" : "ChIJq0T32NWkj4AR9adzGMcngkg",
+          "name" : "Freshman Sophomore College FroSoCo",
+          "locationConfidence" : 0.476656
+        }, {
+          "latitudeE7" : 374231264,
+          "longitudeE7" : -1221799265,
+          "placeId" : "ChIJV7NxHyqlj4ARzU_su54XCQc",
+          "name" : "Stanford Golf Driving Range",
+          "locationConfidence" : 0.27365917
+        }, {
+          "latitudeE7" : 374267596,
+          "longitudeE7" : -1221775200,
+          "placeId" : "ChIJPySVoNWkj4AReewe___SEP8",
+          "name" : "Arrillaga Outdoor Education and Recreation Center",
+          "locationConfidence" : 0.25951236
+        }, {
+          "latitudeE7" : 374254994,
+          "longitudeE7" : -1221803821,
+          "placeId" : "ChIJ2YQ-d9Wkj4ARVGBHLu4yNdA",
+          "name" : "Ricker Dining",
+          "locationConfidence" : 0.1060228
+        }, {
+          "latitudeE7" : 374260979,
+          "longitudeE7" : -1221769180,
+          "placeId" : "ChIJ2cVietWkj4ARTzzzLZ4mrt4",
+          "name" : "Roble Field (Santa Teresa St)",
+          "locationConfidence" : 0.0926382
+        }, {
+          "latitudeE7" : 374256082,
+          "longitudeE7" : -1221816319,
+          "placeId" : "ChIJlbgaFdakj4ARWkzVeouTaJo",
+          "name" : "Lyman Graduate Residence",
+          "locationConfidence" : 0.07006901
+        }, {
+          "latitudeE7" : 374256346,
+          "longitudeE7" : -1221770896,
+          "placeId" : "ChIJweLjedWkj4ARki1Xd3R9mXs",
+          "name" : "Norcliffe",
+          "locationConfidence" : 0.06662388
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      }, {
+        "location" : {
+          "latitudeE7" : 374242390,
+          "longitudeE7" : -1221780860,
+          "placeId" : "ChIJOVPF-tWkj4ARUMduWCkPTmM",
+          "address" : "589 Governor's Ave\nStanford, CA 94305\nUSA",
+          "name" : "Housing Front Desks at Governor’s Corner",
+          "sourceInfo" : {
+            "deviceTag" : 1874529256
+          },
+          "locationConfidence" : 75.0686
+        },
+        "duration" : {
+          "startTimestampMs" : "1498357183529",
+          "endTimestampMs" : "1498358042204"
+        },
+        "placeConfidence" : "LOW_CONFIDENCE",
+        "centerLatE7" : 374245419,
+        "centerLngE7" : -1221799032,
+        "visitConfidence" : 92,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 374245942,
+          "longitudeE7" : -1221777501,
+          "placeId" : "ChIJ3RZvYyqlj4ARg3zlquKofis",
+          "name" : "Governor's Corner Guest Cottages, A-D",
+          "locationConfidence" : 20.137558
+        }, {
+          "latitudeE7" : 374231264,
+          "longitudeE7" : -1221799265,
+          "placeId" : "ChIJV7NxHyqlj4ARzU_su54XCQc",
+          "name" : "Stanford Golf Driving Range",
+          "locationConfidence" : 1.0980175
+        }, {
+          "latitudeE7" : 374241776,
+          "longitudeE7" : -1221779392,
+          "placeId" : "ChIJHUb-Ziqlj4ARGOoi0i060aM",
+          "name" : "Elliott Program Center",
+          "locationConfidence" : 0.663226
+        }, {
+          "latitudeE7" : 374267596,
+          "longitudeE7" : -1221775200,
+          "placeId" : "ChIJPySVoNWkj4AReewe___SEP8",
+          "name" : "Arrillaga Outdoor Education and Recreation Center",
+          "locationConfidence" : 0.40728587
+        }, {
+          "latitudeE7" : 374261900,
+          "longitudeE7" : -1221801510,
+          "placeId" : "ChIJq0T32NWkj4AR9adzGMcngkg",
+          "name" : "Freshman Sophomore College FroSoCo",
+          "locationConfidence" : 0.28210974
+        }, {
+          "latitudeE7" : 374256082,
+          "longitudeE7" : -1221816319,
+          "placeId" : "ChIJlbgaFdakj4ARWkzVeouTaJo",
+          "name" : "Lyman Graduate Residence",
+          "locationConfidence" : 0.20419562
+        }, {
+          "latitudeE7" : 374245879,
+          "longitudeE7" : -1221760690,
+          "placeId" : "ChIJg6x2lCqlj4AR2poY1pR6jDY",
+          "name" : "Lakeside Dining",
+          "locationConfidence" : 0.12875076
+        }, {
+          "latitudeE7" : 374260979,
+          "longitudeE7" : -1221769180,
+          "placeId" : "ChIJ2cVietWkj4ARTzzzLZ4mrt4",
+          "name" : "Roble Field (Santa Teresa St)",
+          "locationConfidence" : 0.078964025
+        }, {
+          "latitudeE7" : 374264970,
+          "longitudeE7" : -1221805340,
+          "placeId" : "ChIJ-cg5edakj4ARPt6zopmOcsA",
+          "name" : "Santa Teresa @ Governors",
+          "locationConfidence" : 0.071427606
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 374244372,
+      "centerLngE7" : -1221798491,
+      "visitConfidence" : 91,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374244588,
+        "longitudeE7" : -1221799184,
+        "placeId" : "ChIJp2LTBiqlj4ARDOksZ7825Bc",
+        "locationConfidence" : 0.12879987
+      }, {
+        "latitudeE7" : 374246950,
+        "longitudeE7" : -1221785190,
+        "placeId" : "ChIJYw_qvNWkj4ARBMKokV5WkXg",
+        "locationConfidence" : 0.004835628
+      }, {
+        "latitudeE7" : 374246534,
+        "longitudeE7" : -1221811929,
+        "placeId" : "ChIJXVevG9akj4ARGQdSMM3vFCw",
+        "locationConfidence" : 0.0025283606
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374243482,
+          "lngE7" : -1221799798,
+          "timestampMs" : "1498338365999",
+          "accuracyMeters" : 8
+        }, {
+          "latE7" : 374245564,
+          "lngE7" : -1221790728,
+          "timestampMs" : "1498342871163",
+          "accuracyMeters" : 22
+        }, {
+          "latE7" : 374241701,
+          "lngE7" : -1221781859,
+          "timestampMs" : "1498342921053",
+          "accuracyMeters" : 25
+        }, {
+          "latE7" : 374247666,
+          "lngE7" : -1221783190,
+          "timestampMs" : "1498342992255",
+          "accuracyMeters" : 21
+        }, {
+          "latE7" : 374247311,
+          "lngE7" : -1221796723,
+          "timestampMs" : "1498408437999",
+          "accuracyMeters" : 4
+        }, {
+          "latE7" : 374257441,
+          "lngE7" : -1221790291,
+          "timestampMs" : "1498408529999",
+          "accuracyMeters" : 3
+        }, {
+          "latE7" : 374260322,
+          "lngE7" : -1221795534,
+          "timestampMs" : "1498408591999",
+          "accuracyMeters" : 3
+        }, {
+          "latE7" : 374262347,
+          "lngE7" : -1221802701,
+          "timestampMs" : "1498408921074",
+          "accuracyMeters" : 25
+        }, {
+          "latE7" : 374268811,
+          "lngE7" : -1221801149,
+          "timestampMs" : "1498409133294",
+          "accuracyMeters" : 48
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374274745,
+        "longitudeE7" : -1221697190
+      },
+      "endLocation" : {
+        "latitudeE7" : 374014806,
+        "longitudeE7" : -1221100769
+      },
+      "duration" : {
+        "startTimestampMs" : "1498409186400",
+        "endTimestampMs" : "1498411945987"
+      },
+      "distance" : 7770,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 56.01459582020769
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 29.94481144325877
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 11.830911244829972
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 1.0251108156520221
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.22917950182807706
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.22035280061860935
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.1685217847774019
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.09561099258437998
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.08325603532118717
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.07941394066905573
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.04382138270719134
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.04219408692837373
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.03189146860606162
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.03108905654360185
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.02154673656881671
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.017963946622353885
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.01643442142853316
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.014313948242574759
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.012214871200193761
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.01203087132461002
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.010394945159549505
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.0062577542912124915
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.006251190107001412
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.00560275310669716
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.00527269676054069
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 0.0052012583854641374
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.00502737895741025
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.0048401507471194545
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.004829773742157765
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.0032761547028876785
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.002892942250012297
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.0027156365514409845
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 0.00217219531904294
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 1.0253303820089172E-43
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 374265937,
+          "lngE7" : -1221698837
+        }, {
+          "latE7" : 374015464,
+          "lngE7" : -1221101989
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "parkingEvent" : {
+        "timestampMs" : "1498412023331",
+        "location" : {
+          "latitudeE7" : 373998161,
+          "longitudeE7" : -1221020292,
+          "accuracyMetres" : 800
+        }
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374014806,
+        "longitudeE7" : -1221100769
+      },
+      "endLocation" : {
+        "latitudeE7" : 374007282,
+        "longitudeE7" : -1221062005
+      },
+      "duration" : {
+        "startTimestampMs" : "1498411945987",
+        "endTimestampMs" : "1498412409496"
+      },
+      "distance" : 885,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 91.02970920720115
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 6.495566715265919
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.3469777886322387
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.7276333820208057
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.1048519727433199
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.09646836455266257
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.04836555190481659
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.033881073030001034
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.012758208029314495
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.012020047835414285
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.011427618230740814
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.011355071135749751
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.009735802501816736
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.009378808597935908
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.006465144367816101
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.0058294524064019535
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.005637273142349963
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.005631958663747555
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.003953085006522611
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.0036455436252466012
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.0035121228175660616
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.0030788389301211125
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.001788869408925274
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.0017847711833999637
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.0015912961822067547
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.0013001635977211335
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.0012309208485394249
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.0011033850560946744
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.001006439656250673
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 8.017924657190843E-4
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 6.546405104901066E-4
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 4.641932534737263E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 3.9049719546354944E-4
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 8.209931298110833E-42
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 374010353,
+          "lngE7" : -1221086196
+        }, {
+          "latE7" : 374027938,
+          "lngE7" : -1221065216
+        }, {
+          "latE7" : 374008369,
+          "lngE7" : -1221064834
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374028358,
+          "lngE7" : -1221064529,
+          "timestampMs" : "1498412279432",
+          "accuracyMeters" : 25
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374007282,
+        "longitudeE7" : -1221062005,
+        "placeId" : "ChIJq9ZWgKKwj4ARvAcUB1cNp-k",
+        "address" : "555 Showers Dr\nMountain View, CA 94040\nUSA",
+        "name" : "Target",
+        "sourceInfo" : {
+          "deviceTag" : 1874529256
+        },
+        "locationConfidence" : 98.622765
+      },
+      "duration" : {
+        "startTimestampMs" : "1498412409496",
+        "endTimestampMs" : "1498414321130"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 374008000,
+      "centerLngE7" : -1221063084,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374020793,
+        "longitudeE7" : -1221088964,
+        "placeId" : "ChIJoSoALZmwj4AR0AeUKF4goUY",
+        "name" : "San Antonio Center",
+        "locationConfidence" : 1.3271855
+      }, {
+        "latitudeE7" : 374021750,
+        "longitudeE7" : -1221061630,
+        "placeId" : "ChIJwfuKdqKwj4ARah0Da_UF0v8",
+        "name" : "Wheel Works",
+        "locationConfidence" : 0.007618178
+      }, {
+        "latitudeE7" : 373992115,
+        "longitudeE7" : -1221069993,
+        "placeId" : "ChIJm6QDA5iwj4ARCZYf8k6JiOc",
+        "name" : "Avalon Towers on the Peninsula",
+        "locationConfidence" : 0.0071920953
+      }, {
+        "latitudeE7" : 374020538,
+        "longitudeE7" : -1221058870,
+        "placeId" : "ChIJl9Eue6Kwj4ARuQ4v8Ve4D0U",
+        "name" : "Mamacitas Tacos",
+        "locationConfidence" : 0.004932075
+      }, {
+        "latitudeE7" : 374005438,
+        "longitudeE7" : -1221076766,
+        "placeId" : "ChIJFU_nZpiwj4ARFQvqvqJXx4c",
+        "name" : "DMV - Industry Business Center - Mountain View",
+        "locationConfidence" : 0.0025796343
+      }, {
+        "latitudeE7" : 374002162,
+        "longitudeE7" : -1221087557,
+        "placeId" : "ChIJu9tH6Fm6j4ARy_lZ9z-L2qM",
+        "name" : "United Veterinary Specialty & Emergency",
+        "locationConfidence" : 0.001937143
+      }, {
+        "latitudeE7" : 374006712,
+        "longitudeE7" : -1221041593,
+        "placeId" : "ChIJDf1c36Kwj4ARbQKV3j00m-k",
+        "name" : "Klein Park",
+        "locationConfidence" : 0.0016166349
+      }, {
+        "latitudeE7" : 374002816,
+        "longitudeE7" : -1221053397,
+        "placeId" : "ChIJubuEvKKwj4ARVKmP4FpLDLo",
+        "locationConfidence" : 0.0015181891
+      }, {
+        "latitudeE7" : 373998641,
+        "longitudeE7" : -1221083996,
+        "placeId" : "ChIJPS4sRJiwj4ARPLWm5CiS6fY",
+        "name" : "Udacity",
+        "locationConfidence" : 0.0012709672
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374007282,
+        "longitudeE7" : -1221062005
+      },
+      "endLocation" : {
+        "latitudeE7" : 374020793,
+        "longitudeE7" : -1221088964
+      },
+      "duration" : {
+        "startTimestampMs" : "1498414321130",
+        "endTimestampMs" : "1498416493999"
+      },
+      "distance" : 685,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 89.54659202092327
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 5.174701468586952
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 3.514943048712989
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.28074901293556237
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.27370095917719145
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.269287298666705
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.16702865513896434
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.11006972955975422
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.07568387743215252
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.0677562700802399
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.06392286141093252
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.0531562398947508
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.04419197080907712
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.04297184552855582
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.03757275724527078
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.03293003419512764
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.026819740694735843
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.024094907940564018
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.021007816602343125
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.02015208408762816
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.019581120753299357
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.019275264071202607
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.015686019522898702
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.015317641894135774
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.01520532544030512
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.014900040524592552
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.01230413947212375
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.011136331661456042
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.009124226245046444
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.008260663605295334
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 0.0048490575095336465
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 0.003749964006535245
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0032776056707722223
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 7.647252701971341E-41
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 373998184,
+          "lngE7" : -1221065826
+        }, {
+          "latE7" : 374017219,
+          "lngE7" : -1221080398
+        }, {
+          "latE7" : 374010658,
+          "lngE7" : -1221090850
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374016647,
+          "lngE7" : -1221077881,
+          "timestampMs" : "1498414390201",
+          "accuracyMeters" : 23
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374020793,
+        "longitudeE7" : -1221088964,
+        "placeId" : "ChIJoSoALZmwj4AR0AeUKF4goUY",
+        "address" : "696 Showers Dr\nMountain View, CA 94040\nUSA",
+        "name" : "San Antonio Center",
+        "sourceInfo" : {
+          "deviceTag" : 1874529256
+        },
+        "locationConfidence" : 98.90758
+      },
+      "duration" : {
+        "startTimestampMs" : "1498416493999",
+        "endTimestampMs" : "1498417287999"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 374008806,
+          "longitudeE7" : -1221085989,
+          "placeId" : "ChIJmy2595iwj4ARkJcpn9V8d10",
+          "address" : "Mountain View, CA 94040\nUSA",
+          "name" : "San Antonio Center",
+          "sourceInfo" : {
+            "deviceTag" : 1874529256
+          },
+          "locationConfidence" : 54.04141
+        },
+        "duration" : {
+          "startTimestampMs" : "1498416650891",
+          "endTimestampMs" : "1498417177866"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 374006117,
+        "centerLngE7" : -1221089073,
+        "visitConfidence" : 92,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 373991711,
+          "longitudeE7" : -1221091916,
+          "placeId" : "ChIJrwQ9NZiwj4ARunLXan29pkw",
+          "name" : "The Terraces At Los Altos Info Center",
+          "locationConfidence" : 15.36446
+        }, {
+          "latitudeE7" : 374002162,
+          "longitudeE7" : -1221087557,
+          "placeId" : "ChIJu9tH6Fm6j4ARy_lZ9z-L2qM",
+          "name" : "United Veterinary Specialty & Emergency",
+          "locationConfidence" : 9.497505
+        }, {
+          "latitudeE7" : 374000794,
+          "longitudeE7" : -1221099716,
+          "placeId" : "ChIJCdt_rpmwj4ARVF9X2H5eWcc",
+          "name" : "Alta View Animal Hospital",
+          "locationConfidence" : 7.1804194
+        }, {
+          "latitudeE7" : 374027594,
+          "longitudeE7" : -1221081079,
+          "placeId" : "ChIJ3ZHDkJiwj4ARt1tEHFheKfA",
+          "name" : "T-Mobile",
+          "locationConfidence" : 6.388364
+        }, {
+          "latitudeE7" : 374020793,
+          "longitudeE7" : -1221088964,
+          "placeId" : "ChIJoSoALZmwj4AR0AeUKF4goUY",
+          "name" : "San Antonio Center",
+          "locationConfidence" : 6.363825
+        }, {
+          "latitudeE7" : 374000103,
+          "longitudeE7" : -1221052618,
+          "placeId" : "ChIJ4QuvuaKwj4AR1l8OaI5QzwE",
+          "name" : "Albert Gwo Photography",
+          "locationConfidence" : 9.1736886E-4
+        }, {
+          "latitudeE7" : 373978901,
+          "longitudeE7" : -1221080199,
+          "placeId" : "ChIJGRHujZewj4ARIwvDyklwFZE",
+          "name" : "PTS Power",
+          "locationConfidence" : 9.1736886E-4
+        }, {
+          "latitudeE7" : 374012174,
+          "longitudeE7" : -1221112342,
+          "placeId" : "ChIJnyX4Z5mwj4AR2t_DRosWLZk",
+          "name" : "Cook Properties",
+          "locationConfidence" : 9.1736886E-4
+        }, {
+          "latitudeE7" : 374021539,
+          "longitudeE7" : -1221052034,
+          "placeId" : "ChIJ_6sAZ6Kwj4ARm5IuYTEWzLE",
+          "name" : "Garbo Property Maintenance",
+          "locationConfidence" : 9.1736886E-4
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 374007979,
+      "centerLngE7" : -1221089018,
+      "visitConfidence" : 92,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374007282,
+        "longitudeE7" : -1221062005,
+        "placeId" : "ChIJq9ZWgKKwj4ARvAcUB1cNp-k",
+        "name" : "Target",
+        "locationConfidence" : 0.9910524
+      }, {
+        "latitudeE7" : 373988916,
+        "longitudeE7" : -1221106979,
+        "placeId" : "ChIJwz4tvpmwj4ARvlDtWYF38h4",
+        "name" : "Whole Foods Market",
+        "locationConfidence" : 0.025821006
+      }, {
+        "latitudeE7" : 373998641,
+        "longitudeE7" : -1221083996,
+        "placeId" : "ChIJPS4sRJiwj4ARPLWm5CiS6fY",
+        "name" : "Udacity",
+        "locationConfidence" : 0.019224765
+      }, {
+        "latitudeE7" : 374005438,
+        "longitudeE7" : -1221076766,
+        "placeId" : "ChIJFU_nZpiwj4ARFQvqvqJXx4c",
+        "name" : "DMV - Industry Business Center - Mountain View",
+        "locationConfidence" : 0.009854674
+      }, {
+        "latitudeE7" : 374032799,
+        "longitudeE7" : -1221109665,
+        "placeId" : "ChIJPydlMJmwj4ARcanv1021hBg",
+        "name" : "The Village at San Antonio Center",
+        "locationConfidence" : 0.008145625
+      }, {
+        "latitudeE7" : 373992387,
+        "longitudeE7" : -1221086474,
+        "placeId" : "ChIJQfA1N5iwj4ARVdM_WzoeQmk",
+        "name" : "Veggie Garden",
+        "locationConfidence" : 0.0052027707
+      }, {
+        "latitudeE7" : 374002162,
+        "longitudeE7" : -1221087557,
+        "placeId" : "ChIJu9tH6Fm6j4ARy_lZ9z-L2qM",
+        "name" : "United Veterinary Specialty & Emergency",
+        "locationConfidence" : 0.004794761
+      }, {
+        "latitudeE7" : 373992115,
+        "longitudeE7" : -1221069993,
+        "placeId" : "ChIJm6QDA5iwj4ARCZYf8k6JiOc",
+        "name" : "Avalon Towers on the Peninsula",
+        "locationConfidence" : 0.003445924
+      }, {
+        "latitudeE7" : 373983857,
+        "longitudeE7" : -1221087946,
+        "placeId" : "ChIJcwRJJpiwj4ARKZAnWEpUu18",
+        "name" : "Jack in the Box",
+        "locationConfidence" : 0.002650227
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374011435,
+          "lngE7" : -1221091660,
+          "timestampMs" : "1498416716439",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 374010579,
+          "lngE7" : -1221084815,
+          "timestampMs" : "1498417138026",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 374004211,
+          "lngE7" : -1221086078,
+          "timestampMs" : "1498417177866",
+          "accuracyMeters" : 28
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374020793,
+        "longitudeE7" : -1221088964
+      },
+      "endLocation" : {
+        "latitudeE7" : 374274745,
+        "longitudeE7" : -1221697190
+      },
+      "duration" : {
+        "startTimestampMs" : "1498417287999",
+        "endTimestampMs" : "1498420887131"
+      },
+      "distance" : 11074,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 78.29472823646104
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 13.113627982529746
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 3.406576179050872
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 1.770935001905891
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 1.203791917504401
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.9992366012666419
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.1295530011567379
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.12343373490980175
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.09119165602251068
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.08861673722437519
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.08668702531363406
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.0785270010360864
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.06409896095922404
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.0601168243501085
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.05865056486880507
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.05432692821903126
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.04440987730635978
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.03498199564880326
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.031218759031875706
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.030095657892037168
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.029691807170353593
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.027857913498601058
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.025550331316224122
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.021533743997957735
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.019283330544001588
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 0.01818197622799965
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.018123825419927683
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.016640225686070965
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.013035801571798053
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.012325252325541956
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.01172601900068586
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 0.010744925798425455
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.010500204784414791
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 2.99052246804438E-41
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 374020500,
+          "lngE7" : -1221088333
+        }, {
+          "latE7" : 374275817,
+          "lngE7" : -1221488952
+        }, {
+          "latE7" : 374265937,
+          "lngE7" : -1221698837
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374275453,
+          "lngE7" : -1221489486,
+          "timestampMs" : "1498419575999",
+          "accuracyMeters" : 6
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374274745,
+        "longitudeE7" : -1221697190,
+        "placeId" : "ChIJneqLZyq7j4ARf2j8RBrwzSk",
+        "address" : "450 Serra Mall\nStanford, CA 94305\nUSA",
+        "name" : "Stanford University",
+        "sourceInfo" : {
+          "deviceTag" : 1874529256
+        },
+        "locationConfidence" : 99.918884
+      },
+      "duration" : {
+        "startTimestampMs" : "1498420887131",
+        "endTimestampMs" : "1498421431564"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 374245879,
+          "longitudeE7" : -1221760690,
+          "placeId" : "ChIJg6x2lCqlj4AR2poY1pR6jDY",
+          "address" : "326 Santa Teresa St\nStanford, CA 94305\nUSA",
+          "name" : "Lakeside Dining",
+          "sourceInfo" : {
+            "deviceTag" : 1874529256
+          },
+          "locationConfidence" : 93.18716
+        },
+        "duration" : {
+          "startTimestampMs" : "1498420887131",
+          "endTimestampMs" : "1498421431564"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 374247353,
+        "centerLngE7" : -1221764482,
+        "visitConfidence" : 73,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 374245942,
+          "longitudeE7" : -1221777501,
+          "placeId" : "ChIJ3RZvYyqlj4ARg3zlquKofis",
+          "name" : "Governor's Corner Guest Cottages, A-D",
+          "locationConfidence" : 4.7254057
+        }, {
+          "latitudeE7" : 374249969,
+          "longitudeE7" : -1221743833,
+          "placeId" : "ChIJx2qNNdW6j4ARANltwfKDGq0",
+          "name" : "Windhover",
+          "locationConfidence" : 0.75935376
+        }, {
+          "latitudeE7" : 374242390,
+          "longitudeE7" : -1221780860,
+          "placeId" : "ChIJOVPF-tWkj4ARUMduWCkPTmM",
+          "name" : "Housing Front Desks at Governor’s Corner",
+          "locationConfidence" : 0.6940295
+        }, {
+          "latitudeE7" : 374248206,
+          "longitudeE7" : -1221757597,
+          "placeId" : "ChIJPa8Yvyqlj4ARcTbp9z11mQ4",
+          "name" : "Ujamaa A",
+          "locationConfidence" : 0.15535642
+        }, {
+          "latitudeE7" : 374259520,
+          "longitudeE7" : -1221766860,
+          "placeId" : "ChIJMZe6ZNWkj4ARlH_ZUbHFVSs",
+          "name" : "Santa Teresa Street @ West Residences",
+          "locationConfidence" : 0.15238778
+        }, {
+          "latitudeE7" : 374260979,
+          "longitudeE7" : -1221769180,
+          "placeId" : "ChIJ2cVietWkj4ARTzzzLZ4mrt4",
+          "name" : "Roble Field (Santa Teresa St)",
+          "locationConfidence" : 0.07132475
+        }, {
+          "latitudeE7" : 374241776,
+          "longitudeE7" : -1221779392,
+          "placeId" : "ChIJHUb-Ziqlj4ARGOoi0i060aM",
+          "name" : "Elliott Program Center",
+          "locationConfidence" : 0.030453017
+        }, {
+          "latitudeE7" : 374267596,
+          "longitudeE7" : -1221775200,
+          "placeId" : "ChIJPySVoNWkj4AReewe___SEP8",
+          "name" : "Arrillaga Outdoor Education and Recreation Center",
+          "locationConfidence" : 0.027047146
+        }, {
+          "latitudeE7" : 374262163,
+          "longitudeE7" : -1221765719,
+          "placeId" : "ChIJcQx5ZdWkj4ARWJPI9DGumTU",
+          "name" : "Via Ortega @ Santa Teresa St (near Roble Field)",
+          "locationConfidence" : 0.02302445
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 374247353,
+      "centerLngE7" : -1221764482,
+      "visitConfidence" : 73,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374254444,
+        "longitudeE7" : -1221761255,
+        "placeId" : "ChIJZTtdTNW6j4ARR-cW30J9MQs",
+        "locationConfidence" : 0.03877456
+      }, {
+        "latitudeE7" : 374254444,
+        "longitudeE7" : -1221761255,
+        "placeId" : "ChIJj2kxnSqlj4ARkQ3ZjJ2vpgU",
+        "locationConfidence" : 0.035863154
+      }, {
+        "latitudeE7" : 374264762,
+        "longitudeE7" : -1221756238,
+        "placeId" : "ChIJEaxEW9Wkj4ARkTbFNTq4ILI",
+        "name" : "Roble Field Garage PS-10",
+        "locationConfidence" : 0.0026660932
+      }, {
+        "latitudeE7" : 374267241,
+        "longitudeE7" : -1221741167,
+        "placeId" : "ChIJO2abryq7j4ARe-i1KQDN6y0",
+        "name" : "Green Earth Sciences",
+        "locationConfidence" : 0.0013168886
+      }, {
+        "latitudeE7" : 374256346,
+        "longitudeE7" : -1221770896,
+        "placeId" : "ChIJefl_ftWkj4AR-UYSoJm8lko",
+        "locationConfidence" : 0.001255892
+      }, {
+        "latitudeE7" : 374268757,
+        "longitudeE7" : -1221740733,
+        "placeId" : "ChIJEzVTriq7j4ARxYCJuR0eQjk",
+        "name" : "Department of Energy Resources Engineering (ERE)",
+        "locationConfidence" : 6.567554E-4
+      }, {
+        "latitudeE7" : 374267180,
+        "longitudeE7" : -1221733900,
+        "placeId" : "ChIJGUb7oCq7j4ARahloyufrY4I",
+        "name" : "Department of Materials Science & Engineering",
+        "locationConfidence" : 3.8469053E-4
+      }, {
+        "latitudeE7" : 374232730,
+        "longitudeE7" : -1221760760,
+        "placeId" : "ChIJqRubHyulj4ARionaN6w72y0",
+        "name" : "Lake Lagunita",
+        "locationConfidence" : 1.946251E-4
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374255226,
+          "lngE7" : -1221766006,
+          "timestampMs" : "1498420887131",
+          "accuracyMeters" : 20
+        }, {
+          "latE7" : 374248759,
+          "lngE7" : -1221764786,
+          "timestampMs" : "1498420991179",
+          "accuracyMeters" : 21
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374274745,
+        "longitudeE7" : -1221697190,
+        "placeId" : "ChIJneqLZyq7j4ARf2j8RBrwzSk",
+        "address" : "450 Serra Mall\nStanford, CA 94305\nUSA",
+        "name" : "Stanford University",
+        "sourceInfo" : {
+          "deviceTag" : 1874529256
+        },
+        "locationConfidence" : 99.999245
+      },
+      "duration" : {
+        "startTimestampMs" : "1498494529160",
+        "endTimestampMs" : "1498528071850"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 374241179,
+          "longitudeE7" : -1221708455,
+          "placeId" : "ChIJyw-jRdS6j4ARgub3WeaYpQI",
+          "address" : "459 Lagunita Dr\nStanford, CA 94305\nUSA",
+          "name" : "Starbucks",
+          "sourceInfo" : {
+            "deviceTag" : 1874529256
+          },
+          "locationConfidence" : 59.284424
+        },
+        "duration" : {
+          "startTimestampMs" : "1498494529160",
+          "endTimestampMs" : "1498494947459"
+        },
+        "placeConfidence" : "LOW_CONFIDENCE",
+        "centerLatE7" : 374245067,
+        "centerLngE7" : -1221709008,
+        "visitConfidence" : 92,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 374239367,
+          "longitudeE7" : -1221708065,
+          "placeId" : "ChIJ0ylFQdS6j4ARbijI31sh4tU",
+          "name" : "Jamba Juice Stanford",
+          "locationConfidence" : 31.096577
+        }, {
+          "latitudeE7" : 374242812,
+          "longitudeE7" : -1221708629,
+          "placeId" : "ChIJWWGDZtS6j4AR2xhSbCp_TNw",
+          "name" : "FedEx Office Print & Ship Center",
+          "locationConfidence" : 5.0690303
+        }, {
+          "latitudeE7" : 374244760,
+          "longitudeE7" : -1221707910,
+          "placeId" : "ChIJy8WhKte6j4ARotJTWv5SXzI",
+          "name" : "Tresidder Marketplace",
+          "locationConfidence" : 0.7261501
+        }, {
+          "latitudeE7" : 374253641,
+          "longitudeE7" : -1221713037,
+          "placeId" : "ChIJvVMDr9W6j4ARm9mwdRPIn6M",
+          "name" : "Stanford Product Design Loft",
+          "locationConfidence" : 0.5438382
+        }, {
+          "latitudeE7" : 374240775,
+          "longitudeE7" : -1221708978,
+          "placeId" : "ChIJVZmBRNS6j4AR6Mvf7ckRzV4",
+          "name" : "Campus Bike Shop",
+          "locationConfidence" : 0.37799975
+        }, {
+          "latitudeE7" : 374243410,
+          "longitudeE7" : -1221708190,
+          "placeId" : "ChIJ0ylFQdS6j4AReHg86O1sIk4",
+          "name" : "Wells Fargo Bank",
+          "locationConfidence" : 0.34960008
+        }, {
+          "latitudeE7" : 374242430,
+          "longitudeE7" : -1221709180,
+          "placeId" : "ChIJq7pekzi7j4ARi-pIwBaI42I",
+          "name" : "Stanford Federal Credit Union",
+          "locationConfidence" : 0.26833352
+        }, {
+          "latitudeE7" : 374236798,
+          "longitudeE7" : -1221705992,
+          "placeId" : "ChIJw-dOatS6j4AR4MEvYwxpHgk",
+          "name" : "Tresidder East",
+          "locationConfidence" : 0.24245931
+        }, {
+          "latitudeE7" : 374245669,
+          "longitudeE7" : -1221710892,
+          "placeId" : "ChIJhePkUdS6j4ARmUs-P87JNwA",
+          "name" : "Decadence",
+          "locationConfidence" : 0.16631615
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      }, {
+        "location" : {
+          "latitudeE7" : 374283474,
+          "longitudeE7" : -1221755886,
+          "placeId" : "ChIJHbZpJ9Wkj4ARV6nV6sSjBcA",
+          "address" : "473 Via Ortega\nStanford, CA 94305\nUSA",
+          "name" : "Coupa Cafe - Y2E2",
+          "sourceInfo" : {
+            "deviceTag" : 1874529256
+          },
+          "locationConfidence" : 98.35944
+        },
+        "duration" : {
+          "startTimestampMs" : "1498495355345",
+          "endTimestampMs" : "1498497743138"
+        },
+        "placeConfidence" : "HIGH_CONFIDENCE",
+        "centerLatE7" : 374277267,
+        "centerLngE7" : -1221762400,
+        "visitConfidence" : 92,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 374278713,
+          "longitudeE7" : -1221742946,
+          "placeId" : "ChIJHa_v0Sq7j4ARPwR4MaRYvuQ",
+          "name" : "Jen-Hsun Huang Engineering Center",
+          "locationConfidence" : 1.3781506
+        }, {
+          "latitudeE7" : 374282675,
+          "longitudeE7" : -1221755806,
+          "placeId" : "ChIJPUNFJtWkj4ARdZCUJAKqwew",
+          "name" : "Y2E2",
+          "locationConfidence" : 0.09707987
+        }, {
+          "latitudeE7" : 374280737,
+          "longitudeE7" : -1221742169,
+          "placeId" : "ChIJpfoMziq7j4ARQj5mJsVr8wY",
+          "name" : "Terman Engineering Library",
+          "locationConfidence" : 0.04356838
+        }, {
+          "latitudeE7" : 374259520,
+          "longitudeE7" : -1221766860,
+          "placeId" : "ChIJMZe6ZNWkj4ARlH_ZUbHFVSs",
+          "name" : "Santa Teresa Street @ West Residences",
+          "locationConfidence" : 0.022675028
+        }, {
+          "latitudeE7" : 374286198,
+          "longitudeE7" : -1221775388,
+          "placeId" : "ChIJ30eG2dCkj4ARorRx0KMBAss",
+          "name" : "IT Services",
+          "locationConfidence" : 0.014484132
+        }, {
+          "latitudeE7" : 374280798,
+          "longitudeE7" : -1221768112,
+          "placeId" : "ChIJVdIga9Wkj4AR8i9JFQ2TCrU",
+          "name" : "Parking garage",
+          "locationConfidence" : 0.014157718
+        }, {
+          "latitudeE7" : 374267596,
+          "longitudeE7" : -1221775200,
+          "placeId" : "ChIJPySVoNWkj4AReewe___SEP8",
+          "name" : "Arrillaga Outdoor Education and Recreation Center",
+          "locationConfidence" : 0.008425944
+        }, {
+          "latitudeE7" : 374245879,
+          "longitudeE7" : -1221760690,
+          "placeId" : "ChIJg6x2lCqlj4AR2poY1pR6jDY",
+          "name" : "Lakeside Dining",
+          "locationConfidence" : 0.005665376
+        }, {
+          "latitudeE7" : 374265199,
+          "longitudeE7" : -1221758727,
+          "placeId" : "ChIJ4TPcQtWkj4ARqPqaQetISgI",
+          "name" : "Roble Field Garage",
+          "locationConfidence" : 0.003544913
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      }, {
+        "location" : {
+          "latitudeE7" : 374242812,
+          "longitudeE7" : -1221708629,
+          "placeId" : "ChIJWWGDZtS6j4AR2xhSbCp_TNw",
+          "address" : "459 Lagunita Dr A200-A\nStanford, CA 94305\nUSA",
+          "name" : "FedEx Office Print & Ship Center",
+          "sourceInfo" : {
+            "deviceTag" : 1874529256
+          },
+          "locationConfidence" : 98.51567
+        },
+        "duration" : {
+          "startTimestampMs" : "1498527666808",
+          "endTimestampMs" : "1498528071850"
+        },
+        "placeConfidence" : "HIGH_CONFIDENCE",
+        "centerLatE7" : 374241179,
+        "centerLngE7" : -1221708157,
+        "visitConfidence" : 92,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 374239367,
+          "longitudeE7" : -1221708065,
+          "placeId" : "ChIJ0ylFQdS6j4ARbijI31sh4tU",
+          "name" : "Jamba Juice Stanford",
+          "locationConfidence" : 0.77112526
+        }, {
+          "latitudeE7" : 374241179,
+          "longitudeE7" : -1221708455,
+          "placeId" : "ChIJyw-jRdS6j4ARgub3WeaYpQI",
+          "name" : "Starbucks",
+          "locationConfidence" : 0.24983262
+        }, {
+          "latitudeE7" : 374247909,
+          "longitudeE7" : -1221687329,
+          "placeId" : "ChIJRaBaO9S6j4ARnJbb4ul_61Y",
+          "name" : "Stanford Bookstore",
+          "locationConfidence" : 0.09387436
+        }, {
+          "latitudeE7" : 374240775,
+          "longitudeE7" : -1221708978,
+          "placeId" : "ChIJVZmBRNS6j4AR6Mvf7ckRzV4",
+          "name" : "Campus Bike Shop",
+          "locationConfidence" : 0.045226008
+        }, {
+          "latitudeE7" : 374240775,
+          "longitudeE7" : -1221708978,
+          "placeId" : "ChIJWapWQdS6j4ARFKt6lV6S_9A",
+          "name" : "CoHo",
+          "locationConfidence" : 0.042056963
+        }, {
+          "latitudeE7" : 374228934,
+          "longitudeE7" : -1221677975,
+          "placeId" : "ChIJRSplONG6j4ARPh1bVSnVkUo",
+          "name" : "The Market at Munger",
+          "locationConfidence" : 0.035145592
+        }, {
+          "latitudeE7" : 374236798,
+          "longitudeE7" : -1221705992,
+          "placeId" : "ChIJw-dOatS6j4AR4MEvYwxpHgk",
+          "name" : "Tresidder East",
+          "locationConfidence" : 0.033712246
+        }, {
+          "latitudeE7" : 374239716,
+          "longitudeE7" : -1221710901,
+          "placeId" : "ChIJw4w5aNS6j4AR9LgOtniCDno",
+          "name" : "The Treehouse",
+          "locationConfidence" : 0.020701965
+        }, {
+          "latitudeE7" : 374253641,
+          "longitudeE7" : -1221713037,
+          "placeId" : "ChIJvVMDr9W6j4ARm9mwdRPIn6M",
+          "name" : "Stanford Product Design Loft",
+          "locationConfidence" : 0.01652237
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 374264676,
+      "centerLngE7" : -1221734489,
+      "visitConfidence" : 92,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374237021,
+        "longitudeE7" : -1221709226,
+        "placeId" : "ChIJw4w5aNS6j4ARvWUOzsYmoug",
+        "locationConfidence" : 3.228034E-4
+      }, {
+        "latitudeE7" : 374235027,
+        "longitudeE7" : -1221711829,
+        "placeId" : "ChIJdbpPZtS6j4AR9jN4-B_cc4I",
+        "locationConfidence" : 3.1610276E-4
+      }, {
+        "latitudeE7" : 374262365,
+        "longitudeE7" : -1221710100,
+        "placeId" : "ChIJv1I2oCq7j4ARgOjiJpphOlY",
+        "name" : "Stanford University Department of Mechanical Engineering",
+        "locationConfidence" : 6.8183275E-5
+      }, {
+        "latitudeE7" : 374232460,
+        "longitudeE7" : -1221697500,
+        "placeId" : "ChIJwSsxD9S6j4ARWJEkzMq_PUY",
+        "locationConfidence" : 4.6298854E-5
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374239783,
+          "lngE7" : -1221703405,
+          "timestampMs" : "1498494558999",
+          "accuracyMeters" : 4
+        }, {
+          "latE7" : 374252321,
+          "lngE7" : -1221727757,
+          "timestampMs" : "1498494987497",
+          "accuracyMeters" : 21
+        }, {
+          "latE7" : 374260803,
+          "lngE7" : -1221758213,
+          "timestampMs" : "1498495244907",
+          "accuracyMeters" : 48
+        }, {
+          "latE7" : 374257131,
+          "lngE7" : -1221770219,
+          "timestampMs" : "1498495287037",
+          "accuracyMeters" : 20
+        }, {
+          "latE7" : 374268279,
+          "lngE7" : -1221751704,
+          "timestampMs" : "1498495322113",
+          "accuracyMeters" : 50
+        }, {
+          "latE7" : 374271889,
+          "lngE7" : -1221763567,
+          "timestampMs" : "1498495355345",
+          "accuracyMeters" : 50
+        }, {
+          "latE7" : 374283619,
+          "lngE7" : -1221755474,
+          "timestampMs" : "1498496709278",
+          "accuracyMeters" : 20
+        }, {
+          "latE7" : 374281516,
+          "lngE7" : -1221764640,
+          "timestampMs" : "1498496768057",
+          "accuracyMeters" : 12
+        }, {
+          "latE7" : 374283619,
+          "lngE7" : -1221755474,
+          "timestampMs" : "1498497269096",
+          "accuracyMeters" : 21
+        }, {
+          "latE7" : 374283619,
+          "lngE7" : -1221755474,
+          "timestampMs" : "1498497316817",
+          "accuracyMeters" : 20
+        }, {
+          "latE7" : 374274585,
+          "lngE7" : -1221734562,
+          "timestampMs" : "1498497528000",
+          "accuracyMeters" : 3
+        }, {
+          "latE7" : 374278290,
+          "lngE7" : -1221748851,
+          "timestampMs" : "1498497684000",
+          "accuracyMeters" : 4
+        }, {
+          "latE7" : 374265965,
+          "lngE7" : -1221672321,
+          "timestampMs" : "1498527228408",
+          "accuracyMeters" : 30
+        }, {
+          "latE7" : 374247218,
+          "lngE7" : -1221701370,
+          "timestampMs" : "1498527666808",
+          "accuracyMeters" : 20
+        }, {
+          "latE7" : 374235861,
+          "lngE7" : -1221712295,
+          "timestampMs" : "1498527854000",
+          "accuracyMeters" : 4
+        }, {
+          "latE7" : 374243339,
+          "lngE7" : -1221709001,
+          "timestampMs" : "1498527944999",
+          "accuracyMeters" : 8
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374239186,
+        "longitudeE7" : -1221702334
+      },
+      "endLocation" : {
+        "latitudeE7" : 374237058,
+        "longitudeE7" : -1221717557
+      },
+      "duration" : {
+        "startTimestampMs" : "1498618521127",
+        "endTimestampMs" : "1498619152110"
+      },
+      "distance" : 574,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 94.33454878255326
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 4.042449159965506
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.80809821627526
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.4509331576134078
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.06935262406514847
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.048173396800840554
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.04721443470246112
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.03712790969592835
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.02312897488794043
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.020990917586740918
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.020801104794915044
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.012881981849415084
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.009542231283277518
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.007703649814334121
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.007064946285323655
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.006998383836626279
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.006512985463661935
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.006213667406527451
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.005888814204634803
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.005820240744659205
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.005638863283215755
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.004725950439760636
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.004326238115119807
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.0036336268511216116
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0020111144839953816
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.001832251566758271
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.001794019946659525
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.0017263800521079547
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 9.616681840134076E-4
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 7.340873319122943E-4
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 5.930324362650495E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 3.3161070713875974E-4
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 2.4557677206136184E-4
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 2.0211627377819095E-40
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 374226722,
+          "lngE7" : -1221701278
+        }, {
+          "latE7" : 374228439,
+          "lngE7" : -1221731567
+        }, {
+          "latE7" : 374236412,
+          "lngE7" : -1221717529
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374228325,
+          "lngE7" : -1221732025,
+          "timestampMs" : "1498619048475",
+          "accuracyMeters" : 24
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374247388,
+        "longitudeE7" : -1221710683
+      },
+      "endLocation" : {
+        "latitudeE7" : 374255954,
+        "longitudeE7" : -1221771764
+      },
+      "duration" : {
+        "startTimestampMs" : "1498619478886",
+        "endTimestampMs" : "1498619961290"
+      },
+      "distance" : 721,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 95.37923005809495
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.8454045913938133
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 1.2044025646508183
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.1482695410408563
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.18107685849637786
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.13246387858621989
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.020312540790646625
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.015132012061973186
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.013283750826725322
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.010361104486118296
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.010177140418477533
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.0058564085098895295
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.00574203452785186
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.005083009460545286
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.004636407087383252
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.00426691019465397
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.004123351901758747
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.0020117164862736617
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.0013690275025210212
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.0012174292631739819
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.0011044300000810448
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 7.483787714803804E-4
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 6.661603748384245E-4
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 5.628055445484559E-4
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 5.086677781720373E-4
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 4.6239260529810087E-4
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 4.248659988133921E-4
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 3.1098092813376936E-4
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 2.7820696468733346E-4
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 2.274907357667852E-4
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 1.3479177003549253E-4
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 1.0385172497434026E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 4.6641022116421226E-5
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 9.59727124455022E-40
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 374248046,
+          "lngE7" : -1221710891
+        }, {
+          "latE7" : 374259567,
+          "lngE7" : -1221753082
+        }, {
+          "latE7" : 374256019,
+          "lngE7" : -1221772155
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374263306,
+          "lngE7" : -1221751480,
+          "timestampMs" : "1498619881251",
+          "accuracyMeters" : 50
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374274745,
+        "longitudeE7" : -1221697190,
+        "placeId" : "ChIJneqLZyq7j4ARf2j8RBrwzSk",
+        "address" : "450 Serra Mall\nStanford, CA 94305\nUSA",
+        "name" : "Stanford University",
+        "sourceInfo" : {
+          "deviceTag" : 1874529256
+        },
+        "locationConfidence" : 99.99918
+      },
+      "duration" : {
+        "startTimestampMs" : "1498693531550",
+        "endTimestampMs" : "1498696306047"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 374247909,
+          "longitudeE7" : -1221687329,
+          "placeId" : "ChIJRaBaO9S6j4ARnJbb4ul_61Y",
+          "address" : "519 Lasuen Mall\nStanford, CA 94305\nUSA",
+          "name" : "Stanford Bookstore",
+          "sourceInfo" : {
+            "deviceTag" : 1874529256
+          },
+          "locationConfidence" : 99.890915
+        },
+        "duration" : {
+          "startTimestampMs" : "1498693531550",
+          "endTimestampMs" : "1498696306047"
+        },
+        "placeConfidence" : "HIGH_CONFIDENCE",
+        "centerLatE7" : 374249969,
+        "centerLngE7" : -1221691768,
+        "visitConfidence" : 86,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 374274821,
+          "longitudeE7" : -1221702636,
+          "placeId" : "ChIJVyIjdSq7j4ARZt4ceg3_8EM",
+          "name" : "Main Quad",
+          "locationConfidence" : 0.038450047
+        }, {
+          "latitudeE7" : 374249567,
+          "longitudeE7" : -1221693941,
+          "placeId" : "ChIJL_0eL9S6j4ARiIH5-4i-lv4",
+          "name" : "White Memorial Fountain",
+          "locationConfidence" : 0.026022468
+        }, {
+          "latitudeE7" : 374243050,
+          "longitudeE7" : -1221688933,
+          "placeId" : "ChIJGy8NoNa6j4ARow76ih69Mdo",
+          "name" : "United States Postal Service",
+          "locationConfidence" : 0.019648738
+        }, {
+          "latitudeE7" : 374228934,
+          "longitudeE7" : -1221677975,
+          "placeId" : "ChIJRSplONG6j4ARPh1bVSnVkUo",
+          "name" : "The Market at Munger",
+          "locationConfidence" : 0.009406629
+        }, {
+          "latitudeE7" : 374238768,
+          "longitudeE7" : -1221674405,
+          "placeId" : "ChIJI2B2rta6j4AROCaofVsUmvc",
+          "name" : "Stanford Law School",
+          "locationConfidence" : 0.0065912004
+        }, {
+          "latitudeE7" : 374268182,
+          "longitudeE7" : -1221671400,
+          "placeId" : "ChIJh_57W9a6j4ARj1Z0pGMtNIk",
+          "name" : "Cecil H Green Library",
+          "locationConfidence" : 0.0039479993
+        }, {
+          "latitudeE7" : 374242812,
+          "longitudeE7" : -1221708629,
+          "placeId" : "ChIJWWGDZtS6j4AR2xhSbCp_TNw",
+          "name" : "FedEx Office Print & Ship Center",
+          "locationConfidence" : 0.0034975233
+        }, {
+          "latitudeE7" : 374263980,
+          "longitudeE7" : -1221683600,
+          "placeId" : "ChIJT29mcNa6j4ARgIANVd0eRRM",
+          "name" : "Stanford Graduate School of Education",
+          "locationConfidence" : 0.0026321062
+        }, {
+          "latitudeE7" : 374253641,
+          "longitudeE7" : -1221713037,
+          "placeId" : "ChIJvVMDr9W6j4ARm9mwdRPIn6M",
+          "name" : "Stanford Product Design Loft",
+          "locationConfidence" : 0.00221368
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 374249969,
+      "centerLngE7" : -1221691768,
+      "visitConfidence" : 86,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374252568,
+        "longitudeE7" : -1221694033,
+        "placeId" : "ChIJE3FZLNS6j4ARWFv0DygWPPA",
+        "locationConfidence" : 5.26204E-4
+      }, {
+        "latitudeE7" : 374243043,
+        "longitudeE7" : -1221688917,
+        "placeId" : "ChIJrzOyI9S6j4ARgUheLYVVLmc",
+        "locationConfidence" : 1.7432748E-4
+      }, {
+        "latitudeE7" : 374243230,
+        "longitudeE7" : -1221689720,
+        "placeId" : "ChIJT5z6H9S6j4ARKlATawKbtKc",
+        "locationConfidence" : 7.258832E-5
+      }, {
+        "latitudeE7" : 374262365,
+        "longitudeE7" : -1221710100,
+        "placeId" : "ChIJv1I2oCq7j4ARgOjiJpphOlY",
+        "name" : "Stanford University Department of Mechanical Engineering",
+        "locationConfidence" : 4.57558E-5
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374252404,
+          "lngE7" : -1221689839,
+          "timestampMs" : "1498693606807",
+          "accuracyMeters" : 20
+        }, {
+          "latE7" : 374245860,
+          "lngE7" : -1221686402,
+          "timestampMs" : "1498693651187",
+          "accuracyMeters" : 30
+        }, {
+          "latE7" : 374243114,
+          "lngE7" : -1221692056,
+          "timestampMs" : "1498693928989",
+          "accuracyMeters" : 34
+        }, {
+          "latE7" : 374253329,
+          "lngE7" : -1221696078,
+          "timestampMs" : "1498694074033",
+          "accuracyMeters" : 32
+        }, {
+          "latE7" : 374248456,
+          "lngE7" : -1221692802,
+          "timestampMs" : "1498694521004",
+          "accuracyMeters" : 24
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374274745,
+        "longitudeE7" : -1221697190,
+        "placeId" : "ChIJneqLZyq7j4ARf2j8RBrwzSk",
+        "address" : "450 Serra Mall\nStanford, CA 94305\nUSA",
+        "name" : "Stanford University",
+        "sourceInfo" : {
+          "deviceTag" : 1874529256
+        },
+        "locationConfidence" : 99.9952
+      },
+      "duration" : {
+        "startTimestampMs" : "1498787467000",
+        "endTimestampMs" : "1498787766000"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 374270325,
+      "centerLngE7" : -1221716875,
+      "visitConfidence" : 73,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374259799,
+        "longitudeE7" : -1221724772,
+        "placeId" : "ChIJ6Yb_bdW6j4AR4K7qAoY94nA",
+        "locationConfidence" : 0.0032764887
+      }, {
+        "latitudeE7" : 374266157,
+        "longitudeE7" : -1221734619,
+        "placeId" : "ChIJ9wSz3tS6j4ARWA0gCT8V0gY",
+        "locationConfidence" : 8.6689903E-4
+      }, {
+        "latitudeE7" : 374257735,
+        "longitudeE7" : -1221705867,
+        "placeId" : "ChIJcdmWcdW6j4ARUB2sdYKMpvI",
+        "locationConfidence" : 5.143079E-4
+      }, {
+        "latitudeE7" : 374294290,
+        "longitudeE7" : -1221727424,
+        "placeId" : "ChIJhQIDHCu7j4ARntSILbaKFC4",
+        "locationConfidence" : 1.4159777E-4
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374268835,
+          "lngE7" : -1221712881,
+          "timestampMs" : "1498787527999",
+          "accuracyMeters" : 4
+        }, {
+          "latE7" : 374270425,
+          "lngE7" : -1221719497,
+          "timestampMs" : "1498787720000",
+          "accuracyMeters" : 4
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374268104,
+        "longitudeE7" : -1221712555
+      },
+      "endLocation" : {
+        "latitudeE7" : 374253349,
+        "longitudeE7" : -1221757871
+      },
+      "duration" : {
+        "startTimestampMs" : "1498787769361",
+        "endTimestampMs" : "1498798086283"
+      },
+      "distance" : 432,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 46.12805730670944
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 28.632480542335838
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 22.23710064305373
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.5077694158131701
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.34861973190357665
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.30801076295220303
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.2628590200884178
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.1882603999128172
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.1839903972420261
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.17566635645850107
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.1418358201059456
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.1377111345913224
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.0971206675049895
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.08144145868463529
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.07241798864825369
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.06916838508223405
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.05634327608512791
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 0.045556520049670785
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.04275914323297721
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.039975699715047774
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.03643968915997436
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.029011580985497862
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.02830607565198329
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.026065652453685136
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.025066686593389634
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.021571288883093374
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.02040375957537996
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 0.01568243513869792
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.015598696880493536
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.011904313547339394
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.006772389356456778
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 0.003868293616076972
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0021644679879937504
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 2.2395780623782387E-42
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 374268798,
+          "lngE7" : -1221711730
+        }, {
+          "latE7" : 374253234,
+          "lngE7" : -1221757354
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  } ]
+}

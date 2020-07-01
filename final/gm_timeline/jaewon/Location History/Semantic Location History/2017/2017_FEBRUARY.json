@@ -1,0 +1,407 @@
+{
+  "timelineObjects" : [ {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374818702,
+        "longitudeE7" : 1269459092
+      },
+      "endLocation" : {
+        "latitudeE7" : 374820796,
+        "longitudeE7" : 1269537903
+      },
+      "duration" : {
+        "startTimestampMs" : "1486118955999",
+        "endTimestampMs" : "1486119521939"
+      },
+      "distance" : 700,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 82.07881671112528
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 10.060026899109104
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 4.452825801021869
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 2.044897929621913
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.3882701910720037
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.3229127454078128
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.2631015287246043
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.15415815865413227
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.05626114177058058
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.053676411924045576
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.0440420823571126
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.016781959441417714
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.01624134736990166
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.01169455613500599
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.009333512503972555
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.007958237989203382
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.0028850025998233835
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.0028573214516136305
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.0020911030748166906
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.001831528768847776
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.0017438676749899661
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.0015071112035723265
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.0015057191097394345
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.0010330867063601064
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.0010146878598214298
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 8.719504668109522E-4
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 5.557751116363362E-4
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 3.935745433661853E-4
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 3.845740103629818E-4
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 1.811732162076814E-4
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 7.841056838505384E-5
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 5.977228278789645E-5
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 6.127122840065553E-6
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 3.2047297132390494E-44
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374834813,
+        "longitudeE7" : 1269566968
+      },
+      "endLocation" : {
+        "latitudeE7" : 374990216,
+        "longitudeE7" : 1269889379
+      },
+      "duration" : {
+        "startTimestampMs" : "1486127734291",
+        "endTimestampMs" : "1486178130238"
+      },
+      "distance" : 3328,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 73.434720162862
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 13.600828721257107
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 10.69333276702729
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 1.3276119721414457
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.3305105101475298
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.13074923639374852
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.08471651567872952
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.0742208777590255
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.07383220570354865
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.06418817498298397
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.030215074431394675
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.028197341449388808
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.02632279662379384
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.02445175581319113
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.020657945925946417
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.017288778063742023
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.011190383801944053
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.011150685245910775
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.0071286123602013335
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.004171788116542646
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.0024809282327387305
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 4.933378397536318E-4
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 4.378678761553657E-4
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 4.291719380741349E-4
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 3.126034451501309E-4
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 8.610855529183311E-5
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 8.516113734705543E-5
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 7.597278020128677E-5
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 5.724109770212939E-5
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 2.6446529848428747E-5
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 2.1502701535516326E-5
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 6.576203393951299E-6
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 7.758773011859777E-7
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 2.287862709154319E-43
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 375008944,
+        "longitudeE7" : 1269928254
+      },
+      "endLocation" : {
+        "latitudeE7" : 375014664,
+        "longitudeE7" : 1269940128
+      },
+      "duration" : {
+        "startTimestampMs" : "1486184256794",
+        "endTimestampMs" : "1486186118113"
+      },
+      "distance" : 122,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 55.54373674170358
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 26.993831427271886
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 11.76014939262494
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 1.9304035841397393
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.98590058031468
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.6944375661729556
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.5588773921223388
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.3699313905062191
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.20393192006332053
+      }, {
+        "activityType" : "IN_WHEELCHAIR",
+        "probability" : 0.19354920597085362
+      }, {
+        "activityType" : "SNOWMOBILE",
+        "probability" : 0.15073210438454088
+      }, {
+        "activityType" : "SWIMMING",
+        "probability" : 0.13282688518522434
+      }, {
+        "activityType" : "SKATING",
+        "probability" : 0.1118520115385884
+      }, {
+        "activityType" : "SKATEBOARDING",
+        "probability" : 0.09993601111121928
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.09423966953554899
+      }, {
+        "activityType" : "HORSEBACK_RIDING",
+        "probability" : 0.05521766482679438
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.03157449451273977
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 0.01980991729711172
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.017580717215099784
+      }, {
+        "activityType" : "SNOWSHOEING",
+        "probability" : 0.013299514661187435
+      }, {
+        "activityType" : "KAYAKING",
+        "probability" : 0.008101190053841086
+      }, {
+        "activityType" : "IN_CABLECAR",
+        "probability" : 0.005837289060910624
+      }, {
+        "activityType" : "IN_FUNICULAR",
+        "probability" : 0.003882701364785628
+      }, {
+        "activityType" : "IN_GONDOLA_LIFT",
+        "probability" : 0.0037686699519109777
+      }, {
+        "activityType" : "WALKING_NORDIC",
+        "probability" : 0.0036088755444036074
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0035528251606311446
+      }, {
+        "activityType" : "ROWING",
+        "probability" : 0.003502498657566852
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.002841591971855622
+      }, {
+        "activityType" : "SURFING",
+        "probability" : 0.001957596881196063
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 7.619528385570983E-4
+      }, {
+        "activityType" : "KITESURFING",
+        "probability" : 2.730385085086343E-4
+      }, {
+        "activityType" : "SLEDDING",
+        "probability" : 6.579945480626628E-5
+      }, {
+        "activityType" : "SNOWBOARDING",
+        "probability" : 2.777939246042089E-5
+      }, {
+        "activityType" : "CATCHING_POKEMON",
+        "probability" : 1.0011168178065288E-43
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 375014664,
+        "longitudeE7" : 1269940128
+      },
+      "endLocation" : {
+        "latitudeE7" : 375050975,
+        "longitudeE7" : 1270471929
+      },
+      "duration" : {
+        "startTimestampMs" : "1486186118113",
+        "endTimestampMs" : "1488688257299"
+      },
+      "activityType" : "UNKNOWN_ACTIVITY_TYPE",
+      "activities" : [ {
+        "activityType" : "UNKNOWN_ACTIVITY_TYPE",
+        "probability" : 0.0
+      } ],
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 375054710,
+          "lngE7" : 1270023275,
+          "timestampMs" : "1486195074840",
+          "accuracyMeters" : 18
+        }, {
+          "latE7" : 375055757,
+          "lngE7" : 1270483778,
+          "timestampMs" : "1486792119136",
+          "accuracyMeters" : 19
+        }, {
+          "latE7" : 374985536,
+          "lngE7" : 1270605522,
+          "timestampMs" : "1487314125999",
+          "accuracyMeters" : 6
+        } ]
+      }
+    }
+  } ]
+}

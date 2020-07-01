@@ -1,0 +1,81 @@
+{
+  "timelineObjects" : [ {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374824850,
+        "longitudeE7" : 1270527000,
+        "placeId" : "ChIJBVnW6LqmfDURIFxPbAdX84M",
+        "address" : "대한민국 서울특별시 개포동",
+        "name" : "Hyundai Apt.",
+        "sourceInfo" : {
+          "deviceTag" : 1874529256
+        },
+        "locationConfidence" : 69.82787
+      },
+      "duration" : {
+        "startTimestampMs" : "1485517325537",
+        "endTimestampMs" : "1485538863588"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374822220,
+      "centerLngE7" : 1270527337,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374826300,
+        "longitudeE7" : 1270511040,
+        "placeId" : "ChIJAZ-ghLqmfDUR1iVxuEPNZb8",
+        "name" : "개포현대2차아파트",
+        "locationConfidence" : 11.424627
+      }, {
+        "latitudeE7" : 374828830,
+        "longitudeE7" : 1270530010,
+        "placeId" : "ChIJX7-L3LqmfDURIwnqKtKkt84",
+        "name" : "Hyundai Apt., Keangnam Apt.",
+        "locationConfidence" : 2.8684268
+      }, {
+        "latitudeE7" : 374830668,
+        "longitudeE7" : 1270540463,
+        "placeId" : "ChIJ7f6sOrumfDURXq7dM9dkqF8",
+        "name" : "개포현대1차아파트",
+        "locationConfidence" : 2.075167
+      }, {
+        "latitudeE7" : 374812410,
+        "longitudeE7" : 1270532702,
+        "placeId" : "ChIJbaihVbqmfDURd7cXGajQsaM",
+        "name" : "쌍용빌라트",
+        "locationConfidence" : 0.99345034
+      }, {
+        "latitudeE7" : 374830741,
+        "longitudeE7" : 1270530479,
+        "placeId" : "ChIJ4eCe0LqmfDUR-qq68hMAnrQ",
+        "name" : "GS25 개포경남점",
+        "locationConfidence" : 0.6831831
+      }, {
+        "latitudeE7" : 374843795,
+        "longitudeE7" : 1270543533,
+        "placeId" : "ChIJRSl0wqSmfDURr4Clo8M--po",
+        "name" : "개포경남아파트",
+        "locationConfidence" : 0.65248644
+      }, {
+        "latitudeE7" : 374825481,
+        "longitudeE7" : 1270544891,
+        "placeId" : "ChIJ514IOrumfDURdz-s8Q0BMic",
+        "name" : "봉화장",
+        "locationConfidence" : 0.65135336
+      }, {
+        "latitudeE7" : 374813054,
+        "longitudeE7" : 1270528970,
+        "placeId" : "ChIJHVeu-LqmfDURgzkTUae0t88",
+        "name" : "잠실2차현대아파트",
+        "locationConfidence" : 0.6040484
+      }, {
+        "latitudeE7" : 374810335,
+        "longitudeE7" : 1270532554,
+        "placeId" : "ChIJmxOHU7qmfDURFJvWnAnjkaY",
+        "name" : "프로그램등록전문변리사특허사무소",
+        "locationConfidence" : 0.49282262
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  } ]
+}

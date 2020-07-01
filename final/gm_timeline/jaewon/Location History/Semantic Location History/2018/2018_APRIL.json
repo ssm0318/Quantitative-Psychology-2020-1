@@ -1,0 +1,138 @@
+{
+  "timelineObjects" : [ {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374701014,
+        "longitudeE7" : 1269352820,
+        "placeId" : "ChIJX5LVyueffDURseJfgpZmQMs",
+        "address" : "대한민국 서울특별시 관악구 신림동 1522-1",
+        "name" : "관악청소년회관",
+        "sourceInfo" : {
+          "deviceTag" : -296688499
+        },
+        "locationConfidence" : 57.339832
+      },
+      "duration" : {
+        "startTimestampMs" : "1522839330372",
+        "endTimestampMs" : "1522883022089"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374703044,
+      "centerLngE7" : 1269351067,
+      "visitConfidence" : 84,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374694290,
+        "longitudeE7" : 1269359131,
+        "placeId" : "ChIJc2M-RuaffDURu1uXiZWQkxQ",
+        "locationConfidence" : 3.5687492
+      }, {
+        "latitudeE7" : 374705683,
+        "longitudeE7" : 1269351123,
+        "placeId" : "ChIJ7WuDzeeffDURkcNgTZi43og",
+        "name" : "미스터피자(신림녹두점)",
+        "locationConfidence" : 2.3526497
+      }, {
+        "latitudeE7" : 374697403,
+        "longitudeE7" : 1269346709,
+        "placeId" : "ChIJ7dtisOeffDURuMrI9uvBLSc",
+        "name" : "Misoya",
+        "locationConfidence" : 0.40044418
+      }, {
+        "latitudeE7" : 374699408,
+        "longitudeE7" : 1269350428,
+        "placeId" : "ChIJNfDHteeffDURTCxYmQ4E3To",
+        "name" : "COFFEE HOUSE",
+        "locationConfidence" : 0.35437855
+      }, {
+        "latitudeE7" : 374707022,
+        "longitudeE7" : 1269356375,
+        "placeId" : "ChIJUWpVKeaffDUR1jF38POaaOg",
+        "name" : "엘노핌피자",
+        "locationConfidence" : 0.3472931
+      }, {
+        "latitudeE7" : 374703514,
+        "longitudeE7" : 1269368374,
+        "placeId" : "ChIJJ53mHuaffDURuOnd5k0mi0I",
+        "name" : "아림약국",
+        "locationConfidence" : 0.29939508
+      }, {
+        "latitudeE7" : 374708249,
+        "longitudeE7" : 1269353151,
+        "placeId" : "ChIJtTFUK-affDURWINcRp1iP5Y",
+        "name" : "투썸플레이스",
+        "locationConfidence" : 0.26331058
+      }, {
+        "latitudeE7" : 374694133,
+        "longitudeE7" : 1269352006,
+        "placeId" : "ChIJzS-esueffDUR_ptReL5JhMw",
+        "name" : "비노앤빈",
+        "locationConfidence" : 0.2614934
+      }, {
+        "latitudeE7" : 374706013,
+        "longitudeE7" : 1269364485,
+        "placeId" : "ChIJh1jxIOaffDURqN4LKE_VijU",
+        "name" : "명인만두 서울대점",
+        "locationConfidence" : 0.23894614
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374703044,
+        "longitudeE7" : 1269351067
+      },
+      "endLocation" : {
+        "latitudeE7" : 374823305,
+        "longitudeE7" : 1270528645
+      },
+      "duration" : {
+        "startTimestampMs" : "1522883022089",
+        "endTimestampMs" : "1525698863859"
+      },
+      "activityType" : "UNKNOWN_ACTIVITY_TYPE",
+      "activities" : [ {
+        "activityType" : "UNKNOWN_ACTIVITY_TYPE",
+        "probability" : 0.0
+      } ],
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374700772,
+          "lngE7" : 1269346659,
+          "timestampMs" : "1522883022089",
+          "accuracyMeters" : 26
+        }, {
+          "latE7" : 374704975,
+          "lngE7" : 1269357479,
+          "timestampMs" : "1523683082948",
+          "accuracyMeters" : 33
+        }, {
+          "latE7" : 374698918,
+          "lngE7" : 1269340229,
+          "timestampMs" : "1524063496896",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 374572873,
+          "lngE7" : 1269502386,
+          "timestampMs" : "1524196485737",
+          "accuracyMeters" : 24
+        }, {
+          "latE7" : 374602816,
+          "lngE7" : 1269496675,
+          "timestampMs" : "1524487586101",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 374712047,
+          "lngE7" : 1269348678,
+          "timestampMs" : "1525516075822",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 374708426,
+          "lngE7" : 1269343984,
+          "timestampMs" : "1525516112320",
+          "accuracyMeters" : 98
+        } ]
+      }
+    }
+  } ]
+}

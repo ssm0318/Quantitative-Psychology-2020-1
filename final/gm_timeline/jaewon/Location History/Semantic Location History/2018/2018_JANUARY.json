@@ -1,0 +1,139 @@
+{
+  "timelineObjects" : [ {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 375511180,
+        "longitudeE7" : 1269201750,
+        "placeId" : "ChIJKVNx-tCYfDURohwxZNldWtE",
+        "address" : "대한민국 서울특별시 마포구 서교동 양화로6길 57-6",
+        "name" : "THANKS BOOKS",
+        "sourceInfo" : {
+          "deviceTag" : 1874529256
+        },
+        "locationConfidence" : 1.3798773
+      },
+      "duration" : {
+        "startTimestampMs" : "1515836550032",
+        "endTimestampMs" : "1515836826679"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 375499792,
+      "centerLngE7" : 1269198008,
+      "visitConfidence" : 76,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 375500661,
+        "longitudeE7" : 1269212695,
+        "placeId" : "ChIJRzLrB9CYfDURbJO8Y50PETQ",
+        "name" : "Sobog",
+        "locationConfidence" : 1.2553622
+      }, {
+        "latitudeE7" : 375491470,
+        "longitudeE7" : 1269209478,
+        "placeId" : "ChIJAf8zFtCYfDURf5uN-0gCV54",
+        "name" : "육칠팔 홍대점",
+        "locationConfidence" : 1.1660808
+      }, {
+        "latitudeE7" : 375495181,
+        "longitudeE7" : 1269216520,
+        "placeId" : "ChIJobMaA9CYfDURkfNsgurGUQI",
+        "name" : "그릴5타코(홍대점)",
+        "locationConfidence" : 1.1377586
+      }, {
+        "latitudeE7" : 375502414,
+        "longitudeE7" : 1269213315,
+        "placeId" : "ChIJYXpWqNqYfDURNXOsB7Ic7KQ",
+        "name" : "맨하탄스",
+        "locationConfidence" : 0.97428006
+      }, {
+        "latitudeE7" : 375489181,
+        "longitudeE7" : 1269203705,
+        "placeId" : "ChIJ7-QbR9CYfDURZkPMl9xuv9E",
+        "name" : "바빈스커피",
+        "locationConfidence" : 0.8847478
+      }, {
+        "latitudeE7" : 375495124,
+        "longitudeE7" : 1269213148,
+        "placeId" : "ChIJReXRGtCYfDURwWk8xV1XdSU",
+        "name" : "Cafe aA",
+        "locationConfidence" : 0.8224897
+      }, {
+        "latitudeE7" : 375503687,
+        "longitudeE7" : 1269213545,
+        "placeId" : "ChIJBQgqqdqYfDURK_L5KYmbnAI",
+        "name" : "찰리주막",
+        "locationConfidence" : 0.7592699
+      }, {
+        "latitudeE7" : 375485360,
+        "longitudeE7" : 1269207256,
+        "placeId" : "ChIJx8mhN9CYfDURLWIUPPA-j5U",
+        "name" : "무라 Mura",
+        "locationConfidence" : 0.74957824
+      }, {
+        "latitudeE7" : 375495914,
+        "longitudeE7" : 1269207256,
+        "placeId" : "ChIJcYJVEtCYfDUR37dZPf9A3qM",
+        "name" : "삼삼이네생고기",
+        "locationConfidence" : 0.6888985
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 375496631,
+        "longitudeE7" : 1269196134
+      },
+      "endLocation" : {
+        "latitudeE7" : 375486433,
+        "longitudeE7" : 1269155427
+      },
+      "duration" : {
+        "startTimestampMs" : "1515836829097",
+        "endTimestampMs" : "1515837091166"
+      },
+      "distance" : 376,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 98.40447273084723
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 0.8842653994698935
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.24381843446155652
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374645631,
+        "longitudeE7" : 1269510723
+      },
+      "endLocation" : {
+        "latitudeE7" : 374679779,
+        "longitudeE7" : 1269578453
+      },
+      "duration" : {
+        "startTimestampMs" : "1516351885000",
+        "endTimestampMs" : "1516352629340"
+      },
+      "distance" : 708,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 83.17315732993812
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 13.903729191437861
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.254321376516556
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  } ]
+}

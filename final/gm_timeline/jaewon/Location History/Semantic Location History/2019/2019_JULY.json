@@ -1,0 +1,4968 @@
+{
+  "timelineObjects" : [ {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374686990,
+        "longitudeE7" : 1269347520,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374695509,
+        "longitudeE7" : 1269356409,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1561979313127",
+        "endTimestampMs" : "1561979481443"
+      },
+      "distance" : 294,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 98.24794924282986
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.1730854982342613
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.26535015791748556
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374695509,
+        "longitudeE7" : 1269356409,
+        "placeId" : "ChIJiaVVSeaffDURCb08z_fAV90",
+        "address" : "대한민국 서울특별시 관악구 대학동 호암로24길 43",
+        "name" : "Dabujji",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 35.40376
+      },
+      "duration" : {
+        "startTimestampMs" : "1561979481443",
+        "endTimestampMs" : "1561982699301"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 374694842,
+      "centerLngE7" : 1269356428,
+      "visitConfidence" : 65,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374694668,
+        "longitudeE7" : 1269356682,
+        "placeId" : "ChIJ5atJZ5qffDURPwauBP33Gl8",
+        "locationConfidence" : 17.935045
+      }, {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "placeId" : "ChIJdXtCy-effDURZNV-ACrwPHQ",
+        "locationConfidence" : 3.8273726
+      }, {
+        "latitudeE7" : 374695256,
+        "longitudeE7" : 1269360461,
+        "placeId" : "ChIJ4atLRuaffDURZ34TSpL3kDg",
+        "locationConfidence" : 3.358246
+      }, {
+        "latitudeE7" : 374694461,
+        "longitudeE7" : 1269363905,
+        "placeId" : "ChIJ5_DnQOaffDURfgK1hRVKdUk",
+        "locationConfidence" : 0.9463789
+      }, {
+        "latitudeE7" : 374703968,
+        "longitudeE7" : 1269344537,
+        "placeId" : "ChIJX_x-seeffDUR6CKAaVPePqM",
+        "locationConfidence" : 0.59874004
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374695509,
+        "longitudeE7" : 1269356409,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374686990,
+        "longitudeE7" : 1269347520,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1561982699301",
+        "endTimestampMs" : "1561982822714"
+      },
+      "distance" : 205,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.6274483054582
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.4491538500889558
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.4793522498664755
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374686990,
+        "longitudeE7" : 1269347520,
+        "placeId" : "ChIJD4HXBeeffDURMtesC4pgff8",
+        "address" : "대한민국 서울시 관악구 대학동\n신림로 23길 일성트루엘 3층",
+        "name" : "공단기 신림학원",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 42.329884
+      },
+      "duration" : {
+        "startTimestampMs" : "1561982822714",
+        "endTimestampMs" : "1562124122621"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374702853,
+      "centerLngE7" : 1269349211,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "placeId" : "ChIJdXtCy-effDURZNV-ACrwPHQ",
+        "locationConfidence" : 19.856775
+      }, {
+        "latitudeE7" : 374705468,
+        "longitudeE7" : 1269351054,
+        "placeId" : "ChIJKViZzeeffDURyap8H6n_vbE",
+        "locationConfidence" : 0.74210685
+      }, {
+        "latitudeE7" : 374707968,
+        "longitudeE7" : 1269344439,
+        "placeId" : "ChIJg5MTO_-ffDURwZPWfARMLEQ",
+        "locationConfidence" : 0.7137046
+      }, {
+        "latitudeE7" : 374696368,
+        "longitudeE7" : 1269343764,
+        "placeId" : "ChIJufM5zVuffDURa9ujnYMPqHk",
+        "locationConfidence" : 0.4515523
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374702012,
+        "longitudeE7" : 1269348351,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374641136,
+        "longitudeE7" : 1269495811,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1562124122621",
+        "endTimestampMs" : "1562124450333"
+      },
+      "distance" : 1549,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 82.44161437571829
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 7.91891873789901
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 5.390789361818347
+      } ],
+      "parkingEvent" : {
+        "timestampMs" : "1562124450333",
+        "location" : {
+          "latitudeE7" : 374641586,
+          "longitudeE7" : 1269495583,
+          "accuracyMetres" : 107
+        }
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374641586,
+        "longitudeE7" : 1269495583,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374598820,
+        "longitudeE7" : 1269519053,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1562124450333",
+        "endTimestampMs" : "1562124682455"
+      },
+      "distance" : 518,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 38.43584868351908
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 23.149582735894
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 22.33326022629652
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374598820,
+        "longitudeE7" : 1269519053,
+        "placeId" : "ChIJpeKhoOiffDUR58XwBLzu4qE",
+        "address" : "대한민국 서울특별시 관악구 관악로 1",
+        "name" : "Seoul National University",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 70.68978
+      },
+      "duration" : {
+        "startTimestampMs" : "1562124682455",
+        "endTimestampMs" : "1562135868410"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 374608990,
+          "longitudeE7" : 1269532868,
+          "placeId" : "ChIJdRnheP9fezURg-UPBqhl2no",
+          "address" : "대한민국 서울특별시 관악구 대학동 산56-1",
+          "name" : "우리은행 서울대학교지점",
+          "sourceInfo" : {
+            "deviceTag" : 235002806
+          },
+          "locationConfidence" : 35.350323
+        },
+        "duration" : {
+          "startTimestampMs" : "1562132366771",
+          "endTimestampMs" : "1562133202670"
+        },
+        "placeConfidence" : "LOW_CONFIDENCE",
+        "centerLatE7" : 374608071,
+        "centerLngE7" : 1269534137,
+        "visitConfidence" : 95,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 374607355,
+          "longitudeE7" : 1269534257,
+          "placeId" : "ChIJ9fmwp6iYfDURvbwMjMHjHn8",
+          "locationConfidence" : 8.416295
+        }, {
+          "latitudeE7" : 374602626,
+          "longitudeE7" : 1269535979,
+          "placeId" : "ChIJ279VrviffDURrw4ulPBlwKY",
+          "locationConfidence" : 7.269592
+        }, {
+          "latitudeE7" : 374603233,
+          "longitudeE7" : 1269537334,
+          "placeId" : "ChIJwwqucP9fezURRSGGGUF7mc4",
+          "locationConfidence" : 1.3433235
+        }, {
+          "latitudeE7" : 374590261,
+          "longitudeE7" : 1269508332,
+          "placeId" : "ChIJIbNG-_6ffDURY8ikqzcget4",
+          "locationConfidence" : 0.91316843
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 374625672,
+      "centerLngE7" : 1269524206,
+      "visitConfidence" : 95,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374599533,
+        "longitudeE7" : 1269510345,
+        "placeId" : "ChIJFQtW7v6ffDUR_rjguL0dOXQ",
+        "name" : "교보문고 서울대점",
+        "locationConfidence" : 19.789482
+      }, {
+        "latitudeE7" : 374641647,
+        "longitudeE7" : 1269538498,
+        "placeId" : "ChIJtcwPr_mffDUR6LSNrgPO3jU",
+        "locationConfidence" : 6.752329
+      }, {
+        "latitudeE7" : 374610580,
+        "longitudeE7" : 1269565160,
+        "placeId" : "ChIJaeDxVQKgfDURRQ4bkOOWhk0",
+        "locationConfidence" : 0.28126237
+      }, {
+        "latitudeE7" : 374653130,
+        "longitudeE7" : 1269486120,
+        "placeId" : "ChIJhcFEHvqffDURrbZlS7A957M",
+        "locationConfidence" : 0.23544991
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374631819,
+          "lngE7" : 1269501953,
+          "timestampMs" : "1562127094664",
+          "accuracyMeters" : 22
+        }, {
+          "latE7" : 374633218,
+          "lngE7" : 1269508897,
+          "timestampMs" : "1562127216582",
+          "accuracyMeters" : 30
+        }, {
+          "latE7" : 374618400,
+          "lngE7" : 1269528507,
+          "timestampMs" : "1562130351853",
+          "accuracyMeters" : 14
+        }, {
+          "latE7" : 374618400,
+          "lngE7" : 1269528507,
+          "timestampMs" : "1562130478112",
+          "accuracyMeters" : 14
+        }, {
+          "latE7" : 374612755,
+          "lngE7" : 1269520035,
+          "timestampMs" : "1562132238726",
+          "accuracyMeters" : 41
+        }, {
+          "latE7" : 374608290,
+          "lngE7" : 1269536226,
+          "timestampMs" : "1562133015558",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 374643184,
+          "lngE7" : 1269539716,
+          "timestampMs" : "1562135562857",
+          "accuracyMeters" : 14
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374651002,
+        "longitudeE7" : 1269544914,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374706991,
+        "longitudeE7" : 1269394848,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1562135868410",
+        "endTimestampMs" : "1562136210244"
+      },
+      "distance" : 1464,
+      "activityType" : "IN_BUS",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_BUS",
+        "probability" : 71.0770865794241
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 14.075217044379999
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 13.736459383839847
+      } ],
+      "transitPath" : {
+        "transitStops" : [ {
+          "latitudeE7" : 374642190,
+          "longitudeE7" : 1269552740,
+          "placeId" : "ChIJX9AKSR2gfDURDmsgwIGpfa0",
+          "name" : "Graduate School of International Studies"
+        }, {
+          "latitudeE7" : 374709670,
+          "longitudeE7" : 1269410600,
+          "placeId" : "ChIJcf_Eru-ffDUR2ez50gTYeYo",
+          "name" : "Seoul Polytechnic School, Samseonggyo Bridge"
+        } ],
+        "name" : "5516",
+        "hexRgbColor" : "0ABB0C"
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374704278,
+        "longitudeE7" : 1269402697,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374686990,
+        "longitudeE7" : 1269347520,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1562136210244",
+        "endTimestampMs" : "1562136546566"
+      },
+      "distance" : 523,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 49.5891082167693
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 44.3301729256844
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 2.8401284641128153
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374686990,
+        "longitudeE7" : 1269347520,
+        "placeId" : "ChIJD4HXBeeffDURMtesC4pgff8",
+        "address" : "대한민국 서울시 관악구 대학동\n신림로 23길 일성트루엘 3층",
+        "name" : "공단기 신림학원",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 52.03367
+      },
+      "duration" : {
+        "startTimestampMs" : "1562136546566",
+        "endTimestampMs" : "1562220844667"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374703020,
+      "centerLngE7" : 1269349128,
+      "visitConfidence" : 96,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "placeId" : "ChIJdXtCy-effDURZNV-ACrwPHQ",
+        "locationConfidence" : 25.070566
+      }, {
+        "latitudeE7" : 374699922,
+        "longitudeE7" : 1269347432,
+        "placeId" : "ChIJz4gat-effDURCQib4ajopg4",
+        "locationConfidence" : 0.40541527
+      }, {
+        "latitudeE7" : 374705468,
+        "longitudeE7" : 1269351054,
+        "placeId" : "ChIJKViZzeeffDURyap8H6n_vbE",
+        "locationConfidence" : 0.3500291
+      }, {
+        "latitudeE7" : 374695737,
+        "longitudeE7" : 1269343376,
+        "placeId" : "ChIJ2-hipOeffDUR9svjjHhCr48",
+        "locationConfidence" : 0.34852085
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374702232,
+        "longitudeE7" : 1269349289,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374807046,
+        "longitudeE7" : 1269527349,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1562220844667",
+        "endTimestampMs" : "1562221917707"
+      },
+      "distance" : 2410,
+      "activityType" : "IN_BUS",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_BUS",
+        "probability" : 74.42295352148875
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 19.20339621155624
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 3.9694566911513762
+      } ],
+      "transitPath" : {
+        "transitStops" : [ {
+          "latitudeE7" : 374710290,
+          "longitudeE7" : 1269338470,
+          "placeId" : "ChIJh6Jj6OeffDURhhGOHeodh4k",
+          "name" : "Gwanak Nonghyup, Sillim Branch"
+        }, {
+          "latitudeE7" : 374803170,
+          "longitudeE7" : 1269527770,
+          "placeId" : "ChIJKa0NuImffDURtfPoLH2f4Vc",
+          "name" : "Seoul National Univ. Station"
+        } ],
+        "name" : "6515",
+        "hexRgbColor" : "0ABB0C"
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374707967,
+          "lngE7" : 1269341027,
+          "timestampMs" : "1562220958138",
+          "accuracyMeters" : 14
+        }, {
+          "latE7" : 374706789,
+          "lngE7" : 1269411061,
+          "timestampMs" : "1562221221182",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 374763501,
+          "lngE7" : 1269525757,
+          "timestampMs" : "1562221696545",
+          "accuracyMeters" : 16
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374807107,
+        "longitudeE7" : 1269535624,
+        "placeId" : "ChIJf1U8aNiffDURi0zvW8nbyMY",
+        "address" : "대한민국 서울특별시 관악구 낙성대동 853-402\n877\n8497",
+        "name" : "파스쿠찌 서울대입구역점 Pascucci",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 46.61573
+      },
+      "duration" : {
+        "startTimestampMs" : "1562221917707",
+        "endTimestampMs" : "1562228571498"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374807417,
+      "centerLngE7" : 1269534011,
+      "visitConfidence" : 87,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374803890,
+        "longitudeE7" : 1269539640,
+        "placeId" : "ChIJlwVI1YmffDURnlGfIXmVhZg",
+        "locationConfidence" : 2.2215252
+      }, {
+        "latitudeE7" : 374814337,
+        "longitudeE7" : 1269538632,
+        "placeId" : "ChIJJV02IYiffDURJmfXKKlTi6A",
+        "locationConfidence" : 1.0763744
+      }, {
+        "latitudeE7" : 374804139,
+        "longitudeE7" : 1269534689,
+        "placeId" : "ChIJ1w3_0YmffDURg47A8eGi0Nk",
+        "locationConfidence" : 0.8759644
+      }, {
+        "latitudeE7" : 374802309,
+        "longitudeE7" : 1269523098,
+        "placeId" : "ChIJUWE21YuffDUROZgMgogajlg",
+        "locationConfidence" : 0.65583104
+      }, {
+        "latitudeE7" : 374808479,
+        "longitudeE7" : 1269523143,
+        "placeId" : "ChIJWQFcsomffDURZGhYnZi8NSs",
+        "locationConfidence" : 0.6394998
+      }, {
+        "latitudeE7" : 374806387,
+        "longitudeE7" : 1269529622,
+        "placeId" : "ChIJ7yjJy4mffDURimGcpbPDTew",
+        "locationConfidence" : 0.6349259
+      }, {
+        "latitudeE7" : 374809892,
+        "longitudeE7" : 1269520856,
+        "placeId" : "ChIJf3LYs4mffDUR1HEh1hRyv5s",
+        "locationConfidence" : 0.5257734
+      }, {
+        "latitudeE7" : 374804577,
+        "longitudeE7" : 1269539873,
+        "placeId" : "ChIJzVsprxigfDURSMufWE67aIk",
+        "locationConfidence" : 0.523909
+      }, {
+        "latitudeE7" : 374816957,
+        "longitudeE7" : 1269533850,
+        "placeId" : "ChIJEdvaPIiffDURQgGEiFZgIXM",
+        "locationConfidence" : 0.51381695
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374807107,
+        "longitudeE7" : 1269535624,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374793740,
+        "longitudeE7" : 1269521910,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1562228571498",
+        "endTimestampMs" : "1562228693422"
+      },
+      "distance" : 191,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 96.74794564880425
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 1.418574710933724
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.7360984809999408
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374793740,
+        "longitudeE7" : 1269521910,
+        "placeId" : "ChIJ-QrDj4mffDURCkya8wgS4KQ",
+        "address" : "대한민국 서울특별시 청룡동",
+        "name" : "Gwanak-gu Office",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 47.39099
+      },
+      "duration" : {
+        "startTimestampMs" : "1562228693422",
+        "endTimestampMs" : "1562229363871"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374792480,
+      "centerLngE7" : 1269526220,
+      "visitConfidence" : 92,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374791817,
+        "longitudeE7" : 1269534766,
+        "placeId" : "ChIJ13Ty5YmffDURUZtgaHuRyK4",
+        "locationConfidence" : 1.3401282
+      }, {
+        "latitudeE7" : 374798500,
+        "longitudeE7" : 1269520300,
+        "placeId" : "ChIJw7phl4mffDURS2Zchc0dEKA",
+        "locationConfidence" : 1.1647832
+      }, {
+        "latitudeE7" : 374789263,
+        "longitudeE7" : 1269528142,
+        "placeId" : "ChIJ7yRY84mffDUR0iVSeNrjdDU",
+        "locationConfidence" : 1.1186969
+      }, {
+        "latitudeE7" : 374796839,
+        "longitudeE7" : 1269528911,
+        "placeId" : "ChIJKVMg64mffDUR0sNdsCG5SOI",
+        "locationConfidence" : 1.1099491
+      }, {
+        "latitudeE7" : 374797171,
+        "longitudeE7" : 1269530425,
+        "placeId" : "ChIJg3fDOYuffDURhadZbJtwbqU",
+        "locationConfidence" : 1.1056639
+      }, {
+        "latitudeE7" : 374790279,
+        "longitudeE7" : 1269535036,
+        "placeId" : "ChIJNZVr5YmffDURabuTfN6QMj4",
+        "locationConfidence" : 1.0804044
+      }, {
+        "latitudeE7" : 374795649,
+        "longitudeE7" : 1269528901,
+        "placeId" : "ChIJaXgl64mffDURsBsKOcOv2TE",
+        "locationConfidence" : 1.0347914
+      }, {
+        "latitudeE7" : 374795650,
+        "longitudeE7" : 1269528900,
+        "placeId" : "ChIJzVsprxigfDURyYOpDyGN_Ec",
+        "locationConfidence" : 1.0269622
+      }, {
+        "latitudeE7" : 374791891,
+        "longitudeE7" : 1269534816,
+        "placeId" : "ChIJIT7u5YmffDURwkvcebHWQts",
+        "locationConfidence" : 0.97278947
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374791994,
+        "longitudeE7" : 1269528525,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374776242,
+        "longitudeE7" : 1269582039,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1562229363871",
+        "endTimestampMs" : "1562229731511"
+      },
+      "distance" : 506,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 96.96783658191258
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 1.1302022571101413
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 0.7439028017045888
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374776242,
+        "longitudeE7" : 1269582039,
+        "placeId" : "ChIJL89tvyagfDURq2yXwkcvgh4",
+        "address" : "1층\n106 관악로14길 낙성대동\n관악구 서울특별시\nSouth Korea",
+        "name" : "퍼블리코타코 PUBLICO TACO(Restaurante mexicano)",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 52.844795
+      },
+      "duration" : {
+        "startTimestampMs" : "1562229731511",
+        "endTimestampMs" : "1562244573868"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374779504,
+      "centerLngE7" : 1269576949,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374776397,
+        "longitudeE7" : 1269572927,
+        "placeId" : "ChIJO7aK2iagfDURoDsW01EzwKY",
+        "locationConfidence" : 3.8783555
+      }, {
+        "latitudeE7" : 374778290,
+        "longitudeE7" : 1269582338,
+        "placeId" : "ChIJFVdmlSagfDURVg3KM7eTQ08",
+        "locationConfidence" : 2.8566406
+      }, {
+        "latitudeE7" : 374778276,
+        "longitudeE7" : 1269580789,
+        "placeId" : "ChIJUTgawCagfDURvz2HLx1aSJQ",
+        "locationConfidence" : 2.487675
+      }, {
+        "latitudeE7" : 374771776,
+        "longitudeE7" : 1269583514,
+        "placeId" : "ChIJKew4PV2hfDURgsrmKyEF28g",
+        "locationConfidence" : 2.376855
+      }, {
+        "latitudeE7" : 374776974,
+        "longitudeE7" : 1269584068,
+        "placeId" : "ChIJzVsprxigfDURq29qKST_Lzw",
+        "locationConfidence" : 2.0830696
+      }, {
+        "latitudeE7" : 374775987,
+        "longitudeE7" : 1269582378,
+        "placeId" : "ChIJb019VPyhfDURU-mhmuCe2pA",
+        "locationConfidence" : 0.9907173
+      }, {
+        "latitudeE7" : 374776242,
+        "longitudeE7" : 1269582039,
+        "placeId" : "ChIJL89tvyagfDURaFBG-GDPAJs",
+        "locationConfidence" : 0.87802
+      }, {
+        "latitudeE7" : 374771919,
+        "longitudeE7" : 1269583686,
+        "placeId" : "ChIJ40qsuSagfDURTQXtHQBIdE4",
+        "locationConfidence" : 0.5907075
+      }, {
+        "latitudeE7" : 374778094,
+        "longitudeE7" : 1269578110,
+        "placeId" : "ChIJee_QxSagfDURWIiKUEEWOj8",
+        "locationConfidence" : 0.5694226
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374783224,
+        "longitudeE7" : 1269569220,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374803170,
+        "longitudeE7" : 1269527770,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1562244573868",
+        "endTimestampMs" : "1562244942741"
+      },
+      "distance" : 534,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 96.32145223582096
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.31642247613404
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 1.0463045221356522
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374803170,
+        "longitudeE7" : 1269527770,
+        "placeId" : "ChIJKa0NuImffDURtfPoLH2f4Vc",
+        "address" : "대한민국 서울특별시 봉천동",
+        "name" : "Seoul National Univ. Station",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 18.733364
+      },
+      "duration" : {
+        "startTimestampMs" : "1562244942741",
+        "endTimestampMs" : "1562246609664"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 374797624,
+      "centerLngE7" : 1269524735,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374793740,
+        "longitudeE7" : 1269521910,
+        "placeId" : "ChIJ-QrDj4mffDURCkya8wgS4KQ",
+        "locationConfidence" : 11.50968
+      }, {
+        "latitudeE7" : 374798500,
+        "longitudeE7" : 1269520300,
+        "placeId" : "ChIJw7phl4mffDURS2Zchc0dEKA",
+        "locationConfidence" : 3.1422446
+      }, {
+        "latitudeE7" : 374797171,
+        "longitudeE7" : 1269530425,
+        "placeId" : "ChIJg3fDOYuffDURhadZbJtwbqU",
+        "locationConfidence" : 1.7666538
+      }, {
+        "latitudeE7" : 374802309,
+        "longitudeE7" : 1269523098,
+        "placeId" : "ChIJUWE21YuffDUROZgMgogajlg",
+        "locationConfidence" : 1.5982293
+      }, {
+        "latitudeE7" : 374802714,
+        "longitudeE7" : 1269522176,
+        "placeId" : "ChIJLWh9u4mffDURkJcvlCVb8MM",
+        "locationConfidence" : 1.5412117
+      }, {
+        "latitudeE7" : 374791436,
+        "longitudeE7" : 1269527075,
+        "placeId" : "ChIJAQBE7YmffDURbru0nMzSg-o",
+        "locationConfidence" : 1.4582223
+      }, {
+        "latitudeE7" : 374789263,
+        "longitudeE7" : 1269528142,
+        "placeId" : "ChIJ7yRY84mffDUR0iVSeNrjdDU",
+        "locationConfidence" : 1.2537158
+      }, {
+        "latitudeE7" : 374797170,
+        "longitudeE7" : 1269528360,
+        "placeId" : "ChIJW_-86omffDURn2tLYejBNE0",
+        "locationConfidence" : 1.1706325
+      }, {
+        "latitudeE7" : 374794470,
+        "longitudeE7" : 1269522032,
+        "placeId" : "ChIJt8YkkImffDUR2Pv257VA-3w",
+        "locationConfidence" : 1.1268715
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374803170,
+        "longitudeE7" : 1269527770,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374686990,
+        "longitudeE7" : 1269347520,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1562246609664",
+        "endTimestampMs" : "1562247268810"
+      },
+      "distance" : 2364,
+      "activityType" : "IN_BUS",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_BUS",
+        "probability" : 81.62857113167526
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 10.066618195588648
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 7.592143862975018
+      } ],
+      "transitPath" : {
+        "transitStops" : [ {
+          "latitudeE7" : 374793740,
+          "longitudeE7" : 1269521910,
+          "placeId" : "ChIJ-QrDj4mffDURCkya8wgS4KQ",
+          "name" : "Gwanak-gu Office"
+        }, {
+          "latitudeE7" : 374710360,
+          "longitudeE7" : 1269376450,
+          "placeId" : "ChIJ3_FhseiffDUR0GXnZav2wsM",
+          "name" : "Sinseong Elementary School"
+        } ],
+        "name" : "6515",
+        "hexRgbColor" : "0ABB0C"
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374759093,
+          "lngE7" : 1269525514,
+          "timestampMs" : "1562246651787",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 374695927,
+          "lngE7" : 1269449040,
+          "timestampMs" : "1562246892961",
+          "accuracyMeters" : 100
+        }, {
+          "latE7" : 374707074,
+          "lngE7" : 1269402727,
+          "timestampMs" : "1562247014004",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 374702662,
+          "lngE7" : 1269371272,
+          "timestampMs" : "1562247148777",
+          "accuracyMeters" : 15
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374686990,
+        "longitudeE7" : 1269347520,
+        "placeId" : "ChIJD4HXBeeffDURMtesC4pgff8",
+        "address" : "대한민국 서울시 관악구 대학동\n신림로 23길 일성트루엘 3층",
+        "name" : "공단기 신림학원",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 53.778584
+      },
+      "duration" : {
+        "startTimestampMs" : "1562247268810",
+        "endTimestampMs" : "1562414911687"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374702615,
+      "centerLngE7" : 1269349349,
+      "visitConfidence" : 92,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "placeId" : "ChIJdXtCy-effDURZNV-ACrwPHQ",
+        "locationConfidence" : 19.773594
+      }, {
+        "latitudeE7" : 374699922,
+        "longitudeE7" : 1269347432,
+        "placeId" : "ChIJz4gat-effDURCQib4ajopg4",
+        "locationConfidence" : 0.3900078
+      }, {
+        "latitudeE7" : 374707968,
+        "longitudeE7" : 1269344439,
+        "placeId" : "ChIJg5MTO_-ffDURwZPWfARMLEQ",
+        "locationConfidence" : 0.35965514
+      }, {
+        "latitudeE7" : 374695737,
+        "longitudeE7" : 1269343376,
+        "placeId" : "ChIJ2-hipOeffDUR9svjjHhCr48",
+        "locationConfidence" : 0.32714945
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374686990,
+        "longitudeE7" : 1269347520,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374686241,
+        "longitudeE7" : 1269366343,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1562414911687",
+        "endTimestampMs" : "1562415039502"
+      },
+      "distance" : 166,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.23420917857314
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.7020616165562048
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.40255380785213557
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374686241,
+        "longitudeE7" : 1269366343,
+        "placeId" : "ChIJicH4XeaffDURP_KI5yr08H0",
+        "address" : "대한민국 서울특별시 관악구 대학동 1537-15",
+        "name" : "니와스시",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 88.23984
+      },
+      "duration" : {
+        "startTimestampMs" : "1562415039502",
+        "endTimestampMs" : "1562417388830"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374686222,
+      "centerLngE7" : 1269367256,
+      "visitConfidence" : 90,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374686507,
+        "longitudeE7" : 1269375275,
+        "placeId" : "ChIJadrmcOaffDURXTvH9IMJelk",
+        "locationConfidence" : 0.19984399
+      }, {
+        "latitudeE7" : 374682470,
+        "longitudeE7" : 1269362511,
+        "placeId" : "ChIJP2qCULqffDURoeSpaogukVI",
+        "locationConfidence" : 0.1928132
+      }, {
+        "latitudeE7" : 374692481,
+        "longitudeE7" : 1269378817,
+        "placeId" : "ChIJNZNnQ6KffDURGGYd1bFJyQU",
+        "locationConfidence" : 0.16954117
+      }, {
+        "latitudeE7" : 374684905,
+        "longitudeE7" : 1269359764,
+        "placeId" : "ChIJcwuCBb-ffDURJlObbcq9yF4",
+        "locationConfidence" : 0.16659275
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374686241,
+        "longitudeE7" : 1269366343,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374686990,
+        "longitudeE7" : 1269347520,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1562417388830",
+        "endTimestampMs" : "1562417509957"
+      },
+      "distance" : 166,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 93.12459798225173
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 4.798784538410408
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.6762119266021311
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374686990,
+        "longitudeE7" : 1269347520,
+        "placeId" : "ChIJD4HXBeeffDURMtesC4pgff8",
+        "address" : "대한민국 서울시 관악구 대학동\n신림로 23길 일성트루엘 3층",
+        "name" : "공단기 신림학원",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 53.487137
+      },
+      "duration" : {
+        "startTimestampMs" : "1562417509957",
+        "endTimestampMs" : "1562490336533"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374702423,
+      "centerLngE7" : 1269349397,
+      "visitConfidence" : 95,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "placeId" : "ChIJdXtCy-effDURZNV-ACrwPHQ",
+        "locationConfidence" : 26.84468
+      }, {
+        "latitudeE7" : 374699625,
+        "longitudeE7" : 1269346987,
+        "placeId" : "ChIJVf9qt-effDURIrUHQ08tUyU",
+        "locationConfidence" : 0.92865145
+      }, {
+        "latitudeE7" : 374704695,
+        "longitudeE7" : 1269343903,
+        "placeId" : "ChIJB8ToxueffDUROTAlWVF2xQg",
+        "locationConfidence" : 0.7394051
+      }, {
+        "latitudeE7" : 374699922,
+        "longitudeE7" : 1269347432,
+        "placeId" : "ChIJz4gat-effDURCQib4ajopg4",
+        "locationConfidence" : 0.32504815
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374702813,
+        "longitudeE7" : 1269349793,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374804979,
+        "longitudeE7" : 1269527182,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1562490336533",
+        "endTimestampMs" : "1562491088747"
+      },
+      "distance" : 2973,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 55.993088794611104
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 40.53701287099872
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 2.6394357071958905
+      } ],
+      "parkingEvent" : {
+        "timestampMs" : "1562491168344",
+        "location" : {
+          "latitudeE7" : 374804309,
+          "longitudeE7" : 1269527932,
+          "accuracyMetres" : 110
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374804979,
+        "longitudeE7" : 1269527182,
+        "placeId" : "ChIJ-z1VrImffDURSLTCOP6OdwI",
+        "address" : "대한민국 서울특별시 관악구 봉천동 857-4",
+        "name" : "할리스 서울대입구역점",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 41.638855
+      },
+      "duration" : {
+        "startTimestampMs" : "1562491088747",
+        "endTimestampMs" : "1562494562460"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374804950,
+      "centerLngE7" : 1269529996,
+      "visitConfidence" : 95,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374806387,
+        "longitudeE7" : 1269529622,
+        "placeId" : "ChIJ7yjJy4mffDURimGcpbPDTew",
+        "locationConfidence" : 1.4418764
+      }, {
+        "latitudeE7" : 374803780,
+        "longitudeE7" : 1269534373,
+        "placeId" : "ChIJqV390YmffDURSGe5am8TU8w",
+        "locationConfidence" : 1.4346833
+      }, {
+        "latitudeE7" : 374802714,
+        "longitudeE7" : 1269522176,
+        "placeId" : "ChIJLWh9u4mffDURkJcvlCVb8MM",
+        "locationConfidence" : 0.9598765
+      }, {
+        "latitudeE7" : 374802309,
+        "longitudeE7" : 1269523098,
+        "placeId" : "ChIJUWE21YuffDUROZgMgogajlg",
+        "locationConfidence" : 0.8940055
+      }, {
+        "latitudeE7" : 374795693,
+        "longitudeE7" : 1269521709,
+        "placeId" : "ChIJL7hjkImffDURpxL0bH3mkv4",
+        "locationConfidence" : 0.82910895
+      }, {
+        "latitudeE7" : 374809892,
+        "longitudeE7" : 1269520856,
+        "placeId" : "ChIJf3LYs4mffDUR1HEh1hRyv5s",
+        "locationConfidence" : 0.82588375
+      }, {
+        "latitudeE7" : 374804139,
+        "longitudeE7" : 1269534689,
+        "placeId" : "ChIJ1w3_0YmffDURg47A8eGi0Nk",
+        "locationConfidence" : 0.81781447
+      }, {
+        "latitudeE7" : 374796440,
+        "longitudeE7" : 1269528916,
+        "placeId" : "ChIJodHx6omffDURAlwnOBkYtZs",
+        "locationConfidence" : 0.80925465
+      }, {
+        "latitudeE7" : 374795693,
+        "longitudeE7" : 1269521709,
+        "placeId" : "ChIJSx9gkImffDURHuFmAN1d22E",
+        "locationConfidence" : 0.7518401
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374797464,
+        "longitudeE7" : 1269524110,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374766542,
+        "longitudeE7" : 1269527487,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1562494562460",
+        "endTimestampMs" : "1562495048186"
+      },
+      "distance" : 716,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 96.72581200283939
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 1.254516612142042
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.9098679826053764
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374766542,
+        "longitudeE7" : 1269527487,
+        "placeId" : "ChIJ38_wXYqffDURKxRTRqAOXq8",
+        "name" : "Anjib",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 21.37821
+      },
+      "duration" : {
+        "startTimestampMs" : "1562495048186",
+        "endTimestampMs" : "1562495408541"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 374742033,
+      "centerLngE7" : 1269529867,
+      "visitConfidence" : 83,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374737400,
+        "longitudeE7" : 1269534190,
+        "placeId" : "ChIJGxJSrYqffDURMtx94Mt1XIM",
+        "locationConfidence" : 17.209242
+      }, {
+        "latitudeE7" : 374754030,
+        "longitudeE7" : 1269525180,
+        "placeId" : "ChIJ6Tm164qffDUR4IYWF4gzUVM",
+        "locationConfidence" : 10.546879
+      }, {
+        "latitudeE7" : 374750000,
+        "longitudeE7" : 1269525000,
+        "placeId" : "ChIJl3JNwYqffDURZ-Yt3Kz29tE",
+        "locationConfidence" : 5.09509
+      }, {
+        "latitudeE7" : 374738790,
+        "longitudeE7" : 1269523635,
+        "placeId" : "ChIJQQxtMfWffDURWFrAtyMyrp8",
+        "locationConfidence" : 4.1606116
+      }, {
+        "latitudeE7" : 374746011,
+        "longitudeE7" : 1269526413,
+        "placeId" : "ChIJHeSQSryffDURfeEjUywDOfQ",
+        "locationConfidence" : 3.001774
+      }, {
+        "latitudeE7" : 374747908,
+        "longitudeE7" : 1269531579,
+        "placeId" : "ChIJB7cWvIqffDURqMXheojequg",
+        "locationConfidence" : 2.573483
+      }, {
+        "latitudeE7" : 374750936,
+        "longitudeE7" : 1269531594,
+        "placeId" : "ChIJsU8TloqffDUR3NOBg-k6EKI",
+        "locationConfidence" : 2.4873354
+      }, {
+        "latitudeE7" : 374755658,
+        "longitudeE7" : 1269530714,
+        "placeId" : "ChIJUewYkoqffDURisfwLVNCTNQ",
+        "locationConfidence" : 2.482519
+      }, {
+        "latitudeE7" : 374755233,
+        "longitudeE7" : 1269525324,
+        "placeId" : "ChIJTZPpaoqffDURirmKZ5SONC4",
+        "locationConfidence" : 1.5904411
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374766542,
+        "longitudeE7" : 1269527487
+      },
+      "endLocation" : {
+        "latitudeE7" : 374686990,
+        "longitudeE7" : 1269347520
+      },
+      "duration" : {
+        "startTimestampMs" : "1562495408541",
+        "endTimestampMs" : "1562496997570"
+      },
+      "distance" : 1905,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 55.4864126519669
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 19.266293209402036
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 15.7211112245746
+      } ],
+      "parkingEvent" : {
+        "timestampMs" : "1562496997570",
+        "location" : {
+          "latitudeE7" : 374686990,
+          "longitudeE7" : 1269347520,
+          "accuracyMetres" : 112
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374686990,
+        "longitudeE7" : 1269347520,
+        "placeId" : "ChIJD4HXBeeffDURMtesC4pgff8",
+        "address" : "대한민국 서울시 관악구 대학동\n신림로 23길 일성트루엘 3층",
+        "name" : "공단기 신림학원",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 37.91085
+      },
+      "duration" : {
+        "startTimestampMs" : "1562496997570",
+        "endTimestampMs" : "1562538779995"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374702607,
+      "centerLngE7" : 1269349248,
+      "visitConfidence" : 84,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "placeId" : "ChIJdXtCy-effDURZNV-ACrwPHQ",
+        "locationConfidence" : 31.871494
+      }, {
+        "latitudeE7" : 374705468,
+        "longitudeE7" : 1269351054,
+        "placeId" : "ChIJKViZzeeffDURyap8H6n_vbE",
+        "locationConfidence" : 0.6395565
+      }, {
+        "latitudeE7" : 374699922,
+        "longitudeE7" : 1269347432,
+        "placeId" : "ChIJz4gat-effDURCQib4ajopg4",
+        "locationConfidence" : 0.56208926
+      }, {
+        "latitudeE7" : 374697652,
+        "longitudeE7" : 1269347194,
+        "placeId" : "ChIJR4fysOeffDURNSAjbwxsnJU",
+        "locationConfidence" : 0.38869625
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374686990,
+        "longitudeE7" : 1269347520,
+        "placeId" : "ChIJD4HXBeeffDURMtesC4pgff8",
+        "address" : "대한민국 서울시 관악구 대학동\n신림로 23길 일성트루엘 3층",
+        "name" : "공단기 신림학원",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 51.55428
+      },
+      "duration" : {
+        "startTimestampMs" : "1562739377450",
+        "endTimestampMs" : "1562747062300"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374702244,
+      "centerLngE7" : 1269349485,
+      "visitConfidence" : 90,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "placeId" : "ChIJdXtCy-effDURZNV-ACrwPHQ",
+        "locationConfidence" : 23.415432
+      }, {
+        "latitudeE7" : 374707968,
+        "longitudeE7" : 1269344439,
+        "placeId" : "ChIJg5MTO_-ffDURwZPWfARMLEQ",
+        "locationConfidence" : 1.165151
+      }, {
+        "latitudeE7" : 374699922,
+        "longitudeE7" : 1269347432,
+        "placeId" : "ChIJz4gat-effDURCQib4ajopg4",
+        "locationConfidence" : 0.4646579
+      }, {
+        "latitudeE7" : 374695737,
+        "longitudeE7" : 1269343376,
+        "placeId" : "ChIJ2-hipOeffDUR9svjjHhCr48",
+        "locationConfidence" : 0.33479136
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374686990,
+        "longitudeE7" : 1269347520,
+        "placeId" : "ChIJD4HXBeeffDURMtesC4pgff8",
+        "address" : "대한민국 서울시 관악구 대학동\n신림로 23길 일성트루엘 3층",
+        "name" : "공단기 신림학원",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 59.282616
+      },
+      "duration" : {
+        "startTimestampMs" : "1562889023796",
+        "endTimestampMs" : "1562930000686"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374702351,
+      "centerLngE7" : 1269349135,
+      "visitConfidence" : 79,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "placeId" : "ChIJdXtCy-effDURZNV-ACrwPHQ",
+        "locationConfidence" : 19.38026
+      }, {
+        "latitudeE7" : 374699625,
+        "longitudeE7" : 1269346987,
+        "placeId" : "ChIJVf9qt-effDURIrUHQ08tUyU",
+        "locationConfidence" : 1.126575
+      }, {
+        "latitudeE7" : 374699922,
+        "longitudeE7" : 1269347432,
+        "placeId" : "ChIJz4gat-effDURCQib4ajopg4",
+        "locationConfidence" : 0.35044006
+      }, {
+        "latitudeE7" : 374708405,
+        "longitudeE7" : 1269351238,
+        "placeId" : "ChIJSw2d0-effDUR0wwpvsdfe74",
+        "locationConfidence" : 0.2768403
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374686990,
+        "longitudeE7" : 1269347520,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374695509,
+        "longitudeE7" : 1269356409,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1562930000686",
+        "endTimestampMs" : "1562930121761"
+      },
+      "distance" : 122,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.47624983533679
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.1628290331826643
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.5690881648828291
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374695509,
+        "longitudeE7" : 1269356409,
+        "placeId" : "ChIJiaVVSeaffDURCb08z_fAV90",
+        "address" : "대한민국 서울특별시 관악구 대학동 호암로24길 43",
+        "name" : "Dabujji",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 63.623207
+      },
+      "duration" : {
+        "startTimestampMs" : "1562930121761",
+        "endTimestampMs" : "1562932778536"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374694674,
+      "centerLngE7" : 1269356692,
+      "visitConfidence" : 83,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374694668,
+        "longitudeE7" : 1269356682,
+        "placeId" : "ChIJ5atJZ5qffDURPwauBP33Gl8",
+        "locationConfidence" : 9.906814
+      }, {
+        "latitudeE7" : 374695256,
+        "longitudeE7" : 1269360461,
+        "placeId" : "ChIJ4atLRuaffDURZ34TSpL3kDg",
+        "locationConfidence" : 2.1922057
+      }, {
+        "latitudeE7" : 374694461,
+        "longitudeE7" : 1269363905,
+        "placeId" : "ChIJ5_DnQOaffDURfgK1hRVKdUk",
+        "locationConfidence" : 0.60245496
+      }, {
+        "latitudeE7" : 374703968,
+        "longitudeE7" : 1269344537,
+        "placeId" : "ChIJX_x-seeffDUR6CKAaVPePqM",
+        "locationConfidence" : 0.30113342
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374695509,
+        "longitudeE7" : 1269356409,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374702449,
+        "longitudeE7" : 1269349774,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1562932778536",
+        "endTimestampMs" : "1562933355751"
+      },
+      "distance" : 356,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 96.78509774598437
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.7331425295550433
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.6371535047291612
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374686990,
+        "longitudeE7" : 1269347520,
+        "placeId" : "ChIJD4HXBeeffDURMtesC4pgff8",
+        "address" : "대한민국 서울시 관악구 대학동\n신림로 23길 일성트루엘 3층",
+        "name" : "공단기 신림학원",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 58.17973
+      },
+      "duration" : {
+        "startTimestampMs" : "1562933355751",
+        "endTimestampMs" : "1563206543695"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374702836,
+      "centerLngE7" : 1269348903,
+      "visitConfidence" : 70,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "placeId" : "ChIJdXtCy-effDURZNV-ACrwPHQ",
+        "locationConfidence" : 20.9399
+      }, {
+        "latitudeE7" : 374699625,
+        "longitudeE7" : 1269346987,
+        "placeId" : "ChIJVf9qt-effDURIrUHQ08tUyU",
+        "locationConfidence" : 0.67109483
+      }, {
+        "latitudeE7" : 374699922,
+        "longitudeE7" : 1269347432,
+        "placeId" : "ChIJz4gat-effDURCQib4ajopg4",
+        "locationConfidence" : 0.35054705
+      }, {
+        "latitudeE7" : 374695737,
+        "longitudeE7" : 1269343376,
+        "placeId" : "ChIJ2-hipOeffDUR9svjjHhCr48",
+        "locationConfidence" : 0.3295714
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374686990,
+        "longitudeE7" : 1269347520,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374688515,
+        "longitudeE7" : 1269347543,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563206543695",
+        "endTimestampMs" : "1563206646644"
+      },
+      "distance" : 16,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 87.981007599359
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 10.22364149373781
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.6661506602427174
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374688515,
+        "longitudeE7" : 1269347543,
+        "placeId" : "ChIJB02tB-effDURSdAP_OjEsGk",
+        "address" : "대한민국 서울특별시 관악구 신림동",
+        "name" : "Jangdogdae",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 36.797142
+      },
+      "duration" : {
+        "startTimestampMs" : "1563206646644",
+        "endTimestampMs" : "1563214386184"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374700331,
+      "centerLngE7" : 1269348906,
+      "visitConfidence" : 89,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374688472,
+        "longitudeE7" : 1269349106,
+        "placeId" : "ChIJjUqxXheffDURVbZNgeZ33AQ",
+        "locationConfidence" : 1.9030172
+      }, {
+        "latitudeE7" : 374697203,
+        "longitudeE7" : 1269346717,
+        "placeId" : "ChIJ9SBlsOeffDURVKNvVsoTYUE",
+        "locationConfidence" : 1.4311647
+      }, {
+        "latitudeE7" : 374695256,
+        "longitudeE7" : 1269360461,
+        "placeId" : "ChIJ4atLRuaffDURZ34TSpL3kDg",
+        "locationConfidence" : 1.2691166
+      }, {
+        "latitudeE7" : 374689857,
+        "longitudeE7" : 1269339496,
+        "placeId" : "ChIJ28ZUc-effDURXYId3xmksNQ",
+        "locationConfidence" : 1.1687151
+      }, {
+        "latitudeE7" : 374682470,
+        "longitudeE7" : 1269362511,
+        "placeId" : "ChIJP2qCULqffDURoeSpaogukVI",
+        "locationConfidence" : 1.1332676
+      }, {
+        "latitudeE7" : 374687404,
+        "longitudeE7" : 1269356431,
+        "placeId" : "ChIJc-AKVuaffDURy9ZHJt7w3Vs",
+        "locationConfidence" : 0.9584293
+      }, {
+        "latitudeE7" : 374694461,
+        "longitudeE7" : 1269363905,
+        "placeId" : "ChIJ5_DnQOaffDURfgK1hRVKdUk",
+        "locationConfidence" : 0.8500994
+      }, {
+        "latitudeE7" : 374696628,
+        "longitudeE7" : 1269340937,
+        "placeId" : "ChIJB0RWoueffDURka8Sv9hZNfE",
+        "locationConfidence" : 0.83108664
+      }, {
+        "latitudeE7" : 374694429,
+        "longitudeE7" : 1269348010,
+        "placeId" : "ChIJU_5X92KffDUR_foLf9bARCI",
+        "locationConfidence" : 0.7686578
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374702431,
+        "longitudeE7" : 1269349813,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374713175,
+        "longitudeE7" : 1269349168,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563214386184",
+        "endTimestampMs" : "1563245612810"
+      },
+      "distance" : 192,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 52.02234797857339
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 39.28765100929323
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 4.469775494269216
+      } ]
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374713175,
+        "longitudeE7" : 1269349168,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374789568,
+        "longitudeE7" : 1269524102,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563245612810",
+        "endTimestampMs" : "1563246075921"
+      },
+      "distance" : 2631,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 78.51760468523459
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 15.236685367227029
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 3.019525461687559
+      } ],
+      "parkingEvent" : {
+        "timestampMs" : "1563246081698",
+        "location" : {
+          "latitudeE7" : 374789568,
+          "longitudeE7" : 1269524102,
+          "accuracyMetres" : 36
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374793740,
+        "longitudeE7" : 1269521910,
+        "placeId" : "ChIJ-QrDj4mffDURCkya8wgS4KQ",
+        "address" : "대한민국 서울특별시 청룡동",
+        "name" : "Gwanak-gu Office",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 51.87239
+      },
+      "duration" : {
+        "startTimestampMs" : "1563246075921",
+        "endTimestampMs" : "1563246445258"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374792817,
+      "centerLngE7" : 1269525767,
+      "visitConfidence" : 88,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374791436,
+        "longitudeE7" : 1269527075,
+        "placeId" : "ChIJAQBE7YmffDURbru0nMzSg-o",
+        "locationConfidence" : 2.2446659
+      }, {
+        "latitudeE7" : 374797171,
+        "longitudeE7" : 1269530425,
+        "placeId" : "ChIJg3fDOYuffDURhadZbJtwbqU",
+        "locationConfidence" : 1.1576052
+      }, {
+        "latitudeE7" : 374798500,
+        "longitudeE7" : 1269520300,
+        "placeId" : "ChIJw7phl4mffDURS2Zchc0dEKA",
+        "locationConfidence" : 1.031693
+      }, {
+        "latitudeE7" : 374790279,
+        "longitudeE7" : 1269535036,
+        "placeId" : "ChIJNZVr5YmffDURabuTfN6QMj4",
+        "locationConfidence" : 0.94924575
+      }, {
+        "latitudeE7" : 374791817,
+        "longitudeE7" : 1269534766,
+        "placeId" : "ChIJ13Ty5YmffDURUZtgaHuRyK4",
+        "locationConfidence" : 0.932631
+      }, {
+        "latitudeE7" : 374788506,
+        "longitudeE7" : 1269517523,
+        "placeId" : "ChIJaWnVK4qffDURbJbRPXtQ7TY",
+        "locationConfidence" : 0.90748256
+      }, {
+        "latitudeE7" : 374789263,
+        "longitudeE7" : 1269528142,
+        "placeId" : "ChIJ7yRY84mffDUR0iVSeNrjdDU",
+        "locationConfidence" : 0.87941355
+      }, {
+        "latitudeE7" : 374795649,
+        "longitudeE7" : 1269528901,
+        "placeId" : "ChIJaXgl64mffDURsBsKOcOv2TE",
+        "locationConfidence" : 0.85948664
+      }, {
+        "latitudeE7" : 374796839,
+        "longitudeE7" : 1269528911,
+        "placeId" : "ChIJKVMg64mffDUR0sNdsCG5SOI",
+        "locationConfidence" : 0.80908793
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374793335,
+        "longitudeE7" : 1269525579,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374779636,
+        "longitudeE7" : 1269579096,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563246445258",
+        "endTimestampMs" : "1563246828687"
+      },
+      "distance" : 496,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.76361096717595
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.8803202292289782
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 0.5757418526339841
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374779636,
+        "longitudeE7" : 1269579096,
+        "placeId" : "ChIJ6z4pwCagfDURtbfwd8tbvTw",
+        "address" : "대한민국 서울특별시 관악구 봉천동 1620-27",
+        "name" : "SWEET BALANCE",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 54.332615
+      },
+      "duration" : {
+        "startTimestampMs" : "1563246828687",
+        "endTimestampMs" : "1563249755307"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374779836,
+      "centerLngE7" : 1269576523,
+      "visitConfidence" : 95,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374779231,
+        "longitudeE7" : 1269578707,
+        "placeId" : "ChIJ5wvhwSagfDUR2qVrdzFneVE",
+        "locationConfidence" : 9.114868
+      }, {
+        "latitudeE7" : 374777646,
+        "longitudeE7" : 1269577847,
+        "placeId" : "ChIJJ7TewyagfDURleAtyiU2R1k",
+        "locationConfidence" : 4.463324
+      }, {
+        "latitudeE7" : 374778094,
+        "longitudeE7" : 1269578110,
+        "placeId" : "ChIJee_QxSagfDURWIiKUEEWOj8",
+        "locationConfidence" : 2.9013839
+      }, {
+        "latitudeE7" : 374776242,
+        "longitudeE7" : 1269582039,
+        "placeId" : "ChIJL89tvyagfDURq2yXwkcvgh4",
+        "locationConfidence" : 0.45530003
+      }, {
+        "latitudeE7" : 374776397,
+        "longitudeE7" : 1269572927,
+        "placeId" : "ChIJO7aK2iagfDURoDsW01EzwKY",
+        "locationConfidence" : 0.45502213
+      }, {
+        "latitudeE7" : 374782305,
+        "longitudeE7" : 1269563370,
+        "placeId" : "ChIJBz7ZRe-hfDURD-3015jJF-s",
+        "locationConfidence" : 0.45232326
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374783084,
+        "longitudeE7" : 1269564988,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374792672,
+        "longitudeE7" : 1269526967,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563249755307",
+        "endTimestampMs" : "1563249998572"
+      },
+      "distance" : 352,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.12734938359017
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 1.850757028082449
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 0.47198914893237426
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374792672,
+        "longitudeE7" : 1269526967,
+        "placeId" : "ChIJs0y3komffDURxLHu2L8WeYU",
+        "address" : "대한민국 서울특별시 관악구 봉천동 856-6",
+        "name" : "미소랑치과의원",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 10.517114
+      },
+      "duration" : {
+        "startTimestampMs" : "1563249998572",
+        "endTimestampMs" : "1563254290109"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 374792180,
+      "centerLngE7" : 1269528512,
+      "visitConfidence" : 91,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374795649,
+        "longitudeE7" : 1269528901,
+        "placeId" : "ChIJaXgl64mffDURsBsKOcOv2TE",
+        "locationConfidence" : 4.747979
+      }, {
+        "latitudeE7" : 374787420,
+        "longitudeE7" : 1269525572,
+        "placeId" : "ChIJkbB6iomffDUR3kXhB08qdIw",
+        "locationConfidence" : 3.2884388
+      }, {
+        "latitudeE7" : 374788977,
+        "longitudeE7" : 1269526427,
+        "placeId" : "ChIJbUBti4mffDURK-DAmbxnoO8",
+        "locationConfidence" : 3.2225401
+      }, {
+        "latitudeE7" : 374796839,
+        "longitudeE7" : 1269528911,
+        "placeId" : "ChIJKVMg64mffDUR0sNdsCG5SOI",
+        "locationConfidence" : 2.505995
+      }, {
+        "latitudeE7" : 374787643,
+        "longitudeE7" : 1269526963,
+        "placeId" : "ChIJOXwh64mffDURfc4MTeZPk6w",
+        "locationConfidence" : 2.169212
+      }, {
+        "latitudeE7" : 374795181,
+        "longitudeE7" : 1269526957,
+        "placeId" : "ChIJ80wF64mffDUREfx3w4X4l7s",
+        "locationConfidence" : 2.1176546
+      }, {
+        "latitudeE7" : 374796440,
+        "longitudeE7" : 1269528916,
+        "placeId" : "ChIJodHx6omffDURAlwnOBkYtZs",
+        "locationConfidence" : 2.0978577
+      }, {
+        "latitudeE7" : 374790279,
+        "longitudeE7" : 1269535036,
+        "placeId" : "ChIJNZVr5YmffDURabuTfN6QMj4",
+        "locationConfidence" : 1.9072108
+      }, {
+        "latitudeE7" : 374797171,
+        "longitudeE7" : 1269530425,
+        "placeId" : "ChIJg3fDOYuffDURhadZbJtwbqU",
+        "locationConfidence" : 1.8522543
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374792672,
+        "longitudeE7" : 1269526967,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374783556,
+        "longitudeE7" : 1269566527,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563254290109",
+        "endTimestampMs" : "1563254661406"
+      },
+      "distance" : 374,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.04031282555361
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.9674812057768845
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.9057866381863029
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374783556,
+        "longitudeE7" : 1269566527,
+        "placeId" : "ChIJWcguICegfDURpr7fPyTZ4o4",
+        "name" : "Three hundred grams of kimchi stew",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 9.878121
+      },
+      "duration" : {
+        "startTimestampMs" : "1563254661406",
+        "endTimestampMs" : "1563267735509"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 374780425,
+      "centerLngE7" : 1269575431,
+      "visitConfidence" : 69,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374778276,
+        "longitudeE7" : 1269580789,
+        "placeId" : "ChIJUTgawCagfDURvz2HLx1aSJQ",
+        "locationConfidence" : 4.793668
+      }, {
+        "latitudeE7" : 374778094,
+        "longitudeE7" : 1269578110,
+        "placeId" : "ChIJee_QxSagfDURWIiKUEEWOj8",
+        "locationConfidence" : 3.8669133
+      }, {
+        "latitudeE7" : 374777646,
+        "longitudeE7" : 1269577847,
+        "placeId" : "ChIJJ7TewyagfDURleAtyiU2R1k",
+        "locationConfidence" : 2.1903336
+      }, {
+        "latitudeE7" : 374780106,
+        "longitudeE7" : 1269572526,
+        "placeId" : "ChIJS-CoRGGhfDURoUrq8u0T2Go",
+        "locationConfidence" : 2.0083814
+      }, {
+        "latitudeE7" : 374778012,
+        "longitudeE7" : 1269588719,
+        "placeId" : "ChIJN9S99ImffDURnDSIOonLfM8",
+        "locationConfidence" : 1.7256613
+      }, {
+        "latitudeE7" : 374792856,
+        "longitudeE7" : 1269587134,
+        "placeId" : "ChIJB3yQCSmgfDURk0zVrVaBECM",
+        "locationConfidence" : 1.5610615
+      }, {
+        "latitudeE7" : 374779636,
+        "longitudeE7" : 1269579096,
+        "placeId" : "ChIJ6z4pwCagfDURtbfwd8tbvTw",
+        "locationConfidence" : 1.4128169
+      }, {
+        "latitudeE7" : 374776397,
+        "longitudeE7" : 1269572927,
+        "placeId" : "ChIJO7aK2iagfDURoDsW01EzwKY",
+        "locationConfidence" : 1.3635012
+      }, {
+        "latitudeE7" : 374783548,
+        "longitudeE7" : 1269565060,
+        "placeId" : "ChIJ5ciSISegfDUR4ta6vx-4Bk8",
+        "locationConfidence" : 0.9175119
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374783556,
+        "longitudeE7" : 1269566527,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374776242,
+        "longitudeE7" : 1269582039,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563267735509",
+        "endTimestampMs" : "1563267986575"
+      },
+      "distance" : 177,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 98.10106042369598
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 0.7894994510668751
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.39109119056742997
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374776242,
+        "longitudeE7" : 1269582039,
+        "placeId" : "ChIJL89tvyagfDURq2yXwkcvgh4",
+        "address" : "1층\n106 관악로14길 낙성대동\n관악구 서울특별시\nSouth Korea",
+        "name" : "퍼블리코타코 PUBLICO TACO(Restaurante mexicano)",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 67.77471
+      },
+      "duration" : {
+        "startTimestampMs" : "1563267986575",
+        "endTimestampMs" : "1563269894407"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374778211,
+      "centerLngE7" : 1269582995,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374778290,
+        "longitudeE7" : 1269582338,
+        "placeId" : "ChIJFVdmlSagfDURVg3KM7eTQ08",
+        "locationConfidence" : 2.5987883
+      }, {
+        "latitudeE7" : 374776974,
+        "longitudeE7" : 1269584068,
+        "placeId" : "ChIJzVsprxigfDURq29qKST_Lzw",
+        "locationConfidence" : 1.8947823
+      }, {
+        "latitudeE7" : 374778276,
+        "longitudeE7" : 1269580789,
+        "placeId" : "ChIJUTgawCagfDURvz2HLx1aSJQ",
+        "locationConfidence" : 1.295385
+      }, {
+        "latitudeE7" : 374780106,
+        "longitudeE7" : 1269572526,
+        "placeId" : "ChIJS-CoRGGhfDURoUrq8u0T2Go",
+        "locationConfidence" : 1.0752088
+      }, {
+        "latitudeE7" : 374782305,
+        "longitudeE7" : 1269563370,
+        "placeId" : "ChIJBz7ZRe-hfDURD-3015jJF-s",
+        "locationConfidence" : 0.9869219
+      }, {
+        "latitudeE7" : 374775987,
+        "longitudeE7" : 1269582378,
+        "placeId" : "ChIJb019VPyhfDURU-mhmuCe2pA",
+        "locationConfidence" : 0.6708409
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374776242,
+        "longitudeE7" : 1269582039,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374779898,
+        "longitudeE7" : 1269603349,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563269894407",
+        "endTimestampMs" : "1563270016450"
+      },
+      "distance" : 192,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 95.66523438388553
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 2.433271124227639
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 0.9725364501693444
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374779898,
+        "longitudeE7" : 1269603349,
+        "placeId" : "ChIJ20G0MySgfDURvGOpPngSFA0",
+        "address" : "대한민국 서울특별시 관악구 봉천동",
+        "name" : "하나님의교회 세계복음선교협회",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 55.398487
+      },
+      "duration" : {
+        "startTimestampMs" : "1563270016450",
+        "endTimestampMs" : "1563270391459"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374781289,
+      "centerLngE7" : 1269604667,
+      "visitConfidence" : 90,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374790489,
+        "longitudeE7" : 1269600689,
+        "placeId" : "ChIJKVQ92yWgfDURqq9B-sIeSao",
+        "locationConfidence" : 0.62293744
+      }, {
+        "latitudeE7" : 374774845,
+        "longitudeE7" : 1269600442,
+        "placeId" : "ChIJeRFWnCagfDURuCBERPsxNyE",
+        "locationConfidence" : 0.49698392
+      }, {
+        "latitudeE7" : 374779667,
+        "longitudeE7" : 1269589408,
+        "placeId" : "ChIJzVsprxigfDURBHRl1w5r9yo",
+        "locationConfidence" : 0.46752197
+      }, {
+        "latitudeE7" : 374781513,
+        "longitudeE7" : 1269583330,
+        "placeId" : "ChIJEU-kkyagfDUR1rb-GNClm48",
+        "locationConfidence" : 0.443483
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374781113,
+        "longitudeE7" : 1269607945,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374759430,
+        "longitudeE7" : 1269786469,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563270391459",
+        "endTimestampMs" : "1563270756796"
+      },
+      "distance" : 1664,
+      "activityType" : "IN_BUS",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_BUS",
+        "probability" : 64.20714789803951
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 30.475943391161987
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 4.300798807204913
+      } ],
+      "transitPath" : {
+        "transitStops" : [ {
+          "latitudeE7" : 374778830,
+          "longitudeE7" : 1269608730,
+          "placeId" : "ChIJyU6VSiSgfDUR5ypNYxu5u1w",
+          "name" : "Nakseongdae Entrance"
+        }, {
+          "latitudeE7" : 374764310,
+          "longitudeE7" : 1269772300,
+          "placeId" : "ChIJFzbuS0igfDUR8jGnb8rZdx4",
+          "name" : "Namseoul Nonghyup Namhyeon-dong Branch"
+        } ],
+        "name" : "641",
+        "hexRgbColor" : "374FF2"
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374756156,
+          "lngE7" : 1269669789,
+          "timestampMs" : "1563270513421",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 374765477,
+          "lngE7" : 1269757979,
+          "timestampMs" : "1563270635564",
+          "accuracyMeters" : 14
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374759430,
+        "longitudeE7" : 1269786469,
+        "placeId" : "ChIJET4W_EigfDURAsbCkDXoxrA",
+        "address" : "23\n남현1길 남현동\n관악구 서울특별시\nSouth Korea",
+        "name" : "씨리어스 커피",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 52.716488
+      },
+      "duration" : {
+        "startTimestampMs" : "1563270756796",
+        "endTimestampMs" : "1563276754447"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374758841,
+      "centerLngE7" : 1269786100,
+      "visitConfidence" : 87,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374759331,
+        "longitudeE7" : 1269785530,
+        "placeId" : "ChIJoTy3_kigfDURKNFWCj_d3sQ",
+        "locationConfidence" : 5.2746935
+      }, {
+        "latitudeE7" : 374757491,
+        "longitudeE7" : 1269787454,
+        "placeId" : "ChIJkcy8-0igfDURA3yKUX93gNs",
+        "locationConfidence" : 2.7048056
+      }, {
+        "latitudeE7" : 374759511,
+        "longitudeE7" : 1269801242,
+        "placeId" : "ChIJgfA0JEmgfDURKVQaBCmS0bQ",
+        "locationConfidence" : 1.7212969
+      }, {
+        "latitudeE7" : 374760978,
+        "longitudeE7" : 1269776466,
+        "placeId" : "ChIJ5VfSUUigfDUR0lUSlL3wy0Q",
+        "locationConfidence" : 1.368705
+      }, {
+        "latitudeE7" : 374756866,
+        "longitudeE7" : 1269786038,
+        "placeId" : "ChIJjV-J-UigfDURk5IBJ0-iF2U",
+        "locationConfidence" : 1.0685533
+      }, {
+        "latitudeE7" : 374756866,
+        "longitudeE7" : 1269786038,
+        "placeId" : "ChIJGzyG-UigfDURDAqoHl10yBY",
+        "locationConfidence" : 0.73777014
+      }, {
+        "latitudeE7" : 374755462,
+        "longitudeE7" : 1269796951,
+        "placeId" : "ChIJyxiG5EigfDURfcA03v6BWDQ",
+        "locationConfidence" : 0.6677433
+      }, {
+        "latitudeE7" : 374757522,
+        "longitudeE7" : 1269778567,
+        "placeId" : "ChIJ55xIWkigfDURRdn5epwfUaQ",
+        "locationConfidence" : 0.65748256
+      }, {
+        "latitudeE7" : 374761292,
+        "longitudeE7" : 1269790831,
+        "placeId" : "ChIJc339HEmgfDURLSUYTKyBafs",
+        "locationConfidence" : 0.6463613
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374758951,
+        "longitudeE7" : 1269786955,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374768420,
+        "longitudeE7" : 1269778800,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563276754447",
+        "endTimestampMs" : "1563277243468"
+      },
+      "distance" : 552,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 94.59469762208064
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.5396225036317694
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 1.5280862055056896
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374768420,
+        "longitudeE7" : 1269778800,
+        "placeId" : "ChIJofTcrkmgfDUR8ixd49-fzcg",
+        "address" : "대한민국 서울특별시 사당동",
+        "name" : "Sadang 1-dong Gwanak Traditional Market",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 27.05876
+      },
+      "duration" : {
+        "startTimestampMs" : "1563277243468",
+        "endTimestampMs" : "1563277610720"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 374765975,
+      "centerLngE7" : 1269781000,
+      "visitConfidence" : 89,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374762321,
+        "longitudeE7" : 1269781294,
+        "placeId" : "ChIJCxoDVUigfDURI9U-Yr5p37M",
+        "locationConfidence" : 1.3446565
+      }, {
+        "latitudeE7" : 374769444,
+        "longitudeE7" : 1269780556,
+        "placeId" : "ChIJAUcupkmgfDUR7QYxg3G7F4g",
+        "locationConfidence" : 1.2955796
+      }, {
+        "latitudeE7" : 374762257,
+        "longitudeE7" : 1269774642,
+        "placeId" : "ChIJdVrwTkigfDURKUCA_5DOxtY",
+        "locationConfidence" : 1.1540743
+      }, {
+        "latitudeE7" : 374757522,
+        "longitudeE7" : 1269778567,
+        "placeId" : "ChIJ55xIWkigfDURRdn5epwfUaQ",
+        "locationConfidence" : 1.1134688
+      }, {
+        "latitudeE7" : 374773792,
+        "longitudeE7" : 1269786444,
+        "placeId" : "ChIJidRYoEmgfDURGCyv5yZpTbc",
+        "locationConfidence" : 1.0930593
+      }, {
+        "latitudeE7" : 374757276,
+        "longitudeE7" : 1269788599,
+        "placeId" : "ChIJbZfr2e6hfDURKpRkijpFm40",
+        "locationConfidence" : 1.0724607
+      }, {
+        "latitudeE7" : 374776365,
+        "longitudeE7" : 1269782991,
+        "placeId" : "ChIJWWaJdUmgfDURgE9ZyheeJP0",
+        "locationConfidence" : 1.0324595
+      }, {
+        "latitudeE7" : 374770645,
+        "longitudeE7" : 1269782724,
+        "placeId" : "ChIJ4bNjp0mgfDUReNImvGO6xns",
+        "locationConfidence" : 1.0254577
+      }, {
+        "latitudeE7" : 374756866,
+        "longitudeE7" : 1269786038,
+        "placeId" : "ChIJjV-J-UigfDURk5IBJ0-iF2U",
+        "locationConfidence" : 0.99854034
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374766408,
+        "longitudeE7" : 1269778209,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374705811,
+        "longitudeE7" : 1269388606,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563277610720",
+        "endTimestampMs" : "1563278740536"
+      },
+      "distance" : 4398,
+      "activityType" : "IN_BUS",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_BUS",
+        "probability" : 94.37846761321074
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 4.2841538333565
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.6899278660818422
+      } ],
+      "transitPath" : {
+        "transitStops" : [ {
+          "latitudeE7" : 374768420,
+          "longitudeE7" : 1269778800,
+          "placeId" : "ChIJofTcrkmgfDUR8ixd49-fzcg",
+          "name" : "Sadang 1-dong Gwanak Traditional Market"
+        }, {
+          "latitudeE7" : 374710360,
+          "longitudeE7" : 1269376450,
+          "placeId" : "ChIJ3_FhseiffDUR0GXnZav2wsM",
+          "name" : "Sinseong Elementary School"
+        } ],
+        "name" : "5528",
+        "hexRgbColor" : "0ABB0C"
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374759610,
+          "lngE7" : 1269723662,
+          "timestampMs" : "1563277731966",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 374763652,
+          "lngE7" : 1269656761,
+          "timestampMs" : "1563277853496",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 374811294,
+          "lngE7" : 1269532602,
+          "timestampMs" : "1563278132480",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 374795604,
+          "lngE7" : 1269523827,
+          "timestampMs" : "1563278253659",
+          "accuracyMeters" : 14
+        }, {
+          "latE7" : 374741000,
+          "lngE7" : 1269529362,
+          "timestampMs" : "1563278375499",
+          "accuracyMeters" : 30
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374705765,
+        "longitudeE7" : 1269388983,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374686990,
+        "longitudeE7" : 1269347520,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563278740536",
+        "endTimestampMs" : "1563278984550"
+      },
+      "distance" : 421,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 45.69984988543969
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 41.69972257113134
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 10.895011725478545
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374686990,
+        "longitudeE7" : 1269347520,
+        "placeId" : "ChIJD4HXBeeffDURMtesC4pgff8",
+        "address" : "대한민국 서울시 관악구 대학동\n신림로 23길 일성트루엘 3층",
+        "name" : "공단기 신림학원",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 56.46156
+      },
+      "duration" : {
+        "startTimestampMs" : "1563278984550",
+        "endTimestampMs" : "1563333413256"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374702364,
+      "centerLngE7" : 1269349745,
+      "visitConfidence" : 84,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "placeId" : "ChIJdXtCy-effDURZNV-ACrwPHQ",
+        "locationConfidence" : 23.050732
+      }, {
+        "latitudeE7" : 374704695,
+        "longitudeE7" : 1269343903,
+        "placeId" : "ChIJB8ToxueffDUROTAlWVF2xQg",
+        "locationConfidence" : 1.0186892
+      }, {
+        "latitudeE7" : 374699625,
+        "longitudeE7" : 1269346987,
+        "placeId" : "ChIJVf9qt-effDURIrUHQ08tUyU",
+        "locationConfidence" : 0.5954779
+      }, {
+        "latitudeE7" : 374699922,
+        "longitudeE7" : 1269347432,
+        "placeId" : "ChIJz4gat-effDURCQib4ajopg4",
+        "locationConfidence" : 0.3076486
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374702243,
+        "longitudeE7" : 1269349692,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374708001,
+        "longitudeE7" : 1269379458,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563333413256",
+        "endTimestampMs" : "1563333687577"
+      },
+      "distance" : 270,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 96.90750024115732
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.801092516410915
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.8806025568836146
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374704347,
+        "longitudeE7" : 1269375595,
+        "placeId" : "ChIJm6IKqeiffDURe6Y_qXFzExM",
+        "address" : "대한민국 서울특별시 관악구 신림동 1516-3",
+        "name" : "연세편한내과의원",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 10.312641
+      },
+      "duration" : {
+        "startTimestampMs" : "1563333687577",
+        "endTimestampMs" : "1563334291099"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 374708044,
+      "centerLngE7" : 1269379969,
+      "visitConfidence" : 88,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374709376,
+        "longitudeE7" : 1269390837,
+        "placeId" : "ChIJHw9tTPKffDURqVU8q1bO9c8",
+        "locationConfidence" : 2.3540084
+      }, {
+        "latitudeE7" : 374700181,
+        "longitudeE7" : 1269377262,
+        "placeId" : "ChIJhz0OAeaffDURuXwJY71VEd0",
+        "locationConfidence" : 1.4154431
+      }, {
+        "latitudeE7" : 374700169,
+        "longitudeE7" : 1269389973,
+        "placeId" : "ChIJT72yXu-ffDUR6G4gpuGJKSI",
+        "locationConfidence" : 1.2907515
+      }, {
+        "latitudeE7" : 374702891,
+        "longitudeE7" : 1269399069,
+        "placeId" : "ChIJEZp2bu-ffDURQ1dJjSrfZV4",
+        "locationConfidence" : 1.1259382
+      }, {
+        "latitudeE7" : 374702513,
+        "longitudeE7" : 1269395117,
+        "placeId" : "ChIJm_OcRxGffDURM6THhHlkq3s",
+        "locationConfidence" : 0.9822494
+      }, {
+        "latitudeE7" : 374704193,
+        "longitudeE7" : 1269363874,
+        "placeId" : "ChIJV3HgI-affDUR6APprdhCR0Y",
+        "locationConfidence" : 0.88176566
+      }, {
+        "latitudeE7" : 374701130,
+        "longitudeE7" : 1269375736,
+        "placeId" : "ChIJfaYLAuaffDUR-hffv6_aZlM",
+        "locationConfidence" : 0.855816
+      }, {
+        "latitudeE7" : 374694348,
+        "longitudeE7" : 1269376151,
+        "placeId" : "ChIJ5X9NCeaffDURGYQTVPN59yE",
+        "locationConfidence" : 0.85095584
+      }, {
+        "latitudeE7" : 374705460,
+        "longitudeE7" : 1269368929,
+        "placeId" : "ChIJpeKhoOiffDURDpoZHRqmy9o",
+        "locationConfidence" : 0.8352615
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374704347,
+        "longitudeE7" : 1269375595,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374598820,
+        "longitudeE7" : 1269519053,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563334291099",
+        "endTimestampMs" : "1563334413569"
+      },
+      "distance" : 2223,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 68.18760796439675
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 23.208386119498975
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 7.924246945325683
+      } ],
+      "parkingEvent" : {
+        "timestampMs" : "1563334362869",
+        "location" : {
+          "latitudeE7" : 374649955,
+          "longitudeE7" : 1269543149,
+          "accuracyMetres" : 116
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374598820,
+        "longitudeE7" : 1269519053,
+        "placeId" : "ChIJpeKhoOiffDUR58XwBLzu4qE",
+        "address" : "대한민국 서울특별시 관악구 관악로 1",
+        "name" : "Seoul National University",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 84.10676
+      },
+      "duration" : {
+        "startTimestampMs" : "1563334413569",
+        "endTimestampMs" : "1563350929826"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 374664077,
+          "longitudeE7" : 1269538358,
+          "placeId" : "ChIJCQVBW_effDURe_oHAvVHZH4",
+          "address" : "대한민국 서울특별시 관악구 대학동 관악로\n1",
+          "name" : "포포인 서울대학교점 Nhà hàng Việt Nam",
+          "sourceInfo" : {
+            "deviceTag" : 235002806
+          },
+          "locationConfidence" : 47.09373
+        },
+        "duration" : {
+          "startTimestampMs" : "1563336455827",
+          "endTimestampMs" : "1563338304000"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 374659427,
+        "centerLngE7" : 1269541519,
+        "visitConfidence" : 96,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 374652728,
+          "longitudeE7" : 1269549406,
+          "placeId" : "ChIJW8wlYCmjfDURwMNOarclTLc",
+          "locationConfidence" : 9.099064
+        }, {
+          "latitudeE7" : 374655467,
+          "longitudeE7" : 1269531415,
+          "placeId" : "ChIJrcpE6feffDUR3-CtHSjsq10",
+          "locationConfidence" : 5.8081775
+        }, {
+          "latitudeE7" : 374664090,
+          "longitudeE7" : 1269533116,
+          "placeId" : "ChIJM0ZkJQGgfDURnS2Pm2sqz54",
+          "locationConfidence" : 3.3116972
+        }, {
+          "latitudeE7" : 374667410,
+          "longitudeE7" : 1269533636,
+          "placeId" : "ChIJl6VzzfeffDURtV77bOvOci0",
+          "locationConfidence" : 2.0589325
+        }, {
+          "latitudeE7" : 374667520,
+          "longitudeE7" : 1269533190,
+          "placeId" : "ChIJbykPzfeffDURPwUdjd05S3o",
+          "locationConfidence" : 1.0998825
+        }, {
+          "latitudeE7" : 374659170,
+          "longitudeE7" : 1269547760,
+          "placeId" : "ChIJhzOOcB2gfDURFWc3zksbLYU",
+          "locationConfidence" : 0.8955185
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      }, {
+        "location" : {
+          "latitudeE7" : 374608990,
+          "longitudeE7" : 1269532868,
+          "placeId" : "ChIJdRnheP9fezURg-UPBqhl2no",
+          "address" : "대한민국 서울특별시 관악구 대학동 산56-1",
+          "name" : "우리은행 서울대학교지점",
+          "sourceInfo" : {
+            "deviceTag" : 235002806
+          },
+          "locationConfidence" : 66.07896
+        },
+        "duration" : {
+          "startTimestampMs" : "1563346241326",
+          "endTimestampMs" : "1563350929826"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 374607918,
+        "centerLngE7" : 1269531527,
+        "visitConfidence" : 96,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 374602626,
+          "longitudeE7" : 1269535979,
+          "placeId" : "ChIJ279VrviffDURrw4ulPBlwKY",
+          "locationConfidence" : 3.707787
+        }, {
+          "latitudeE7" : 374607355,
+          "longitudeE7" : 1269534257,
+          "placeId" : "ChIJ9fmwp6iYfDURvbwMjMHjHn8",
+          "locationConfidence" : 2.9878924
+        }, {
+          "latitudeE7" : 374590261,
+          "longitudeE7" : 1269508332,
+          "placeId" : "ChIJIbNG-_6ffDURY8ikqzcget4",
+          "locationConfidence" : 1.1926687
+        }, {
+          "latitudeE7" : 374603233,
+          "longitudeE7" : 1269537334,
+          "placeId" : "ChIJwwqucP9fezURRSGGGUF7mc4",
+          "locationConfidence" : 1.180586
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 374633008,
+      "centerLngE7" : 1269537751,
+      "visitConfidence" : 96,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374591713,
+        "longitudeE7" : 1269517212,
+        "placeId" : "ChIJFQtW7v6ffDUR_rjguL0dOXQ",
+        "name" : "교보문고 서울대점",
+        "locationConfidence" : 11.996576
+      }, {
+        "latitudeE7" : 374641647,
+        "longitudeE7" : 1269538498,
+        "placeId" : "ChIJtcwPr_mffDUR6LSNrgPO3jU",
+        "locationConfidence" : 3.1425536
+      }, {
+        "latitudeE7" : 374653130,
+        "longitudeE7" : 1269486120,
+        "placeId" : "ChIJhcFEHvqffDURrbZlS7A957M",
+        "locationConfidence" : 0.06494393
+      }, {
+        "latitudeE7" : 374660290,
+        "longitudeE7" : 1269521180,
+        "placeId" : "ChIJvejBnfeffDURgHPo8qw6pSw",
+        "locationConfidence" : 0.057540767
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374663943,
+          "lngE7" : 1269538125,
+          "timestampMs" : "1563338005963",
+          "accuracyMeters" : 14
+        }, {
+          "latE7" : 374660668,
+          "lngE7" : 1269542701,
+          "timestampMs" : "1563338164000",
+          "accuracyMeters" : 3
+        }, {
+          "latE7" : 374650306,
+          "lngE7" : 1269543915,
+          "timestampMs" : "1563338319000",
+          "accuracyMeters" : 4
+        }, {
+          "latE7" : 374640847,
+          "lngE7" : 1269538514,
+          "timestampMs" : "1563342364448",
+          "accuracyMeters" : 14
+        }, {
+          "latE7" : 374608328,
+          "lngE7" : 1269531998,
+          "timestampMs" : "1563346605846",
+          "accuracyMeters" : 15
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374605388,
+        "longitudeE7" : 1269525314,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374705594,
+        "longitudeE7" : 1269408269,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563350929826",
+        "endTimestampMs" : "1563351450591"
+      },
+      "distance" : 1633,
+      "activityType" : "IN_BUS",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_BUS",
+        "probability" : 51.19602022440509
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 36.54632394612587
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 8.090138059510119
+      } ],
+      "transitPath" : {
+        "transitStops" : [ {
+          "latitudeE7" : 374608760,
+          "longitudeE7" : 1269502340,
+          "placeId" : "ChIJxalNyv6ffDURpWeXUtfQED0",
+          "name" : "Seoul National Univ. HQ"
+        }, {
+          "latitudeE7" : 374709670,
+          "longitudeE7" : 1269410600,
+          "placeId" : "ChIJcf_Eru-ffDUR2ez50gTYeYo",
+          "name" : "Seoul Polytechnic School, Samseonggyo Bridge"
+        } ],
+        "name" : "5516",
+        "hexRgbColor" : "0ABB0C"
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374611439,
+          "lngE7" : 1269507048,
+          "timestampMs" : "1563351073248",
+          "accuracyMeters" : 98
+        }, {
+          "latE7" : 374667639,
+          "lngE7" : 1269485738,
+          "timestampMs" : "1563351207423",
+          "accuracyMeters" : 17
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374705509,
+        "longitudeE7" : 1269408419,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563351450591",
+        "endTimestampMs" : "1563351940141"
+      },
+      "distance" : 554,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 80.44753913800396
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 15.127780189309389
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 3.1700448790726097
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "placeId" : "ChIJdXtCy-effDURZNV-ACrwPHQ",
+        "address" : "대한민국 서울특별시 관악구 대학동 1522-1",
+        "name" : "1522-1",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 66.20699
+      },
+      "duration" : {
+        "startTimestampMs" : "1563351940141",
+        "endTimestampMs" : "1563445365999"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 374701986,
+      "centerLngE7" : 1269349735,
+      "visitConfidence" : 79,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374699625,
+        "longitudeE7" : 1269346987,
+        "placeId" : "ChIJVf9qt-effDURIrUHQ08tUyU",
+        "locationConfidence" : 3.5040345
+      }, {
+        "latitudeE7" : 374699922,
+        "longitudeE7" : 1269347432,
+        "placeId" : "ChIJz4gat-effDURCQib4ajopg4",
+        "locationConfidence" : 0.62135726
+      }, {
+        "latitudeE7" : 374710443,
+        "longitudeE7" : 1269343138,
+        "placeId" : "ChIJac-D2-effDURsRGy5WUelTk",
+        "locationConfidence" : 0.49444366
+      }, {
+        "latitudeE7" : 374695737,
+        "longitudeE7" : 1269343376,
+        "placeId" : "ChIJ2-hipOeffDUR9svjjHhCr48",
+        "locationConfidence" : 0.4699637
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374695509,
+        "longitudeE7" : 1269356409,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563445365999",
+        "endTimestampMs" : "1563445379280"
+      },
+      "distance" : 150,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 92.83105010124504
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 4.08715633903132
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.8865857798169556
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374695509,
+        "longitudeE7" : 1269356409,
+        "placeId" : "ChIJiaVVSeaffDURCb08z_fAV90",
+        "address" : "대한민국 서울특별시 관악구 대학동 호암로24길 43",
+        "name" : "Dabujji",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 56.72877
+      },
+      "duration" : {
+        "startTimestampMs" : "1563445379280",
+        "endTimestampMs" : "1563447844763"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374694456,
+      "centerLngE7" : 1269358816,
+      "visitConfidence" : 65,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374694668,
+        "longitudeE7" : 1269356682,
+        "placeId" : "ChIJ5atJZ5qffDURPwauBP33Gl8",
+        "locationConfidence" : 10.170181
+      }, {
+        "latitudeE7" : 374694461,
+        "longitudeE7" : 1269363905,
+        "placeId" : "ChIJ5_DnQOaffDURfgK1hRVKdUk",
+        "locationConfidence" : 0.75635916
+      }, {
+        "latitudeE7" : 374694403,
+        "longitudeE7" : 1269352062,
+        "placeId" : "ChIJEwNvUnyffDURxyQtZn3Yj50",
+        "locationConfidence" : 0.511445
+      }, {
+        "latitudeE7" : 374703968,
+        "longitudeE7" : 1269344537,
+        "placeId" : "ChIJX_x-seeffDUR6CKAaVPePqM",
+        "locationConfidence" : 0.47331727
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374695509,
+        "longitudeE7" : 1269356409,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374688068,
+        "longitudeE7" : 1269361927,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563447844763",
+        "endTimestampMs" : "1563447965407"
+      },
+      "distance" : 96,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 94.89315676203569
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 3.551092697124642
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.5282921587166828
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374688068,
+        "longitudeE7" : 1269361927,
+        "placeId" : "ChIJ3fntf3GffDURjPCyJrWW2P0",
+        "address" : "대한민국 서울특별시 관악구 대학동 신림로17길 42",
+        "name" : "구동커피",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 16.840254
+      },
+      "duration" : {
+        "startTimestampMs" : "1563447965407",
+        "endTimestampMs" : "1563451789225"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374686591,
+      "centerLngE7" : 1269361703,
+      "visitConfidence" : 88,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374686638,
+        "longitudeE7" : 1269362045,
+        "placeId" : "ChIJx1rB1reffDUR2eL-kE8txIo",
+        "locationConfidence" : 11.138963
+      }, {
+        "latitudeE7" : 374684889,
+        "longitudeE7" : 1269361693,
+        "placeId" : "ChIJv_mCWOaffDURyzQnLE1Nxzc",
+        "locationConfidence" : 5.7642264
+      }, {
+        "latitudeE7" : 374694348,
+        "longitudeE7" : 1269376151,
+        "placeId" : "ChIJ5X9NCeaffDURGYQTVPN59yE",
+        "locationConfidence" : 3.5048597
+      }, {
+        "latitudeE7" : 374684905,
+        "longitudeE7" : 1269359764,
+        "placeId" : "ChIJcwuCBb-ffDURJlObbcq9yF4",
+        "locationConfidence" : 3.3617737
+      }, {
+        "latitudeE7" : 374693264,
+        "longitudeE7" : 1269372548,
+        "placeId" : "ChIJKY2WEuaffDURg-5Mm8BxLTg",
+        "locationConfidence" : 2.1855345
+      }, {
+        "latitudeE7" : 374687404,
+        "longitudeE7" : 1269356431,
+        "placeId" : "ChIJc-AKVuaffDURy9ZHJt7w3Vs",
+        "locationConfidence" : 1.8469203
+      }, {
+        "latitudeE7" : 374686241,
+        "longitudeE7" : 1269366343,
+        "placeId" : "ChIJicH4XeaffDURP_KI5yr08H0",
+        "locationConfidence" : 1.1000675
+      }, {
+        "latitudeE7" : 374683516,
+        "longitudeE7" : 1269361708,
+        "placeId" : "ChIJpSRX9uaffDURwZTM2-Krpwc",
+        "locationConfidence" : 0.9286904
+      }, {
+        "latitudeE7" : 374682470,
+        "longitudeE7" : 1269362511,
+        "placeId" : "ChIJP2qCULqffDURoeSpaogukVI",
+        "locationConfidence" : 0.9000342
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374688068,
+        "longitudeE7" : 1269361927,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563451789225",
+        "endTimestampMs" : "1563452198079"
+      },
+      "distance" : 220,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 98.04421705040141
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.0970403375168012
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.3201234084194251
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "placeId" : "ChIJdXtCy-effDURZNV-ACrwPHQ",
+        "address" : "대한민국 서울특별시 관악구 대학동 1522-1",
+        "name" : "1522-1",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 67.09011
+      },
+      "duration" : {
+        "startTimestampMs" : "1563452198079",
+        "endTimestampMs" : "1563685859009"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 374702407,
+      "centerLngE7" : 1269349010,
+      "visitConfidence" : 69,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374705468,
+        "longitudeE7" : 1269351054,
+        "placeId" : "ChIJKViZzeeffDURyap8H6n_vbE",
+        "locationConfidence" : 0.8832808
+      }, {
+        "latitudeE7" : 374699922,
+        "longitudeE7" : 1269347432,
+        "placeId" : "ChIJz4gat-effDURCQib4ajopg4",
+        "locationConfidence" : 0.73856294
+      }, {
+        "latitudeE7" : 374710443,
+        "longitudeE7" : 1269343138,
+        "placeId" : "ChIJac-D2-effDURsRGy5WUelTk",
+        "locationConfidence" : 0.5856556
+      }, {
+        "latitudeE7" : 374694429,
+        "longitudeE7" : 1269348010,
+        "placeId" : "ChIJU_5X92KffDUR_foLf9bARCI",
+        "locationConfidence" : 0.43565318
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374694954,
+        "longitudeE7" : 1269354348,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374709021,
+        "longitudeE7" : 1269351281,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563685859009",
+        "endTimestampMs" : "1563686468465"
+      },
+      "distance" : 165,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.29936973158345
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.898625711041089
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.2687251776237702
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "placeId" : "ChIJdXtCy-effDURZNV-ACrwPHQ",
+        "address" : "대한민국 서울특별시 관악구 대학동 1522-1",
+        "name" : "1522-1",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 69.296974
+      },
+      "duration" : {
+        "startTimestampMs" : "1563686468465",
+        "endTimestampMs" : "1563874716242"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 374702217,
+      "centerLngE7" : 1269349394,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374699625,
+        "longitudeE7" : 1269346987,
+        "placeId" : "ChIJVf9qt-effDURIrUHQ08tUyU",
+        "locationConfidence" : 3.0538154
+      }, {
+        "latitudeE7" : 374699922,
+        "longitudeE7" : 1269347432,
+        "placeId" : "ChIJz4gat-effDURCQib4ajopg4",
+        "locationConfidence" : 0.51828545
+      }, {
+        "latitudeE7" : 374710443,
+        "longitudeE7" : 1269343138,
+        "placeId" : "ChIJac-D2-effDURsRGy5WUelTk",
+        "locationConfidence" : 0.4393568
+      }, {
+        "latitudeE7" : 374695737,
+        "longitudeE7" : 1269343376,
+        "placeId" : "ChIJ2-hipOeffDUR9svjjHhCr48",
+        "locationConfidence" : 0.40250832
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374707596,
+        "longitudeE7" : 1269365796,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563874716242",
+        "endTimestampMs" : "1563874964054"
+      },
+      "distance" : 386,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 64.2213478072128
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 25.060586473767
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 8.297180985847072
+      } ]
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374708700,
+        "longitudeE7" : 1269343268,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374776242,
+        "longitudeE7" : 1269582039,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563874964054",
+        "endTimestampMs" : "1563876117307"
+      },
+      "distance" : 3578,
+      "activityType" : "IN_BUS",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_BUS",
+        "probability" : 94.52285551632441
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 3.464873783294151
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.7490471097425568
+      } ],
+      "transitPath" : {
+        "transitStops" : [ {
+          "latitudeE7" : 374727420,
+          "longitudeE7" : 1269329860,
+          "placeId" : "ChIJ-1ONG-iffDUREuTEAvFCGRs",
+          "name" : "Samseong-dong Traditional Market"
+        }, {
+          "latitudeE7" : 374793110,
+          "longitudeE7" : 1269572460,
+          "placeId" : "ChIJz3gvViagfDURDWCpix_nbFU",
+          "name" : "Nakseongdae-dong"
+        } ],
+        "name" : "5528",
+        "hexRgbColor" : "0ABB0C"
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374708793,
+          "lngE7" : 1269417313,
+          "timestampMs" : "1563875147239",
+          "accuracyMeters" : 37
+        }, {
+          "latE7" : 374669321,
+          "lngE7" : 1269478659,
+          "timestampMs" : "1563875268263",
+          "accuracyMeters" : 50
+        }, {
+          "latE7" : 374756191,
+          "lngE7" : 1269526984,
+          "timestampMs" : "1563875510291",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 374799993,
+          "lngE7" : 1269525083,
+          "timestampMs" : "1563875882387",
+          "accuracyMeters" : 27
+        }, {
+          "latE7" : 374803722,
+          "lngE7" : 1269554028,
+          "timestampMs" : "1563876002381",
+          "accuracyMeters" : 23
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374776242,
+        "longitudeE7" : 1269582039,
+        "placeId" : "ChIJL89tvyagfDURq2yXwkcvgh4",
+        "address" : "1층\n106 관악로14길 낙성대동\n관악구 서울특별시\nSouth Korea",
+        "name" : "퍼블리코타코 PUBLICO TACO(Restaurante mexicano)",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 68.593
+      },
+      "duration" : {
+        "startTimestampMs" : "1563876117307",
+        "endTimestampMs" : "1563881793430"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374778122,
+      "centerLngE7" : 1269582130,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374771841,
+        "longitudeE7" : 1269585600,
+        "placeId" : "ChIJb2VAuiagfDUR6cjlVhVNUng",
+        "locationConfidence" : 2.2709055
+      }, {
+        "latitudeE7" : 374771776,
+        "longitudeE7" : 1269583514,
+        "placeId" : "ChIJKew4PV2hfDURgsrmKyEF28g",
+        "locationConfidence" : 1.9655458
+      }, {
+        "latitudeE7" : 374778290,
+        "longitudeE7" : 1269582338,
+        "placeId" : "ChIJFVdmlSagfDURVg3KM7eTQ08",
+        "locationConfidence" : 1.7916721
+      }, {
+        "latitudeE7" : 374780106,
+        "longitudeE7" : 1269572526,
+        "placeId" : "ChIJS-CoRGGhfDURoUrq8u0T2Go",
+        "locationConfidence" : 1.2403232
+      }, {
+        "latitudeE7" : 374776974,
+        "longitudeE7" : 1269584068,
+        "placeId" : "ChIJzVsprxigfDURq29qKST_Lzw",
+        "locationConfidence" : 1.239205
+      }, {
+        "latitudeE7" : 374775987,
+        "longitudeE7" : 1269582378,
+        "placeId" : "ChIJb019VPyhfDURU-mhmuCe2pA",
+        "locationConfidence" : 1.20371
+      }, {
+        "latitudeE7" : 374778276,
+        "longitudeE7" : 1269580789,
+        "placeId" : "ChIJUTgawCagfDURvz2HLx1aSJQ",
+        "locationConfidence" : 1.1847602
+      }, {
+        "latitudeE7" : 374776242,
+        "longitudeE7" : 1269582039,
+        "placeId" : "ChIJL89tvyagfDURaFBG-GDPAJs",
+        "locationConfidence" : 0.623814
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374776242,
+        "longitudeE7" : 1269582039,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374782967,
+        "longitudeE7" : 1269555862,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563881793430",
+        "endTimestampMs" : "1563881914732"
+      },
+      "distance" : 258,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.45857753460467
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.478792704198891
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.2818718165046757
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374782967,
+        "longitudeE7" : 1269555862,
+        "placeId" : "ChIJoTNQOCegfDUROf5gUMqMCqw",
+        "address" : "대한민국 서울특별시 관악구 낙성대동 1613-7",
+        "name" : "티라노 커피",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 65.94703
+      },
+      "duration" : {
+        "startTimestampMs" : "1563881914732",
+        "endTimestampMs" : "1563889605515"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374783840,
+      "centerLngE7" : 1269554638,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374783886,
+        "longitudeE7" : 1269553905,
+        "placeId" : "ChIJbzucRyegfDUR2xpDDgeGs-Q",
+        "locationConfidence" : 8.108482
+      }, {
+        "latitudeE7" : 374782967,
+        "longitudeE7" : 1269555862,
+        "placeId" : "ChIJw50eKjOhfDURzWfn28E-0CI",
+        "locationConfidence" : 2.5229356
+      }, {
+        "latitudeE7" : 374795951,
+        "longitudeE7" : 1269554697,
+        "placeId" : "ChIJnxjKDCegfDURRkNugPLUqbE",
+        "locationConfidence" : 1.4563379
+      }, {
+        "latitudeE7" : 374781747,
+        "longitudeE7" : 1269555413,
+        "placeId" : "ChIJbeKMNyegfDURwWYWUCGUxXU",
+        "locationConfidence" : 1.2122685
+      }, {
+        "latitudeE7" : 374780040,
+        "longitudeE7" : 1269555080,
+        "placeId" : "ChIJibc9NiegfDURtL75hEArAU4",
+        "locationConfidence" : 0.6995866
+      }, {
+        "latitudeE7" : 374788809,
+        "longitudeE7" : 1269547070,
+        "placeId" : "ChIJJemVXCegfDURFPBa06Mf7N0",
+        "locationConfidence" : 0.47504997
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374788259,
+        "longitudeE7" : 1269548078,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374806730,
+        "longitudeE7" : 1269523770,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563889605515",
+        "endTimestampMs" : "1563890076665"
+      },
+      "distance" : 455,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 96.06078117260058
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.3225758208305172
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 1.2478884183968115
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374806730,
+        "longitudeE7" : 1269523770,
+        "placeId" : "ChIJvcklsYmffDURm_KxQHa3VBY",
+        "address" : "대한민국 서울특별시 청룡동",
+        "name" : "Seoul National Univ. Station",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 22.713276
+      },
+      "duration" : {
+        "startTimestampMs" : "1563890076665",
+        "endTimestampMs" : "1563890702473"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 374805742,
+      "centerLngE7" : 1269526433,
+      "visitConfidence" : 90,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374812100,
+        "longitudeE7" : 1269527120,
+        "placeId" : "ChIJ--IQSoiffDURAw6n1G1NCDw",
+        "locationConfidence" : 14.876785
+      }, {
+        "latitudeE7" : 374803170,
+        "longitudeE7" : 1269527770,
+        "placeId" : "ChIJKa0NuImffDURtfPoLH2f4Vc",
+        "locationConfidence" : 13.347961
+      }, {
+        "latitudeE7" : 374816957,
+        "longitudeE7" : 1269533850,
+        "placeId" : "ChIJEdvaPIiffDURQgGEiFZgIXM",
+        "locationConfidence" : 0.6491025
+      }, {
+        "latitudeE7" : 374804139,
+        "longitudeE7" : 1269534689,
+        "placeId" : "ChIJ1w3_0YmffDURg47A8eGi0Nk",
+        "locationConfidence" : 0.6354814
+      }, {
+        "latitudeE7" : 374795693,
+        "longitudeE7" : 1269521709,
+        "placeId" : "ChIJSx9gkImffDURHuFmAN1d22E",
+        "locationConfidence" : 0.61693925
+      }, {
+        "latitudeE7" : 374802714,
+        "longitudeE7" : 1269522176,
+        "placeId" : "ChIJLWh9u4mffDURkJcvlCVb8MM",
+        "locationConfidence" : 0.6035237
+      }, {
+        "latitudeE7" : 374803890,
+        "longitudeE7" : 1269539640,
+        "placeId" : "ChIJlwVI1YmffDURnlGfIXmVhZg",
+        "locationConfidence" : 0.5896975
+      }, {
+        "latitudeE7" : 374801936,
+        "longitudeE7" : 1269540821,
+        "placeId" : "ChIJhcuCrb6ffDURcTRBkRHvyDQ",
+        "locationConfidence" : 0.58180463
+      }, {
+        "latitudeE7" : 374803780,
+        "longitudeE7" : 1269534373,
+        "placeId" : "ChIJqV390YmffDURSGe5am8TU8w",
+        "locationConfidence" : 0.57787704
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374806730,
+        "longitudeE7" : 1269523770,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1563890702473",
+        "endTimestampMs" : "1563891554934"
+      },
+      "distance" : 3521,
+      "activityType" : "IN_BUS",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_BUS",
+        "probability" : 83.15634280993844
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 8.831762170458989
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 7.678361614347744
+      } ],
+      "transitPath" : {
+        "transitStops" : [ {
+          "latitudeE7" : 374806730,
+          "longitudeE7" : 1269523770,
+          "placeId" : "ChIJvcklsYmffDURm_KxQHa3VBY",
+          "name" : "Seoul National Univ. Station"
+        }, {
+          "latitudeE7" : 374704780,
+          "longitudeE7" : 1269376980,
+          "placeId" : "ChIJCRfvq-iffDURmLTuNwuv7t0",
+          "name" : "Gosichon Entrance"
+        } ],
+        "name" : "5515",
+        "hexRgbColor" : "0ABB0C"
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374790030,
+          "lngE7" : 1269523250,
+          "timestampMs" : "1563890823574",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 374692919,
+          "lngE7" : 1269437627,
+          "timestampMs" : "1563891187945",
+          "accuracyMeters" : 75
+        }, {
+          "latE7" : 374708759,
+          "lngE7" : 1269309065,
+          "timestampMs" : "1563891308966",
+          "accuracyMeters" : 68
+        }, {
+          "latE7" : 374701932,
+          "lngE7" : 1269377707,
+          "timestampMs" : "1563891430589",
+          "accuracyMeters" : 15
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "placeId" : "ChIJdXtCy-effDURZNV-ACrwPHQ",
+        "address" : "대한민국 서울특별시 관악구 대학동 1522-1",
+        "name" : "1522-1",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 66.772316
+      },
+      "duration" : {
+        "startTimestampMs" : "1563891554934",
+        "endTimestampMs" : "1564098100831"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 374702487,
+      "centerLngE7" : 1269349258,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374699922,
+        "longitudeE7" : 1269347432,
+        "placeId" : "ChIJz4gat-effDURCQib4ajopg4",
+        "locationConfidence" : 0.7744598
+      }, {
+        "latitudeE7" : 374705468,
+        "longitudeE7" : 1269351054,
+        "placeId" : "ChIJKViZzeeffDURyap8H6n_vbE",
+        "locationConfidence" : 0.72344714
+      }, {
+        "latitudeE7" : 374694429,
+        "longitudeE7" : 1269348010,
+        "placeId" : "ChIJU_5X92KffDUR_foLf9bARCI",
+        "locationConfidence" : 0.43717307
+      }, {
+        "latitudeE7" : 374695737,
+        "longitudeE7" : 1269343376,
+        "placeId" : "ChIJ2-hipOeffDUR9svjjHhCr48",
+        "locationConfidence" : 0.41369307
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "placeId" : "ChIJdXtCy-effDURZNV-ACrwPHQ",
+        "address" : "대한민국 서울특별시 관악구 대학동 1522-1",
+        "name" : "1522-1",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 55.979668
+      },
+      "duration" : {
+        "startTimestampMs" : "1564454546826",
+        "endTimestampMs" : "1564464632115"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 374702379,
+      "centerLngE7" : 1269349736,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374707968,
+        "longitudeE7" : 1269344439,
+        "placeId" : "ChIJg5MTO_-ffDURwZPWfARMLEQ",
+        "locationConfidence" : 1.082512
+      }, {
+        "latitudeE7" : 374699922,
+        "longitudeE7" : 1269347432,
+        "placeId" : "ChIJz4gat-effDURCQib4ajopg4",
+        "locationConfidence" : 0.72375745
+      }, {
+        "latitudeE7" : 374705468,
+        "longitudeE7" : 1269351054,
+        "placeId" : "ChIJKViZzeeffDURyap8H6n_vbE",
+        "locationConfidence" : 0.690833
+      }, {
+        "latitudeE7" : 374695737,
+        "longitudeE7" : 1269343376,
+        "placeId" : "ChIJ2-hipOeffDUR9svjjHhCr48",
+        "locationConfidence" : 0.5646538
+      }, {
+        "latitudeE7" : 374690800,
+        "longitudeE7" : 1269345848,
+        "placeId" : "ChIJj786COeffDURnwN_aJik3mQ",
+        "locationConfidence" : 0.5043806
+      }, {
+        "latitudeE7" : 374697652,
+        "longitudeE7" : 1269347194,
+        "placeId" : "ChIJR4fysOeffDURNSAjbwxsnJU",
+        "locationConfidence" : 0.4590084
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 375463276,
+        "longitudeE7" : 1269780900,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1564464632115",
+        "endTimestampMs" : "1564468805290"
+      },
+      "distance" : 13268,
+      "activityType" : "IN_BUS",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_BUS",
+        "probability" : 48.16828816362148
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 35.58171635259579
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 10.700414826054143
+      } ],
+      "transitPath" : {
+        "transitStops" : [ {
+          "latitudeE7" : 374710290,
+          "longitudeE7" : 1269338470,
+          "placeId" : "ChIJh6Jj6OeffDURhhGOHeodh4k",
+          "name" : "Gwanak Nonghyup, Sillim Branch"
+        }, {
+          "latitudeE7" : 375432570,
+          "longitudeE7" : 1269724930,
+          "placeId" : "ChIJ80xrqWuifDURa_QokBUxeSM",
+          "name" : "Sookmyung Women's Univ. Station"
+        } ],
+        "name" : "152",
+        "hexRgbColor" : "374FF2"
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374709452,
+          "lngE7" : 1269337985,
+          "timestampMs" : "1564464759674",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 374705128,
+          "lngE7" : 1269405175,
+          "timestampMs" : "1564465002172",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 374686904,
+          "lngE7" : 1269458921,
+          "timestampMs" : "1564465130803",
+          "accuracyMeters" : 88
+        }, {
+          "latE7" : 374741752,
+          "lngE7" : 1269527696,
+          "timestampMs" : "1564465446691",
+          "accuracyMeters" : 91
+        }, {
+          "latE7" : 374811935,
+          "lngE7" : 1269527225,
+          "timestampMs" : "1564465932287",
+          "accuracyMeters" : 14
+        }, {
+          "latE7" : 374765477,
+          "lngE7" : 1269816065,
+          "timestampMs" : "1564466296057",
+          "accuracyMeters" : 14
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 375463276,
+        "longitudeE7" : 1269780900,
+        "placeId" : "ChIJU41S4kKifDUR7mArFxBgVmE",
+        "name" : "풍천참숯민물장어",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 26.112658
+      },
+      "duration" : {
+        "startTimestampMs" : "1564468805290",
+        "endTimestampMs" : "1564472263720"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 375462796,
+      "centerLngE7" : 1269782979,
+      "visitConfidence" : 69,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 375463273,
+        "longitudeE7" : 1269784816,
+        "placeId" : "ChIJNTYuHEOifDURWJC3OTzYhcQ",
+        "locationConfidence" : 14.516051
+      }, {
+        "latitudeE7" : 375461295,
+        "longitudeE7" : 1269782628,
+        "placeId" : "ChIJEU1R_UKifDURMGPw2wsnQmw",
+        "locationConfidence" : 6.7501645
+      }, {
+        "latitudeE7" : 375468150,
+        "longitudeE7" : 1269780534,
+        "placeId" : "ChIJGRqh4EKifDURHglv_sBP2wQ",
+        "locationConfidence" : 5.7622194
+      }, {
+        "latitudeE7" : 375462040,
+        "longitudeE7" : 1269782201,
+        "placeId" : "ChIJm2-34kKifDUREXoWdUBZ848",
+        "locationConfidence" : 4.7548547
+      }, {
+        "latitudeE7" : 375461092,
+        "longitudeE7" : 1269782559,
+        "placeId" : "ChIJu1la_UKifDURtSjuNp0O6Z0",
+        "locationConfidence" : 4.301788
+      }, {
+        "latitudeE7" : 375463373,
+        "longitudeE7" : 1269784746,
+        "placeId" : "ChIJcZsuHEOifDURzjH8-De45Ac",
+        "locationConfidence" : 2.787271
+      }, {
+        "latitudeE7" : 375468150,
+        "longitudeE7" : 1269780256,
+        "placeId" : "ChIJGRqh4EKifDURzdgv3CG94M4",
+        "locationConfidence" : 2.06614
+      }, {
+        "latitudeE7" : 375459975,
+        "longitudeE7" : 1269781522,
+        "placeId" : "ChIJz9e3_UKifDURFbPf1XUajNQ",
+        "locationConfidence" : 1.5347515
+      }, {
+        "latitudeE7" : 375462091,
+        "longitudeE7" : 1269786574,
+        "placeId" : "ChIJRevsG0OifDUR6k1Zm3BpA8s",
+        "locationConfidence" : 1.4883714
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 375463276,
+        "longitudeE7" : 1269780900,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 375459227,
+        "longitudeE7" : 1269775218,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1564472263720",
+        "endTimestampMs" : "1564472527485"
+      },
+      "distance" : 130,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 95.13202739166074
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 2.7381696104662185
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.4825835616718706
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 375459227,
+        "longitudeE7" : 1269775218,
+        "placeId" : "ChIJY7G_90KifDURqCQGFSVGHNI",
+        "address" : "대한민국 서울특별시 용산구 후암동 두텁바위로 49",
+        "name" : "Cafe wardrobe",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 70.08765
+      },
+      "duration" : {
+        "startTimestampMs" : "1564472527485",
+        "endTimestampMs" : "1564479415716"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 375458875,
+      "centerLngE7" : 1269775099,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 375459227,
+        "longitudeE7" : 1269775218,
+        "placeId" : "ChIJY7G_90KifDURnhaOhVGgEJA",
+        "locationConfidence" : 6.7193627
+      }, {
+        "latitudeE7" : 375458797,
+        "longitudeE7" : 1269774087,
+        "placeId" : "ChIJlRA6scijfDURRoOOZjCJP_4",
+        "locationConfidence" : 4.5934935
+      }, {
+        "latitudeE7" : 375459262,
+        "longitudeE7" : 1269774146,
+        "placeId" : "ChIJrT8ZXU-ifDURArEp_ndHnzA",
+        "locationConfidence" : 4.0001154
+      }, {
+        "latitudeE7" : 375459145,
+        "longitudeE7" : 1269774087,
+        "placeId" : "ChIJY74v9kKifDURXOj5rrwBX-M",
+        "locationConfidence" : 0.9387113
+      }, {
+        "latitudeE7" : 375457060,
+        "longitudeE7" : 1269775180,
+        "placeId" : "ChIJUwlJWEKifDURvKywYo96UM0",
+        "locationConfidence" : 0.847495
+      }, {
+        "latitudeE7" : 375468150,
+        "longitudeE7" : 1269780256,
+        "placeId" : "ChIJGRqh4EKifDURzdgv3CG94M4",
+        "locationConfidence" : 0.77783996
+      }, {
+        "latitudeE7" : 375459975,
+        "longitudeE7" : 1269781522,
+        "placeId" : "ChIJz9e3_UKifDURFbPf1XUajNQ",
+        "locationConfidence" : 0.6910951
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 375458579,
+        "longitudeE7" : 1269774587,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 375450970,
+        "longitudeE7" : 1269719870,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1564479415716",
+        "endTimestampMs" : "1564479788535"
+      },
+      "distance" : 510,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 94.31487678753282
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 3.0786015477023927
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 1.2213407568392667
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 375450970,
+        "longitudeE7" : 1269719870,
+        "placeId" : "ChIJl91RxmuifDUR6fD8b-877_c",
+        "address" : "대한민국 서울특별시 남영동",
+        "name" : "Sookmyung Women's Univ. (Garwol)",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 58.697796
+      },
+      "duration" : {
+        "startTimestampMs" : "1564479788535",
+        "endTimestampMs" : "1564480163921"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 375448017,
+      "centerLngE7" : 1269722383,
+      "visitConfidence" : 92,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 375451554,
+        "longitudeE7" : 1269718605,
+        "placeId" : "ChIJ8XGI3GuifDURCIPxQdV62-c",
+        "locationConfidence" : 13.305652
+      }, {
+        "latitudeE7" : 375443320,
+        "longitudeE7" : 1269732218,
+        "placeId" : "ChIJJRzaM2qifDURUXKWumkWNJc",
+        "locationConfidence" : 0.6448756
+      }, {
+        "latitudeE7" : 375433900,
+        "longitudeE7" : 1269720724,
+        "placeId" : "ChIJdf73pmuifDURaMiMcjAqoVw",
+        "locationConfidence" : 0.44115067
+      }, {
+        "latitudeE7" : 375447285,
+        "longitudeE7" : 1269716774,
+        "placeId" : "ChIJbSrHwWuifDUR3oDDf3rvU8A",
+        "locationConfidence" : 0.38632557
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 375445662,
+        "longitudeE7" : 1269720773,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374770471,
+        "longitudeE7" : 1269627546,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1564480163921",
+        "endTimestampMs" : "1564481733151"
+      },
+      "distance" : 9513,
+      "activityType" : "IN_SUBWAY",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 93.41478000851224
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 6.02673273661314
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.36800523242029864
+      } ],
+      "transitPath" : {
+        "transitStops" : [ {
+          "latitudeE7" : 375451060,
+          "longitudeE7" : 1269720040,
+          "placeId" : "ChIJl91RxmuifDUR6fD8b-877_c",
+          "name" : "Sookmyung Women's"
+        }, {
+          "latitudeE7" : 374770000,
+          "longitudeE7" : 1269816810,
+          "placeId" : "ChIJb34qtU6gfDUR0Ehf_K-jp3w",
+          "name" : "Sadang Station"
+        } ],
+        "name" : "4호선",
+        "hexRgbColor" : "1D8AC7"
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 375293235,
+          "lngE7" : 1269679732,
+          "timestampMs" : "1564480408587",
+          "accuracyMeters" : 14
+        }, {
+          "latE7" : 375224928,
+          "lngE7" : 1269746700,
+          "timestampMs" : "1564480529661",
+          "accuracyMeters" : 29
+        }, {
+          "latE7" : 375032767,
+          "lngE7" : 1269803305,
+          "timestampMs" : "1564480773615",
+          "accuracyMeters" : 22
+        }, {
+          "latE7" : 374910584,
+          "lngE7" : 1269826478,
+          "timestampMs" : "1564481018560",
+          "accuracyMeters" : 100
+        }, {
+          "latE7" : 374768474,
+          "lngE7" : 1269818101,
+          "timestampMs" : "1564481490069",
+          "accuracyMeters" : 52
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374770471,
+        "longitudeE7" : 1269627546,
+        "placeId" : "ChIJe6CY_CSgfDURnxWVuFdI9m8",
+        "address" : "대한민국 서울특별시 관악구 봉천동 남부순환로 1922",
+        "name" : "Hollys Coffee",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 50.300743
+      },
+      "duration" : {
+        "startTimestampMs" : "1564481733151",
+        "endTimestampMs" : "1564482662650"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374772348,
+      "centerLngE7" : 1269630529,
+      "visitConfidence" : 83,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374771170,
+        "longitudeE7" : 1269634180,
+        "placeId" : "ChIJEdjCHyWgfDUR7zUxfFYv6hs",
+        "locationConfidence" : 8.671832
+      }, {
+        "latitudeE7" : 374774208,
+        "longitudeE7" : 1269631830,
+        "placeId" : "ChIJS5WgHiWgfDURmEd_Zw_MN5E",
+        "locationConfidence" : 1.8757975
+      }, {
+        "latitudeE7" : 374762978,
+        "longitudeE7" : 1269631982,
+        "placeId" : "ChIJb5BW6SSgfDURNcRqGn6f1Ek",
+        "locationConfidence" : 0.7094234
+      }, {
+        "latitudeE7" : 374773916,
+        "longitudeE7" : 1269639291,
+        "placeId" : "ChIJQ1SVJCWgfDURdV1p2xtYss4",
+        "locationConfidence" : 0.6380921
+      }, {
+        "latitudeE7" : 374764002,
+        "longitudeE7" : 1269628823,
+        "placeId" : "ChIJE6ni7SSgfDUR1UqHP7i3CaA",
+        "locationConfidence" : 0.62412095
+      }, {
+        "latitudeE7" : 374774876,
+        "longitudeE7" : 1269632709,
+        "placeId" : "ChIJp4cVGSWgfDURHPHQPd-vzZk",
+        "locationConfidence" : 0.57780427
+      }, {
+        "latitudeE7" : 374761520,
+        "longitudeE7" : 1269634379,
+        "placeId" : "ChIJ-aDxBDugfDURZ_dbat-cpa4",
+        "locationConfidence" : 0.5724563
+      }, {
+        "latitudeE7" : 374767800,
+        "longitudeE7" : 1269631325,
+        "placeId" : "ChIJ01Ql5CSgfDURzAACgx4inzM",
+        "locationConfidence" : 0.51217276
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374770471,
+        "longitudeE7" : 1269627546,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374764920,
+        "longitudeE7" : 1269656070,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1564482662650",
+        "endTimestampMs" : "1564482791630"
+      },
+      "distance" : 261,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 93.93277928153539
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 2.1812849737888316
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 1.8963445318980607
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374764920,
+        "longitudeE7" : 1269656070,
+        "placeId" : "ChIJSWGD1jqgfDURrvT9HPbcHhE",
+        "address" : "대한민국 서울특별시 행운동",
+        "name" : "Seoul Art High School Inhun Middle & High School",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 19.934032
+      },
+      "duration" : {
+        "startTimestampMs" : "1564482791630",
+        "endTimestampMs" : "1564483283790"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 374760658,
+      "centerLngE7" : 1269660175,
+      "visitConfidence" : 87,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374756454,
+        "longitudeE7" : 1269662844,
+        "placeId" : "ChIJFeYISTugfDUR7sVDHFcN4so",
+        "locationConfidence" : 18.751204
+      }, {
+        "latitudeE7" : 374757160,
+        "longitudeE7" : 1269664990,
+        "placeId" : "ChIJdQ-jHjugfDUR_JiQUBfEGfY",
+        "locationConfidence" : 13.809511
+      }, {
+        "latitudeE7" : 374759485,
+        "longitudeE7" : 1269649032,
+        "placeId" : "ChIJA7CnMjugfDURzdTHgEvloc4",
+        "locationConfidence" : 0.7943891
+      }, {
+        "latitudeE7" : 374761520,
+        "longitudeE7" : 1269634379,
+        "placeId" : "ChIJ-aDxBDugfDURZ_dbat-cpa4",
+        "locationConfidence" : 0.77603257
+      }, {
+        "latitudeE7" : 374773916,
+        "longitudeE7" : 1269639291,
+        "placeId" : "ChIJQ1SVJCWgfDURdV1p2xtYss4",
+        "locationConfidence" : 0.7692719
+      }, {
+        "latitudeE7" : 374754796,
+        "longitudeE7" : 1269658854,
+        "placeId" : "ChIJR2SEPDugfDUR7Ov_5AzqSWc",
+        "locationConfidence" : 0.6559643
+      }, {
+        "latitudeE7" : 374741292,
+        "longitudeE7" : 1269660289,
+        "placeId" : "ChIJpSrTXTugfDURa33Drzt2UBs",
+        "locationConfidence" : 0.60289514
+      }, {
+        "latitudeE7" : 374760719,
+        "longitudeE7" : 1269638483,
+        "placeId" : "ChIJgUsHxCSgfDURdyuNiji5QXc",
+        "locationConfidence" : 0.54436576
+      }, {
+        "latitudeE7" : 374745667,
+        "longitudeE7" : 1269660800,
+        "placeId" : "ChIJEV1FQjugfDURyiWM2eXRSMA",
+        "locationConfidence" : 0.5365342
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374751535,
+        "longitudeE7" : 1269656495,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374762257,
+        "longitudeE7" : 1269774642,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1564483283790",
+        "endTimestampMs" : "1564484260862"
+      },
+      "distance" : 1109,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 98.10609517395628
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.789533569651183
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 0.4033723702357465
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374762257,
+        "longitudeE7" : 1269774642,
+        "placeId" : "ChIJdVrwTkigfDURKUCA_5DOxtY",
+        "address" : "대한민국 서울특별시 관악구 남현동 1057-24\n연어무리수\n2층",
+        "name" : "연어무리수",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 51.72107
+      },
+      "duration" : {
+        "startTimestampMs" : "1564484260862",
+        "endTimestampMs" : "1564488161459"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 374763777,
+      "centerLngE7" : 1269776063,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374760978,
+        "longitudeE7" : 1269776466,
+        "placeId" : "ChIJ5VfSUUigfDUR0lUSlL3wy0Q",
+        "locationConfidence" : 5.040168
+      }, {
+        "latitudeE7" : 374763236,
+        "longitudeE7" : 1269774721,
+        "placeId" : "ChIJoaDRTUigfDURKuLEDgmSYH8",
+        "locationConfidence" : 1.2348933
+      }, {
+        "latitudeE7" : 374756848,
+        "longitudeE7" : 1269788331,
+        "placeId" : "ChIJhTkU-0igfDURjzEb7D16gUI",
+        "locationConfidence" : 1.0146744
+      }, {
+        "latitudeE7" : 374757522,
+        "longitudeE7" : 1269778567,
+        "placeId" : "ChIJ55xIWkigfDURRdn5epwfUaQ",
+        "locationConfidence" : 0.7517002
+      }, {
+        "latitudeE7" : 374772719,
+        "longitudeE7" : 1269777117,
+        "placeId" : "ChIJ65nCpEmgfDURM2XjgwLbVLs",
+        "locationConfidence" : 0.73205
+      }, {
+        "latitudeE7" : 374763514,
+        "longitudeE7" : 1269780832,
+        "placeId" : "ChIJQ07SVEigfDURTuy2hmHC0H0",
+        "locationConfidence" : 0.6426543
+      }, {
+        "latitudeE7" : 374762321,
+        "longitudeE7" : 1269781294,
+        "placeId" : "ChIJCxoDVUigfDURI9U-Yr5p37M",
+        "locationConfidence" : 0.59321153
+      }, {
+        "latitudeE7" : 374770645,
+        "longitudeE7" : 1269782724,
+        "placeId" : "ChIJ4bNjp0mgfDUReNImvGO6xns",
+        "locationConfidence" : 0.55789596
+      }, {
+        "latitudeE7" : 374760844,
+        "longitudeE7" : 1269774067,
+        "placeId" : "ChIJYwpuT0igfDURnpDoLbZay1A",
+        "locationConfidence" : 0.5262195
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 374767762,
+        "longitudeE7" : 1269769493,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1564488161459",
+        "endTimestampMs" : "1564489899460"
+      },
+      "distance" : 4625,
+      "activityType" : "IN_BUS",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_BUS",
+        "probability" : 85.40554978833713
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 9.849266560736693
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 2.396856408414229
+      } ],
+      "transitPath" : {
+        "transitStops" : [ {
+          "latitudeE7" : 374768420,
+          "longitudeE7" : 1269778800,
+          "placeId" : "ChIJofTcrkmgfDUR8ixd49-fzcg",
+          "name" : "Sadang 1-dong Gwanak Traditional Market"
+        }, {
+          "latitudeE7" : 374710360,
+          "longitudeE7" : 1269376450,
+          "placeId" : "ChIJ3_FhseiffDUR0GXnZav2wsM",
+          "name" : "Sinseong Elementary School"
+        } ],
+        "name" : "5528",
+        "hexRgbColor" : "0ABB0C"
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 374760777,
+          "lngE7" : 1269728979,
+          "timestampMs" : "1564488299262",
+          "accuracyMeters" : 34
+        }, {
+          "latE7" : 374767146,
+          "lngE7" : 1269648496,
+          "timestampMs" : "1564488423417",
+          "accuracyMeters" : 14
+        }, {
+          "latE7" : 374798042,
+          "lngE7" : 1269568158,
+          "timestampMs" : "1564488915587",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 374796464,
+          "lngE7" : 1269523353,
+          "timestampMs" : "1564489022596",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 374745567,
+          "lngE7" : 1269528899,
+          "timestampMs" : "1564489283907",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 374699660,
+          "lngE7" : 1269445183,
+          "timestampMs" : "1564489532827",
+          "accuracyMeters" : 50
+        }, {
+          "latE7" : 374709698,
+          "lngE7" : 1269372389,
+          "timestampMs" : "1564489778142",
+          "accuracyMeters" : 22
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 374702072,
+        "longitudeE7" : 1269348907,
+        "placeId" : "ChIJdXtCy-effDURZNV-ACrwPHQ",
+        "address" : "대한민국 서울특별시 관악구 대학동 1522-1",
+        "name" : "1522-1",
+        "sourceInfo" : {
+          "deviceTag" : 235002806
+        },
+        "locationConfidence" : 66.71384
+      },
+      "duration" : {
+        "startTimestampMs" : "1564489899460",
+        "endTimestampMs" : "1564644283006"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 374702599,
+      "centerLngE7" : 1269349232,
+      "visitConfidence" : 83,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 374699922,
+        "longitudeE7" : 1269347432,
+        "placeId" : "ChIJz4gat-effDURCQib4ajopg4",
+        "locationConfidence" : 0.7342332
+      }, {
+        "latitudeE7" : 374695737,
+        "longitudeE7" : 1269343376,
+        "placeId" : "ChIJ2-hipOeffDUR9svjjHhCr48",
+        "locationConfidence" : 0.5009818
+      }, {
+        "latitudeE7" : 374701403,
+        "longitudeE7" : 1269369808,
+        "placeId" : "ChIJu9HtW-affDURol7VCzG6NI8",
+        "locationConfidence" : 0.49703076
+      }, {
+        "latitudeE7" : 374708405,
+        "longitudeE7" : 1269351238,
+        "placeId" : "ChIJSw2d0-effDUR0wwpvsdfe74",
+        "locationConfidence" : 0.44064084
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  } ]
+}
