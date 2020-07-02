@@ -13,8 +13,8 @@ library(ggplot2)
 library(glmnet)
 library(car)
 
-labels <- read.csv("scale_labels.csv")
-f <- na.omit(read.csv("results_compilation.csv"))
+labels <- read.csv("survey_data/scale_labels.csv")
+f <- na.omit(read.csv("survey_data/results_compilation.csv"))
 str(f)
 
 data <- f[27:64]

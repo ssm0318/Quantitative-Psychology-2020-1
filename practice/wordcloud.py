@@ -63,7 +63,7 @@ for sentence in morphs :
 # print(noun_adj_adv_list)
 
 
-# In[5]:
+# In[8]:
 
 
 count = Counter(noun_adj_adv_list)
@@ -77,7 +77,7 @@ words = dict(count.most_common())
 # print(morphs)
 
 
-# In[7]:
+# In[9]:
 
 
 wordcloud = WordCloud(font_path = '../Fonts/malgun.ttf', background_color='white',colormap = "Accent_r",
@@ -88,8 +88,8 @@ plt.axis('off')
 plt.show()
 
 
-# In[8]:
+# In[ ]:
 
 
-# print(morphs)
+
 

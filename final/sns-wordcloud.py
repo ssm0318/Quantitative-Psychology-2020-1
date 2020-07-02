@@ -10,16 +10,15 @@ import pandas as pd
 from os import path
 from PIL import Image
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
-import PyPDF2
 import os
 import textract
 from konlpy.tag import *
 from collections import Counter
-import pdfplumber
 import matplotlib
 import matplotlib.pyplot as plt
 import nltk
 from nltk.corpus import stopwords
+import csv
 get_ipython().run_line_magic('matplotlib', 'inline')
 
 
@@ -37,50 +36,69 @@ matplotlib.rc('axes',unicode_minus = False)
 
 twitter = Okt()
 
-path = "./data_edueval/"
-
+text = ""
 morphs = []
 
-for fp in os.listdir(path):
-    with pdfplumber.open(os.path.join(path, fp)) as pdf:
-        reader = PyPDF2.PdfFileReader(open(os.path.join(path, fp), "rb"))
-        for i in range(reader.getNumPages()):
-            page = pdf.pages[i]
-            text = page.extract_text()
-            morphs.append(twitter.pos(text))
+df = pd.read_csv('adoor_data/sns_feed.csv', encoding='UTF8')
+
+# df = df[(df.adoor != 5)]
+
+df.head()
 
 
 # In[4]:
+
+
+content = df.content
+tags = df.photo
+
+for row in content:
+    text = row
+    if not pd.isna(text):
+        morphs.append(twitter.pos(text))
+        
+for row in tags:
+    text = row
+    if not pd.isna(text):
+        morphs.append(twitter.pos(text))
+
+
+# In[5]:
+
+
+print(morphs)
+
+
+# In[6]:
 
 
 noun_adj_adv_list=[]
  
 for sentence in morphs :
     for word, tag in sentence :
-        if tag in ['Noun'] and ("것" not in word) and ("내" not in word)and ("나" not in word)and ("수"not in word) and("게"not in word)and("말"not in word):
+        if tag in ['Noun'] and len(word) > 1:
+#         if tag in ['Noun'] and ("것" not in word) and ("내" not in word)and ("나" not in word)and ("그" not in word) and ("수"not in word) and("게"not in word)and("말"not in word)and("거" not in word) and ("생각" not in word) and ("사람" not in word):
             noun_adj_adv_list.append(word)
-            
-# print(noun_adj_adv_list)
-
-
-# In[5]:
-
-
-count = Counter(noun_adj_adv_list)
-words = dict(count.most_common())
-# words
-
-
-# In[6]:
-
-
-# print(morphs)
 
 
 # In[7]:
 
 
-wordcloud = WordCloud(font_path = '../Fonts/malgun.ttf', background_color='white',colormap = "Accent_r",
+print(noun_adj_adv_list)
+
+
+# In[8]:
+
+
+count = Counter(noun_adj_adv_list)
+words = dict(count.most_common())
+words
+
+
+# In[10]:
+
+
+wordcloud = WordCloud(font_path = '~/Library/Fonts/malgun.ttf', background_color='white',colormap = "Accent_r",
                       width=1500, height=1000).generate_from_frequencies(words)
 
 plt.imshow(wordcloud)
@@ -88,8 +106,14 @@ plt.axis('off')
 plt.show()
 
 
-# In[8]:
+# In[ ]:
 
 
-# print(morphs)
+
+
+
+# In[ ]:
+
+
+
 
