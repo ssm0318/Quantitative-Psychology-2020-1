@@ -4,7 +4,6 @@
 # In[1]:
 
 
-# Start with loading all necessary libraries
 import numpy as np
 import pandas as pd
 from os import path
@@ -34,8 +33,6 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 
 df = pd.read_csv('adoor_data/answers.csv', encoding='UTF8')
 df['created_at'] = pd.to_datetime(df['created_at'])
-
-# df = df[df['author_id'] != 5]
 
 start_date = pd.Timestamp(2019, 1, 28, 0)
 end_date = pd.Timestamp(2019, 4, 1, 0)
@@ -108,7 +105,7 @@ sorted_review = sorted(max_dict.items(), key = lambda x: x[0], reverse=False)
 
 for key, value in sorted_review:
     print('주제 {}: {}'.format(key+1, topics_word[key+1]))
-    print('[주제 {}의 대표 리뷰 :{}]\n{}\n\n'.format(key+1, value[0], df['content'].values.astype('U')[value[1]]))
+    print('[주제 {}의 대표 글 :{}]\n{}\n\n'.format(key+1, value[0], df['content'].values.astype('U')[value[1]]))
 
 
 # In[10]:

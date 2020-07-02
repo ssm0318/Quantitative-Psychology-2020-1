@@ -4,7 +4,6 @@
 # In[1]:
 
 
-# Start with loading all necessary libraries
 import numpy as np
 import pandas as pd
 from os import path
@@ -40,8 +39,6 @@ text = ""
 morphs = []
 
 df = pd.read_csv('adoor_data/sns_feed.csv', encoding='UTF8')
-
-# df = df[(df.adoor != 5)]
 
 df.head()
 
@@ -87,15 +84,28 @@ for sentence in morphs :
 print(noun_adj_adv_list)
 
 
-# In[8]:
+# In[9]:
 
 
 count = Counter(noun_adj_adv_list)
 words = dict(count.most_common())
-words
+wd = sorted(words.items(), key = lambda x:x[1], reverse = True)
 
 
 # In[10]:
+
+
+max = 10
+plt.rcParams['figure.figsize'] = 12, 6
+plt.rcParams["font.size"] = 12
+plt.bar(range(max), [i[1] for i in wd[:max]])
+plt.title('Freqeuency Top 10')
+plt.xlabel('단어')
+plt.xticks(range(max), [i[0] for i in wd[:max]], rotation=60)
+plt.show()
+
+
+# In[11]:
 
 
 wordcloud = WordCloud(font_path = '~/Library/Fonts/malgun.ttf', background_color='white',colormap = "Accent_r",
@@ -104,12 +114,6 @@ wordcloud = WordCloud(font_path = '~/Library/Fonts/malgun.ttf', background_color
 plt.imshow(wordcloud)
 plt.axis('off')
 plt.show()
-
-
-# In[ ]:
-
-
-
 
 
 # In[ ]:

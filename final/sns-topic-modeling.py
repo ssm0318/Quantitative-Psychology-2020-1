@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[37]:
+# In[1]:
 
 
 import warnings
@@ -29,7 +29,7 @@ from sklearn.preprocessing import normalize;
 from sklearn import decomposition;
 
 
-# In[40]:
+# In[2]:
 
 
 # 데이터 읽어오기 - 특정 기간에 한해서
@@ -46,7 +46,7 @@ df = df.loc[mask]
 df.head()
 
 
-# In[41]:
+# In[3]:
 
 
 # 형태소 분석
@@ -55,7 +55,7 @@ twitter = Okt()
 pos = lambda d: ['/'.join(p) for p in twitter.pos(d, stem=True, norm=True)]
 
 texts_ko = []
-content = df.photo
+content = df.content
 docs_ko = ""
 
 for row in content:
@@ -69,14 +69,14 @@ for row in content:
                 texts_ko.append(m)
 
 
-# In[42]:
+# In[4]:
 
 
 dictionary_ko = corpora.Dictionary(texts_ko)
 dictionary_ko.save('ko.dict')
 
 
-# In[43]:
+# In[5]:
 
 
 # tfidf 변환
@@ -87,18 +87,24 @@ tfidf_ko = tfidf_model_ko[tf_ko]
 corpora.MmCorpus.serialize('ko.mm', tfidf_ko)
 
 
-# In[44]:
+# In[88]:
 
 
 # LDA 모델 - tfidf 변환을 하지 않은 경우
 
-ntopics, nwords = 3, 5
+ntopics, nwords = 5, 7
 
 lda_ko = models.ldamodel.LdaModel(tf_ko, id2word=dictionary_ko, num_topics=ntopics)
-lda_ko.print_topics()
+lda_ko.print_topics(num_words=nwords)
 
 
-# In[45]:
+# In[ ]:
+
+
+
+
+
+# In[55]:
 
 
 # LDA 모델 - tfidf 변환을 적용한 경우
@@ -107,32 +113,32 @@ lda_ko = models.ldamodel.LdaModel(tfidf_ko, id2word=dictionary_ko, num_topics=nt
 lda_ko.print_topics()
 
 
-# In[46]:
+# In[56]:
 
 
 ldatopics = lda_ko.show_topics(formatted=False)
 ldatopics[0]
 
 
-# In[47]:
+# In[89]:
 
 
 # LSI (Latent Semantic Indexing) 모델
 
 lsi_ko = models.lsimodel.LsiModel(tfidf_ko, id2word=dictionary_ko, num_topics=ntopics)
-lsi_ko.print_topics()
+lsi_ko.print_topics(num_words=nwords)
 
 
-# In[48]:
+# In[58]:
 
 
-# HDP (Hierarchical Dirichlet Process) 모델
+# HDP (Hierarchical Dirichlet Process) 모델 - n_topics printed ONLY
 
 hdp_ko = models.hdpmodel.HdpModel(tfidf_ko, id2word=dictionary_ko)
 hdp_ko.print_topics(ntopics, nwords)
 
 
-# In[49]:
+# In[59]:
 
 
 # Bag of Words
@@ -141,20 +147,20 @@ bow = tfidf_model_ko[dictionary_ko.doc2bow(texts_ko[0])]
 sorted(lda_ko[bow], key=lambda x: x[1], reverse=True)
 
 
-# In[50]:
+# In[60]:
 
 
 sorted(hdp_ko[bow], key=lambda x: x[1], reverse=True)
 
 
-# In[51]:
+# In[61]:
 
 
 bow = tfidf_model_ko[dictionary_ko.doc2bow(texts_ko[1])]
 sorted(lda_ko[bow], key=lambda x: x[1], reverse=True)
 
 
-# In[14]:
+# In[62]:
 
 
 sorted(hdp_ko[bow], key=lambda x: x[1], reverse=True)
@@ -166,7 +172,7 @@ sorted(hdp_ko[bow], key=lambda x: x[1], reverse=True)
 
 
 
-# In[15]:
+# In[63]:
 
 
 # Coherence 수준 측정 - LDA 모델
@@ -183,7 +189,7 @@ def compute_coherence_values(dictionary, corpus, texts, limit, start=2, step=3):
     return model_list, coherence_values
 
 
-# In[16]:
+# In[64]:
 
 
 coherence_model_lda = models.CoherenceModel(model=lda_ko, texts=texts_ko, dictionary=dictionary_ko, coherence='c_v')
@@ -191,45 +197,84 @@ coherence_lda = coherence_model_lda.get_coherence()
 print('\nCoherence Score: ', coherence_lda)
 
 
-# In[17]:
+# In[65]:
 
 
-model_list, coherence_values = compute_coherence_values(
-    dictionary=dictionary_ko, 
-    corpus=tf_ko, 
-    texts=texts_ko, 
-    start=1, 
-    limit=10, 
-    step=1)
+# model_list, coherence_values = compute_coherence_values(
+#     dictionary=dictionary_ko, 
+#     corpus=tf_ko, 
+#     texts=texts_ko, 
+#     start=1, 
+#     limit=5, 
+#     step=1)
 
 
-# In[18]:
+# In[66]:
 
 
-limit=10; start=1; step=1;
-x = range(start, limit, step)
-plt.rcParams["font.size"] = 20
-plt.figure(figsize=(9,5))
-plt.plot(x, coherence_values)
-plt.xlabel("Num Topics")
-plt.ylabel("Coherence score")
-plt.legend(("coherence_values"), loc='best')
-plt.show()
+# limit=10; start=1; step=1;
+# x = range(start, limit, step)
+# plt.rcParams["font.size"] = 20
+# plt.figure(figsize=(9,5))
+# plt.plot(x, coherence_values)
+# plt.xlabel("Num Topics")
+# plt.ylabel("Coherence score")
+# plt.legend(("coherence_values"), loc='best')
+# plt.show()
 
 
-# In[52]:
+# In[67]:
 
 
-for m, cv in zip(x, coherence_values):
-    print("Num Topics =", m, " has Coherence Value of", round(cv, 4))
+# for m, cv in zip(x, coherence_values):
+#     print("Num Topics =", m, " has Coherence Value of", round(cv, 4))
 
 
-# In[20]:
+# In[68]:
 
 
-optimal_model = model_list[1]
-model_topics = optimal_model.show_topics(formatted=False)
-optimal_model.print_topics(num_words=10)
+# optimal_model = model_list[1]
+# model_topics = optimal_model.show_topics(formatted=False)
+# optimal_model.print_topics(num_words=10)
+
+
+# In[69]:
+
+
+# # Topics Sentence Formation
+
+# def format_topics_sentences(ldamodel=lda_ko, corpus=tf_ko, texts=df['content'].values.astype('U')):
+   
+#     sent_topics_df = pd.DataFrame()
+
+   
+#     for i, row in enumerate(ldamodel[corpus]):
+#         row = sorted(row, key=lambda x: (x[1]), reverse=True)
+#         # Get the Dominant topic, Perc Contribution and Keywords for each document
+#         for j, (topic_num, prop_topic) in enumerate(row):
+#             if j == 0:  # -- dominant topic
+#                 wp = ldamodel.show_topic(topic_num)
+#                 topic_keywords = ", ".join([word for word, prop in wp])
+#                 sent_topics_df = sent_topics_df.append(pd.Series([int(topic_num), round(prop_topic,4), topic_keywords]), ignore_index=True)
+#             else:
+#                 break
+#     sent_topics_df.columns = ['Dominant_Topic', 'Perc_Contribution', 'Topic_Keywords']
+
+#     # Add original text to the end of the output
+    
+#     contents = pd.Series(texts)
+#     sent_topics_df = pd.concat([sent_topics_df, contents], axis=1)
+#     return(sent_topics_df)
+    
+
+# df_topic_sents_keywords = format_topics_sentences(ldamodel=optimal_model, corpus=tf_ko, texts=df['content'].values.astype('U'))
+
+
+# df_dominant_topic = df_topic_sents_keywords.reset_index()
+# df_dominant_topic.columns = ['Document_No', 'Dominant_Topic', 'Topic_Perc_Contrib', 'Keywords', 'Text']
+
+
+# df_dominant_topic.head(5)
 
 
 # In[ ]:
@@ -238,7 +283,7 @@ optimal_model.print_topics(num_words=10)
 
 
 
-# In[35]:
+# In[70]:
 
 
 path='/Library/Fonts/NanumGothic.ttf'
@@ -249,7 +294,7 @@ plt.rc('font', family=font_name)
 plt.rc('axes', unicode_minus=False)
 
 
-# In[24]:
+# In[71]:
 
 
 # LDA Model w/ 3 Topics
@@ -261,19 +306,13 @@ print(df_lda.shape)
 df_lda
 
 
-# In[36]:
+# In[ ]:
 
 
-# Cluster Map - LDA 모델
-
-sns.set(font_scale=3)
-g=sns.clustermap(df_lda.corr(), center=0, standard_scale=1, cmap="RdBu", metric='cosine', linewidths=.75, figsize=(15, 15))
-plt.setp(g.ax_heatmap.yaxis.get_majorticklabels(), rotation=0)
-plt.show()
-## 폰트 문제를 해결하지 못했다........ matplotlib와 다른 문제인 것 같다..... 폰트는 더 이상 포기
 
 
-# In[53]:
+
+# In[72]:
 
 
 # 3-topic LDA 모델 - MDS Mapping
@@ -285,13 +324,7 @@ panel = pyLDAvis.gensim.prepare(lda_ko, corpus_lda, dictionary_ko, mds='tsne')
 panel
 
 
-# In[ ]:
-
-
-
-
-
-# In[54]:
+# In[73]:
 
 
 def getNVM_lemma(text):
@@ -315,32 +348,32 @@ def getNVM_lemma(text):
     return pos
 
 
-# In[55]:
+# In[74]:
 
 
 vectorizer = CountVectorizer(tokenizer=getNVM_lemma, min_df=2)
-x_counts = vectorizer.fit_transform(df['photo'].values.astype('U'))
+x_counts = vectorizer.fit_transform(df['content'].values.astype('U'))
 print( "Created %d X %d document-term matrix" % (x_counts.shape[0], x_counts.shape[1]) )
 transformer = TfidfTransformer(smooth_idf=False);
 x_tfidf = transformer.fit_transform(x_counts);
 
 
-# In[56]:
+# In[75]:
 
 
 terms = vectorizer.get_feature_names()
 print("Vocabulary has %d distinct terms" % len(terms))
 
 
-# In[57]:
+# In[83]:
 
 
 xtfidf_norm = normalize(x_tfidf, norm='l1', axis=1)
-model = NMF(n_components=10, init='nndsvd');
+model = NMF(n_components=5, init='nndsvd');
 model.fit(xtfidf_norm)
 
 
-# In[58]:
+# In[84]:
 
 
 def get_nmf_topics(model, n_top_words):
@@ -357,7 +390,7 @@ def get_nmf_topics(model, n_top_words):
     return pd.DataFrame(word_dict);
 
 
-# In[63]:
+# In[85]:
 
 
 num_topics = 1
@@ -365,7 +398,7 @@ nmf_df = get_nmf_topics(model, 2)
 nmf_df
 
 
-# In[61]:
+# In[90]:
 
 
 num_topics = 5
@@ -373,12 +406,18 @@ nmf_df = get_nmf_topics(model, 5)
 nmf_df
 
 
-# In[60]:
+# In[80]:
 
 
 num_topics = 10
 nmf_df = get_nmf_topics(model, 5)
 nmf_df
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:

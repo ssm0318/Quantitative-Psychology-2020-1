@@ -4,7 +4,6 @@
 # In[1]:
 
 
-# Start with loading all necessary libraries
 import numpy as np
 import pandas as pd
 from os import path
@@ -33,8 +32,6 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 
 df = pd.read_csv('adoor_data/sns_feed.csv', encoding='UTF8')
 df['created_at'] = pd.to_datetime(df['created_at'])
-
-# df = df[df['author_id'] != 5]
 
 start_date = pd.Timestamp(2019, 1, 28, 0)
 end_date = pd.Timestamp(2019, 4, 1, 0)

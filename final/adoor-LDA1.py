@@ -14,7 +14,6 @@ import os
 import csv
 import textract
 import nltk
-import joblib
 
 import MeCab
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
@@ -31,7 +30,7 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 # In[2]:
 
 
-df = pd.read_csv('adoor_data/sns_feed.csv', encoding='UTF8')
+df = pd.read_csv('adoor_data/answers.csv', encoding='UTF8')
 df['created_at'] = pd.to_datetime(df['created_at'])
 
 start_date = pd.Timestamp(2019, 1, 28, 0)
@@ -70,48 +69,39 @@ def getNVM_lemma(text):
 # In[4]:
 
 
-tf_vect = CountVectorizer(tokenizer=getNVM_lemma, min_df=2, max_df=6000, max_features=25000)
+tf_vect = TfidfVectorizer(tokenizer=getNVM_lemma,ngram_range=(1, 2), min_df=2, max_df=20000) 
 dtm = tf_vect.fit_transform(df['content'].values.astype('U'))
 
-n_topics = 4
+n_topics = 3
 
-lda = LatentDirichletAllocation(n_components=n_topics, topic_word_prior=0.01, doc_topic_prior=0.001)
+lda = LatentDirichletAllocation(n_components=n_topics) 
 lda.fit(dtm)
-saved_model = joblib.dump(dtm, 'LDA_IP.pkl')
 
 
 # In[5]:
 
 
-names = tf_vect.get_feature_names()
-topics_word = dict()
-n_words = 10
+names = tf_vect.get_feature_names() 
+topics = dict() 
 
-for idx, topic in enumerate(lda.components_):
-    vocab = []
-    for i in topic.argsort()[:-(n_words-1):-1]:
-        vocab.append((names[i], topic[i].round(2)))
-    topics_word[idx+1] = [(names[i], topic[i].round(2)) for i in topic.argsort()[:-(n_words-1):-1]]
-max_dict = dict()
-for idx, vec in enumerate(lda.transform(dtm)):
-    t = vec.argmax()
-    if(t not in max_dict):
-        max_dict[t] = (vec[t], idx)
-    else:
-        if(max_dict[t][0] < vec[t]):
-            max_dict[t] = (vec[t], idx)
-            
-sorted_review = sorted(max_dict.items(), key = lambda x: x[0], reverse=False)
-
-for key, value in sorted_review:
-    print('주제 {}: {}'.format(key+1, topics_word[key+1]))
-    print('[주제 {}의 대표 리뷰 :{}]\n{}\n\n'.format(key+1, value[0], df['content'].values.astype('U')[value[1]]))
+for idx, topic in enumerate(lda.components_): 
+    vocab = [] 
+    for i in topic.argsort()[:-(10-1):-1]: 
+        vocab.append((names[i], topic[i].round(2))) 
+    print("주제 %d:" % (idx +1)) 
+    print([(names[i], topic[i].round(2)) for i in topic.argsort()[:-(10-1):-1]])
 
 
 # In[6]:
 
 
-visual = pyLDAvis.sklearn.prepare(lda_model=lda, dtm=dtm, vectorizer=tf_vect)
-pyLDAvis.save_html(visual, 'LDA_Visualization2.html')
+visual = pyLDAvis.sklearn.prepare(lda_model=lda, dtm=dtm, vectorizer=tf_vect) 
+pyLDAvis.save_html(visual, 'LDA_Visualization.html') 
 pyLDAvis.display(visual)
+
+
+# In[ ]:
+
+
+
 
